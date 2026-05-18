@@ -1,0 +1,87 @@
+# Fontes públicas de conteúdo a serem incorporadas no library.sqlite e dictionary.sqlite
+# Edite conforme necessário.
+
+dw_learn:
+  enabled: false  # ativar quando dw_learn.py estiver implementado
+  base_url: https://learngerman.dw.com
+  # Lista de slugs/IDs de cursos. Preencha conforme curado.
+  courses: []
+
+wiktionary:
+  enabled: false
+  # Top N palavras mais frequentes em alemão a serem pré-carregadas no dicionário
+  top_n_words: 5000
+  word_list_url: ""  # URL para lista de frequência (ex: Leipzig Corpora)
+
+tatoeba:
+  enabled: false
+  # URLs dos dumps (a baixar manualmente ou via script)
+  pairs:
+    - lang_a: deu
+      lang_b: por
+    - lang_a: deu
+      lang_b: eng
+
+seed_lessons:
+  # Tópicos canônicos de gramática para geração de lições iniciais
+  topics:
+    - id: akkusativ
+      title: "O caso Acusativo (Akkusativ)"
+      level: A2
+    - id: dativ
+      title: "O caso Dativo (Dativ)"
+      level: A2
+    - id: genitiv
+      title: "O caso Genitivo (Genitiv)"
+      level: B1
+    - id: nominativ
+      title: "O caso Nominativo (Nominativ)"
+      level: A1
+    - id: praeteritum
+      title: "Pretérito (Präteritum)"
+      level: B1
+    - id: perfekt
+      title: "Pretérito Perfeito (Perfekt)"
+      level: A2
+    - id: konjunktiv_ii
+      title: "Konjunktiv II (modo subjuntivo)"
+      level: B2
+    - id: konjunktiv_i
+      title: "Konjunktiv I (discurso indireto)"
+      level: C1
+    - id: passiv
+      title: "Voz passiva (Passiv)"
+      level: B1
+    - id: trennbare_verben
+      title: "Verbos separáveis (trennbare Verben)"
+      level: A2
+    - id: modalverben
+      title: "Verbos modais (Modalverben)"
+      level: A2
+    - id: relativsaetze
+      title: "Orações relativas (Relativsätze)"
+      level: B1
+    - id: nebensaetze
+      title: "Orações subordinadas (Nebensätze)"
+      level: B1
+    - id: artikel_deklination
+      title: "Declinação de artigos"
+      level: A2
+    - id: adjektiv_deklination
+      title: "Declinação de adjetivos"
+      level: B1
+    - id: pronomen
+      title: "Pronomes pessoais e possessivos"
+      level: A1
+    - id: praepositionen_akk
+      title: "Preposições com Acusativo"
+      level: A2
+    - id: praepositionen_dat
+      title: "Preposições com Dativo"
+      level: A2
+    - id: wechselpraepositionen
+      title: "Wechselpräpositionen (Acusativo/Dativo)"
+      level: B1
+    - id: futur
+      title: "Futuro (Futur I e II)"
+      level: B1

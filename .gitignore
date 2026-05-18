@@ -1,0 +1,42 @@
+# --- Ambiente ---
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# --- PDFs pessoais — não comitar (copyright) ---
+pipeline/books/*.pdf
+pipeline/books/*.epub
+!pipeline/books/.gitkeep
+
+# --- Output do pipeline (regenerável via `python -m alemao_pipeline ingest`) ---
+# Mantemos library.sqlite e seed_lessons.json para outros usuários poderem buildar
+# o iOS imediatamente sem precisar rodar o pipeline.
+pipeline/output/*.sqlite-journal
+pipeline/output/*.sqlite-wal
+pipeline/output/*.sqlite-shm
+
+# --- Xcode ---
+**/build/
+**/DerivedData/
+# Xcode user state: por-usuário, não vai pro repo
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+**/IDEWorkspaceChecks.plist
+**/.swiftpm/configuration/
+# Mantém Package.resolved (lockfile do SPM) versionado
+
+# Books PDFs no app (só copiados em sideload pessoal — não vão pro git)
+ios/Alemao/Alemao/Resources/Books/*.pdf
+
+# --- macOS ---
+.DS_Store
+*.DS_Store
+
+# --- Editores ---
+.vscode/
+.idea/
+*.swp

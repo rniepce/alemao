@@ -1,0 +1,51 @@
+[project]
+name = "alemao-pipeline"
+version = "0.1.0"
+description = "Pipeline offline para processar PDFs e fontes públicas de aprendizado de alemão em SQLite bundleado para o app iOS."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=0.3.0",
+    "pymupdf>=1.24.0",
+    "pytesseract>=0.3.10",
+    "pdf2image>=1.17.0",
+    "Pillow>=10.0.0",
+    "sqlite-vec>=0.1.1",
+    "beautifulsoup4>=4.12.0",
+    "httpx>=0.27.0",
+    "pyyaml>=6.0",
+    "tenacity>=9.0.0",
+    "pydantic>=2.7.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "typer>=0.12.0",
+]
+
+[project.scripts]
+alemao-pipeline = "alemao_pipeline.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/alemao_pipeline"]
+
+[dependency-groups]
+dev = [
+    "mod-pbxproj>=1.3.1",
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+# B008: typer/FastAPI exigem chamada de função em defaults (typer.Option)
+ignore = ["B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

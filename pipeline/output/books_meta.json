@@ -1,0 +1,38 @@
+[
+  {
+    "book_id": "book_6cf871c99cdd0932",
+    "title": "Essential German Grammar",
+    "author": "Martin Durrell, Katrin Kohl, Claudia Kaiser, Gudrun Loftus",
+    "type": "grammar",
+    "file": "essential-german-grammar-durrell.pdf",
+    "page_count": 392,
+    "level_cefr": "A2",
+    "language": "en",
+    "source": "personal",
+    "ingested_at": "2026-05-18T13:45:14.384318+00:00"
+  },
+  {
+    "book_id": "book_5eff65e7983ef25e",
+    "title": "Intermediate German: A Grammar and Workbook",
+    "author": "Anna Miell and Heiner Schenke",
+    "type": "grammar",
+    "file": "miell-grammar-workbook.pdf",
+    "page_count": 233,
+    "level_cefr": "B1",
+    "language": "en",
+    "source": "personal",
+    "ingested_at": "2026-05-18T13:46:51.086026+00:00"
+  },
+  {
+    "book_id": "book_a1a9023ef1882105",
+    "title": "Modern German Grammar Workbook",
+    "author": "Heidi Zojer, Bill Dodd, Christine Eckhard-Black, John Klapper, Ruth Whittle",
+    "type": "workbook",
+    "file": "modern-german-grammar-workbook.pdf",
+    "page_count": 153,
+    "level_cefr": null,
+    "language": "en",
+    "source": "personal",
+    "ingested_at": "2026-05-18T13:49:24.044631+00:00"
+  }
+]
