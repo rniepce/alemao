@@ -1,5 +1,59 @@
 [
   {
+    "infinitive": "anbieten",
+    "translation_pt": "oferecer, propor, disponibilizar",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "angeboten",
+    "praesens": {
+      "ich": "biete an",
+      "du": "bietest an",
+      "er": "bietet an",
+      "wir": "bieten an",
+      "ihr": "bietet an",
+      "sie": "bieten an"
+    },
+    "praeteritum": {
+      "ich": "bot an",
+      "du": "botest an",
+      "er": "bot an",
+      "wir": "boten an",
+      "ihr": "botet an",
+      "sie": "boten an"
+    },
+    "konjunktiv_ii": {
+      "ich": "böte an",
+      "du": "bötest an",
+      "er": "böte an",
+      "wir": "böten an",
+      "ihr": "bötet an",
+      "sie": "böten an"
+    },
+    "imperativ_du": "Biete an!",
+    "imperativ_ihr": "Bietet an!",
+    "imperativ_sie": "Bieten Sie an!",
+    "examples": [
+      {
+        "de": "Ich biete dir meine Hilfe an.",
+        "pt": "Eu te ofereço minha ajuda."
+      },
+      {
+        "de": "Er hat mir einen Job angeboten.",
+        "pt": "Ele me ofereceu um emprego."
+      },
+      {
+        "de": "Könnten Sie mir bitte ein Getränk anbieten?",
+        "pt": "Você poderia me oferecer uma bebida, por favor?"
+      }
+    ],
+    "notes_pt": "Verbo forte e separável. A partícula 'an-' vai para o final da frase em orações principais no presente e pretérito.",
+    "id": "anbieten",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "anfangen",
     "translation_pt": "começar, iniciar",
     "is_irregular": true,
@@ -51,6 +105,168 @@
     "notes_pt": "Verbo forte (irregular) com mudança vocálica (a -> ä) na 2ª e 3ª pessoa do singular do Präsens. É um verbo separável, a partícula 'an-' vai para o final da frase em orações principais.",
     "id": "anfangen",
     "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "anrufen",
+    "translation_pt": "ligar, telefonar",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "angerufen",
+    "praesens": {
+      "ich": "rufe an",
+      "du": "rufst an",
+      "er": "ruft an",
+      "wir": "rufen an",
+      "ihr": "ruft an",
+      "sie": "rufen an"
+    },
+    "praeteritum": {
+      "ich": "rief an",
+      "du": "riefst an",
+      "er": "rief an",
+      "wir": "riefen an",
+      "ihr": "rieft an",
+      "sie": "riefen an"
+    },
+    "konjunktiv_ii": {
+      "ich": "riefe an",
+      "du": "riefest an",
+      "er": "riefe an",
+      "wir": "riefen an",
+      "ihr": "riefet an",
+      "sie": "riefen an"
+    },
+    "imperativ_du": "Ruf an!",
+    "imperativ_ihr": "Ruft an!",
+    "imperativ_sie": "Rufen Sie an!",
+    "examples": [
+      {
+        "de": "Ich rufe dich später an.",
+        "pt": "Eu te ligo mais tarde."
+      },
+      {
+        "de": "Hast du ihn schon angerufen?",
+        "pt": "Você já ligou para ele?"
+      },
+      {
+        "de": "Könntest du bitte den Arzt anrufen?",
+        "pt": "Você poderia, por favor, ligar para o médico?"
+      }
+    ],
+    "notes_pt": "Verbo separável e forte (irregular). A partícula 'an-' se separa no Präsens e Präteritum e vai para o final da frase. No Partizip II, 'ge-' é inserido entre o prefixo e o radical.",
+    "id": "anrufen",
+    "level_cefr": "A1",
+    "theme": "kommunikation"
+  },
+  {
+    "infinitive": "ansehen",
+    "translation_pt": "olhar, ver, encarar, considerar",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "angesehen",
+    "praesens": {
+      "ich": "sehe an",
+      "du": "siehst an",
+      "er": "sieht an",
+      "wir": "sehen an",
+      "ihr": "seht an",
+      "sie": "sehen an"
+    },
+    "praeteritum": {
+      "ich": "sah an",
+      "du": "sahst an",
+      "er": "sah an",
+      "wir": "sahen an",
+      "ihr": "saht an",
+      "sie": "sahen an"
+    },
+    "konjunktiv_ii": {
+      "ich": "sähe an",
+      "du": "sähest an",
+      "er": "sähe an",
+      "wir": "sähen an",
+      "ihr": "sähet an",
+      "sie": "sähen an"
+    },
+    "imperativ_du": "Sieh an!",
+    "imperativ_ihr": "Seht an!",
+    "imperativ_sie": "Sehen Sie an!",
+    "examples": [
+      {
+        "de": "Ich sehe mir den neuen Film an.",
+        "pt": "Eu assisto ao novo filme."
+      },
+      {
+        "de": "Sieh mich an, wenn ich mit dir spreche!",
+        "pt": "Olhe para mim quando eu falo com você!"
+      },
+      {
+        "de": "Wir müssen uns die Situation genau ansehen.",
+        "pt": "Precisamos analisar a situação com atenção."
+      }
+    ],
+    "notes_pt": "Verbo irregular (starkes Verb) e separável. Frequentemente usado com um pronome reflexivo no dativo (sich etwas ansehen) para indicar que a ação é para o próprio benefício ou interesse.",
+    "id": "ansehen",
+    "level_cefr": "A2",
+    "theme": "wahrnehmung"
+  },
+  {
+    "infinitive": "anziehen",
+    "translation_pt": "vestir, calçar, atrair",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "angezogen",
+    "praesens": {
+      "ich": "ziehe an",
+      "du": "ziehst an",
+      "er": "zieht an",
+      "wir": "ziehen an",
+      "ihr": "zieht an",
+      "sie": "ziehen an"
+    },
+    "praeteritum": {
+      "ich": "zog an",
+      "du": "zogst an",
+      "er": "zog an",
+      "wir": "zogen an",
+      "ihr": "zogt an",
+      "sie": "zogen an"
+    },
+    "konjunktiv_ii": {
+      "ich": "zöge an",
+      "du": "zögest an",
+      "er": "zöge an",
+      "wir": "zögen an",
+      "ihr": "zöget an",
+      "sie": "zögen an"
+    },
+    "imperativ_du": "Zieh an!",
+    "imperativ_ihr": "Zieht an!",
+    "imperativ_sie": "Ziehen Sie an!",
+    "examples": [
+      {
+        "de": "Ich ziehe meinen Mantel an.",
+        "pt": "Eu visto meu casaco."
+      },
+      {
+        "de": "Der Magnet zieht das Metall an.",
+        "pt": "O ímã atrai o metal."
+      },
+      {
+        "de": "Zieh dich warm an!",
+        "pt": "Vista-se agasalhado!"
+      }
+    ],
+    "notes_pt": "Verbo forte e separável. Pode ser usado reflexivamente (sich anziehen = vestir-se) ou transitivamente (algo anziehen = vestir/calçar algo, atrair algo).",
+    "id": "anziehen",
+    "level_cefr": "A1",
     "theme": "alltag"
   },
   {
@@ -160,6 +376,222 @@
     "id": "aufstehen",
     "level_cefr": "A1",
     "theme": "alltag"
+  },
+  {
+    "infinitive": "aussehen",
+    "translation_pt": "parecer, ter aparência",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "ausgesehen",
+    "praesens": {
+      "ich": "sehe aus",
+      "du": "siehst aus",
+      "er": "sieht aus",
+      "wir": "sehen aus",
+      "ihr": "seht aus",
+      "sie": "sehen aus"
+    },
+    "praeteritum": {
+      "ich": "sah aus",
+      "du": "sahst aus",
+      "er": "sah aus",
+      "wir": "sahen aus",
+      "ihr": "saht aus",
+      "sie": "sahen aus"
+    },
+    "konjunktiv_ii": {
+      "ich": "sähe aus",
+      "du": "sähest aus",
+      "er": "sähe aus",
+      "wir": "sähen aus",
+      "ihr": "sähet aus",
+      "sie": "sähen aus"
+    },
+    "imperativ_du": "Sieh aus!",
+    "imperativ_ihr": "Seht aus!",
+    "imperativ_sie": "Sehen Sie aus!",
+    "examples": [
+      {
+        "de": "Sie sieht heute sehr müde aus.",
+        "pt": "Ela parece muito cansada hoje."
+      },
+      {
+        "de": "Das Haus sieht von außen schön aus.",
+        "pt": "A casa parece bonita por fora."
+      },
+      {
+        "de": "Wie sehe ich aus?",
+        "pt": "Como eu pareço?"
+      }
+    ],
+    "notes_pt": "Verbo irregular (starkes Verb) com mudança vocálica no Präsens (e -> ie para du/er/sie/es) e no Präteritum/Konjunktiv II (e -> a/ä). É um verbo separável, a partícula 'aus-' vai para o final da frase em orações principais no Präsens e Präteritum.",
+    "id": "aussehen",
+    "level_cefr": "A2",
+    "theme": "wahrnehmung"
+  },
+  {
+    "infinitive": "aussteigen",
+    "translation_pt": "sair (de um veículo), desembarcar, abandonar (um projeto)",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "ausgestiegen",
+    "praesens": {
+      "ich": "steige aus",
+      "du": "steigst aus",
+      "er": "steigt aus",
+      "wir": "steigen aus",
+      "ihr": "steigt aus",
+      "sie": "steigen aus"
+    },
+    "praeteritum": {
+      "ich": "stieg aus",
+      "du": "stiegst aus",
+      "er": "stieg aus",
+      "wir": "stiegen aus",
+      "ihr": "stiegt aus",
+      "sie": "stiegen aus"
+    },
+    "konjunktiv_ii": {
+      "ich": "stiege aus",
+      "du": "stiegest aus",
+      "er": "stiege aus",
+      "wir": "stiegen aus",
+      "ihr": "stieget aus",
+      "sie": "stiegen aus"
+    },
+    "imperativ_du": "Steig aus!",
+    "imperativ_ihr": "Steigt aus!",
+    "imperativ_sie": "Steigen Sie aus!",
+    "examples": [
+      {
+        "de": "Ich muss an der nächsten Haltestelle aussteigen.",
+        "pt": "Preciso descer na próxima parada."
+      },
+      {
+        "de": "Wann steigen wir aus dem Zug aus?",
+        "pt": "Quando descemos do trem?"
+      },
+      {
+        "de": "Er ist aus dem Projekt ausgestiegen.",
+        "pt": "Ele saiu do projeto."
+      }
+    ],
+    "notes_pt": "Verbo forte e separável. Usa 'sein' como auxiliar no Perfekt por indicar movimento ou mudança de estado/local. Pode significar sair de um veículo ou abandonar um projeto/situação.",
+    "id": "aussteigen",
+    "level_cefr": "A2",
+    "theme": "reisen"
+  },
+  {
+    "infinitive": "ausziehen",
+    "translation_pt": "tirar (roupa), despir-se, mudar-se (de casa)",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": true,
+    "perfekt_aux": "haben",
+    "partizip_ii": "ausgezogen",
+    "praesens": {
+      "ich": "ziehe mich aus",
+      "du": "ziehst dich aus",
+      "er": "zieht sich aus",
+      "wir": "ziehen uns aus",
+      "ihr": "zieht euch aus",
+      "sie": "ziehen sich aus"
+    },
+    "praeteritum": {
+      "ich": "zog mich aus",
+      "du": "zogst dich aus",
+      "er": "zog sich aus",
+      "wir": "zogen uns aus",
+      "ihr": "zogt euch aus",
+      "sie": "zogen sich aus"
+    },
+    "konjunktiv_ii": {
+      "ich": "zöge mich aus",
+      "du": "zögest dich aus",
+      "er": "zöge sich aus",
+      "wir": "zögen uns aus",
+      "ihr": "zöget euch aus",
+      "sie": "zögen sich aus"
+    },
+    "imperativ_du": "Zieh dich aus!",
+    "imperativ_ihr": "Zieht euch aus!",
+    "imperativ_sie": "Ziehen Sie sich aus!",
+    "examples": [
+      {
+        "de": "Ich ziehe mich nach einem langen Tag gerne aus.",
+        "pt": "Eu gosto de me despir depois de um longo dia."
+      },
+      {
+        "de": "Er zieht seine Jacke aus, weil es warm ist.",
+        "pt": "Ele tira a jaqueta dele porque está calor."
+      },
+      {
+        "de": "Wir ziehen nächste Woche aus.",
+        "pt": "Nós nos mudamos na próxima semana."
+      }
+    ],
+    "notes_pt": "O verbo 'ausziehen' é irregular (starkes Verb) e separável. Pode ser usado de forma transitiva ('tirar algo'), intransitiva ('mudar-se de casa') ou reflexiva ('despir-se'). As tabelas de conjugação mostram a forma reflexiva. O auxiliar no Perfekt é 'haben' para os sentidos transitivo e reflexivo. No entanto, quando significa 'mudar-se de casa' (movimento/mudança de estado), o auxiliar é 'sein'.",
+    "id": "ausziehen",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "backen",
+    "translation_pt": "assar, cozer",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gebacken",
+    "praesens": {
+      "ich": "backe",
+      "du": "bäckst",
+      "er": "bäckt",
+      "wir": "backen",
+      "ihr": "backt",
+      "sie": "backen"
+    },
+    "praeteritum": {
+      "ich": "buk",
+      "du": "bukst",
+      "er": "buk",
+      "wir": "bukan",
+      "ihr": "bukt",
+      "sie": "bukan"
+    },
+    "konjunktiv_ii": {
+      "ich": "büke",
+      "du": "bükest",
+      "er": "büke",
+      "wir": "büken",
+      "ihr": "büket",
+      "sie": "büken"
+    },
+    "imperativ_du": "Back!",
+    "imperativ_ihr": "Backt!",
+    "imperativ_sie": "Backen Sie!",
+    "examples": [
+      {
+        "de": "Ich backe heute einen Kuchen.",
+        "pt": "Eu vou assar um bolo hoje."
+      },
+      {
+        "de": "Hast du schon das Brot gebacken?",
+        "pt": "Você já assou o pão?"
+      },
+      {
+        "de": "Sie buk die Plätzchen für Weihnachten.",
+        "pt": "Ela assou os biscoitos para o Natal."
+      }
+    ],
+    "notes_pt": "Backen é um verbo misto (gemischtes Verb). Embora existam formas regulares (backte, gebackt), as formas irregulares (buk, gebacken) são mais comuns e preferidas no uso moderno, especialmente no sul da Alemanha e na Áustria. No Präsens, a mudança de vogal (a > ä) ocorre na 2ª e 3ª pessoa do singular.",
+    "id": "backen",
+    "level_cefr": "A2",
+    "theme": "essen"
   },
   {
     "infinitive": "beginnen",
@@ -378,6 +810,60 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "bringen",
+    "translation_pt": "trazer, levar, conduzir",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gebracht",
+    "praesens": {
+      "ich": "bringe",
+      "du": "bringst",
+      "er": "bringt",
+      "wir": "bringen",
+      "ihr": "bringt",
+      "sie": "bringen"
+    },
+    "praeteritum": {
+      "ich": "brachte",
+      "du": "brachtest",
+      "er": "brachte",
+      "wir": "brachten",
+      "ihr": "brachtet",
+      "sie": "brachten"
+    },
+    "konjunktiv_ii": {
+      "ich": "brächte",
+      "du": "brächtest",
+      "er": "brächte",
+      "wir": "brächten",
+      "ihr": "brächtet",
+      "sie": "brächten"
+    },
+    "imperativ_du": "Bring!",
+    "imperativ_ihr": "Bringt!",
+    "imperativ_sie": "Bringen Sie!",
+    "examples": [
+      {
+        "de": "Ich bringe dir ein Geschenk mit.",
+        "pt": "Eu te trago um presente."
+      },
+      {
+        "de": "Kannst du bitte den Müll rausbringen?",
+        "pt": "Você pode, por favor, levar o lixo para fora?"
+      },
+      {
+        "de": "Das bringt mich zum Nachdenken.",
+        "pt": "Isso me faz pensar."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica no Präteritum e Konjunktiv II. Significa 'trazer', 'levar' ou 'conduzir', e pode ser usado em muitas expressões idiomáticas.",
+    "id": "bringen",
+    "level_cefr": "A1",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "denken",
     "translation_pt": "pensar, achar, crer",
     "is_irregular": true,
@@ -540,6 +1026,168 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "einschlafen",
+    "translation_pt": "adormecer, pegar no sono",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "eingeschlafen",
+    "praesens": {
+      "ich": "schlafe ein",
+      "du": "schläfst ein",
+      "er": "schläft ein",
+      "wir": "schlafen ein",
+      "ihr": "schlaft ein",
+      "sie": "schlafen ein"
+    },
+    "praeteritum": {
+      "ich": "schlief ein",
+      "du": "schliefst ein",
+      "er": "schlief ein",
+      "wir": "schliefen ein",
+      "ihr": "schlieft ein",
+      "sie": "schliefen ein"
+    },
+    "konjunktiv_ii": {
+      "ich": "schliefe ein",
+      "du": "schliefest ein",
+      "er": "schliefe ein",
+      "wir": "schliefen ein",
+      "ihr": "schliefet ein",
+      "sie": "schliefen ein"
+    },
+    "imperativ_du": "Schlaf ein!",
+    "imperativ_ihr": "Schlaft ein!",
+    "imperativ_sie": "Schlafen Sie ein!",
+    "examples": [
+      {
+        "de": "Ich bin gestern sehr spät eingeschlafen.",
+        "pt": "Eu adormeci muito tarde ontem."
+      },
+      {
+        "de": "Er schläft immer vor dem Fernseher ein.",
+        "pt": "Ele sempre adormece em frente à televisão."
+      },
+      {
+        "de": "Schlaf nicht ein, wir müssen noch viel erledigen!",
+        "pt": "Não adormeça, ainda temos muito a fazer!"
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) e separável. Usa 'sein' como auxiliar no Perfekt, pois indica uma mudança de estado.",
+    "id": "einschlafen",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "einsteigen",
+    "translation_pt": "entrar (em veículo), embarcar",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "eingestiegen",
+    "praesens": {
+      "ich": "steige ein",
+      "du": "steigst ein",
+      "er": "steigt ein",
+      "wir": "steigen ein",
+      "ihr": "steigt ein",
+      "sie": "steigen ein"
+    },
+    "praeteritum": {
+      "ich": "stieg ein",
+      "du": "stiegst ein",
+      "er": "stieg ein",
+      "wir": "stiegen ein",
+      "ihr": "stiegt ein",
+      "sie": "stiegen ein"
+    },
+    "konjunktiv_ii": {
+      "ich": "stiege ein",
+      "du": "stiegest ein",
+      "er": "stiege ein",
+      "wir": "stiegen ein",
+      "ihr": "stieget ein",
+      "sie": "stiegen ein"
+    },
+    "imperativ_du": "Steig ein!",
+    "imperativ_ihr": "Steigt ein!",
+    "imperativ_sie": "Steigen Sie ein!",
+    "examples": [
+      {
+        "de": "Ich steige in den Bus ein.",
+        "pt": "Eu entro no ônibus."
+      },
+      {
+        "de": "Wann steigt ihr in den Zug ein?",
+        "pt": "Quando vocês embarcam no trem?"
+      },
+      {
+        "de": "Er ist schon eingestiegen.",
+        "pt": "Ele já embarcou."
+      }
+    ],
+    "notes_pt": "Verbo forte e separável. Usa 'sein' como auxiliar no Perfekt, pois indica movimento. Significa 'entrar' ou 'embarcar' em veículos.",
+    "id": "einsteigen",
+    "level_cefr": "A2",
+    "theme": "reisen"
+  },
+  {
+    "infinitive": "empfehlen",
+    "translation_pt": "recomendar, indicar, aconselhar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "empfohlen",
+    "praesens": {
+      "ich": "empfehle",
+      "du": "empfiehlst",
+      "er": "empfiehlt",
+      "wir": "empfehlen",
+      "ihr": "empfehlt",
+      "sie": "empfehlen"
+    },
+    "praeteritum": {
+      "ich": "empfahl",
+      "du": "empfahlst",
+      "er": "empfahl",
+      "wir": "empfahlen",
+      "ihr": "empfahlt",
+      "sie": "empfahlen"
+    },
+    "konjunktiv_ii": {
+      "ich": "empföhle",
+      "du": "empföhlest",
+      "er": "empföhle",
+      "wir": "empföhlen",
+      "ihr": "empföhlet",
+      "sie": "empföhlen"
+    },
+    "imperativ_du": "empfiehl",
+    "imperativ_ihr": "empfehlt",
+    "imperativ_sie": "empfehlen Sie",
+    "examples": [
+      {
+        "de": "Ich kann dieses Restaurant sehr empfehlen.",
+        "pt": "Posso recomendar muito este restaurante."
+      },
+      {
+        "de": "Er empfiehlt ihr, mehr Sport zu treiben.",
+        "pt": "Ele a aconselha a praticar mais esporte."
+      },
+      {
+        "de": "Welches Buch würden Sie mir empfehlen?",
+        "pt": "Qual livro você me recomendaria?"
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica de 'e' para 'ie' na 2ª e 3ª pessoa do singular do Präsens (du, er/sie/es) e de 'e' para 'a' no Präteritum e 'o' no Partizip II.",
+    "id": "empfehlen",
+    "level_cefr": "B1",
+    "theme": "kommunikation"
+  },
+  {
     "infinitive": "entscheiden",
     "translation_pt": "decidir, resolver",
     "is_irregular": true,
@@ -591,6 +1239,60 @@
     "notes_pt": "É um verbo forte (irregular) e frequentemente usado de forma reflexiva (sich entscheiden), significando 'decidir-se'.",
     "id": "entscheiden",
     "level_cefr": "B2",
+    "theme": "kognition"
+  },
+  {
+    "infinitive": "erkennen",
+    "translation_pt": "reconhecer, identificar, perceber",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "erkannt",
+    "praesens": {
+      "ich": "erkenne",
+      "du": "erkennst",
+      "er": "erkennt",
+      "wir": "erkennen",
+      "ihr": "erkennt",
+      "sie": "erkennen"
+    },
+    "praeteritum": {
+      "ich": "erkannte",
+      "du": "erkanntest",
+      "er": "erkannte",
+      "wir": "erkannten",
+      "ihr": "erkanntet",
+      "sie": "erkannten"
+    },
+    "konjunktiv_ii": {
+      "ich": "erkennte",
+      "du": "erkenntest",
+      "er": "erkennte",
+      "wir": "erkennten",
+      "ihr": "erkenntet",
+      "sie": "erkennten"
+    },
+    "imperativ_du": "Erkenn!",
+    "imperativ_ihr": "Erkennt!",
+    "imperativ_sie": "Erkennen Sie!",
+    "examples": [
+      {
+        "de": "Ich erkenne dich nicht wieder.",
+        "pt": "Não te reconheço mais."
+      },
+      {
+        "de": "Er erkannte die Gefahr sofort.",
+        "pt": "Ele reconheceu o perigo imediatamente."
+      },
+      {
+        "de": "Man muss den Wert der Freundschaft erkennen.",
+        "pt": "É preciso reconhecer o valor da amizade."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) e inseparável. O prefixo 'er-' nunca se separa do radical.",
+    "id": "erkennen",
+    "level_cefr": "B1",
     "theme": "kognition"
   },
   {
@@ -810,6 +1512,114 @@
     "theme": "bewegung"
   },
   {
+    "infinitive": "fallen",
+    "translation_pt": "cair, tombar, desabar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "gefallen",
+    "praesens": {
+      "ich": "falle",
+      "du": "fällst",
+      "er": "fällt",
+      "wir": "fallen",
+      "ihr": "fallt",
+      "sie": "fallen"
+    },
+    "praeteritum": {
+      "ich": "fiel",
+      "du": "fielst",
+      "er": "fiel",
+      "wir": "fielen",
+      "ihr": "fielt",
+      "sie": "fielen"
+    },
+    "konjunktiv_ii": {
+      "ich": "fiele",
+      "du": "fielest",
+      "er": "fiele",
+      "wir": "fielen",
+      "ihr": "fielet",
+      "sie": "fielen"
+    },
+    "imperativ_du": "Fall!",
+    "imperativ_ihr": "Fallt!",
+    "imperativ_sie": "Fallen Sie!",
+    "examples": [
+      {
+        "de": "Der Apfel fällt nicht weit vom Stamm.",
+        "pt": "A maçã não cai longe da árvore. (Tal pai, tal filho.)"
+      },
+      {
+        "de": "Ich bin gestern vom Fahrrad gefallen.",
+        "pt": "Eu caí da bicicleta ontem."
+      },
+      {
+        "de": "Die Temperaturen fallen stark.",
+        "pt": "As temperaturas estão caindo muito."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica (a > ä) na 2ª e 3ª pessoa do singular no Präsens e (a > ie) no Präteritum e Konjunktiv II. Usa 'sein' como auxiliar no Perfekt por indicar movimento ou mudança de estado.",
+    "id": "fallen",
+    "level_cefr": "A2",
+    "theme": "bewegung"
+  },
+  {
+    "infinitive": "fangen",
+    "translation_pt": "pegar, capturar, apanhar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gefangen",
+    "praesens": {
+      "ich": "fange",
+      "du": "fängst",
+      "er": "fängt",
+      "wir": "fangen",
+      "ihr": "fangt",
+      "sie": "fangen"
+    },
+    "praeteritum": {
+      "ich": "fing",
+      "du": "fingst",
+      "er": "fing",
+      "wir": "fingen",
+      "ihr": "fingt",
+      "sie": "fingen"
+    },
+    "konjunktiv_ii": {
+      "ich": "finge",
+      "du": "fingest",
+      "er": "finge",
+      "wir": "fingen",
+      "ihr": "finget",
+      "sie": "fingen"
+    },
+    "imperativ_du": "Fang!",
+    "imperativ_ihr": "Fangt!",
+    "imperativ_sie": "Fangen Sie!",
+    "examples": [
+      {
+        "de": "Ich fange den Ball.",
+        "pt": "Eu pego a bola."
+      },
+      {
+        "de": "Der Polizist fängt den Dieb.",
+        "pt": "O policial captura o ladrão."
+      },
+      {
+        "de": "Sie haben viele Fische gefangen.",
+        "pt": "Eles pegaram muitos peixes."
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica (Ablaut) no Präsens (a -> ä para du/er/sie) e no Präteritum/Partizip II (a -> i).",
+    "id": "fangen",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "fernsehen",
     "translation_pt": "assistir TV, ver televisão",
     "is_irregular": true,
@@ -970,6 +1780,60 @@
     "id": "fliegen",
     "level_cefr": "A2",
     "theme": "bewegung"
+  },
+  {
+    "infinitive": "fließen",
+    "translation_pt": "fluir, correr (líquido), escorrer",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "geflossen",
+    "praesens": {
+      "ich": "fließe",
+      "du": "fließt",
+      "er": "fließt",
+      "wir": "fließen",
+      "ihr": "fließt",
+      "sie": "fließen"
+    },
+    "praeteritum": {
+      "ich": "floss",
+      "du": "flossest",
+      "er": "floss",
+      "wir": "flossen",
+      "ihr": "flosst",
+      "sie": "flossen"
+    },
+    "konjunktiv_ii": {
+      "ich": "flösse",
+      "du": "flössest",
+      "er": "flösse",
+      "wir": "flössen",
+      "ihr": "flösset",
+      "sie": "flössen"
+    },
+    "imperativ_du": "Fließ!",
+    "imperativ_ihr": "Fließt!",
+    "imperativ_sie": "Fließen Sie!",
+    "examples": [
+      {
+        "de": "Das Wasser fließt den Berg hinunter.",
+        "pt": "A água corre montanha abaixo."
+      },
+      {
+        "de": "Die Tränen flossen über ihr Gesicht.",
+        "pt": "As lágrimas escorriam pelo rosto dela."
+      },
+      {
+        "de": "Der Fluss ist ruhig geflossen.",
+        "pt": "O rio fluiu calmamente."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) da classe II. Usa 'sein' como auxiliar no Perfekt. O Konjunktiv II é 'flösse'.",
+    "id": "fließen",
+    "level_cefr": "B1",
+    "theme": "natur"
   },
   {
     "infinitive": "fragen",
@@ -1188,6 +2052,168 @@
     "theme": "bewegung"
   },
   {
+    "infinitive": "geschehen",
+    "translation_pt": "acontecer, ocorrer, suceder",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "geschehen",
+    "praesens": {
+      "ich": "geschehe",
+      "du": "geschiehst",
+      "er": "geschieht",
+      "wir": "geschehen",
+      "ihr": "gescheht",
+      "sie": "geschehen"
+    },
+    "praeteritum": {
+      "ich": "geschah",
+      "du": "geschahst",
+      "er": "geschah",
+      "wir": "geschahen",
+      "ihr": "geschaht",
+      "sie": "geschahen"
+    },
+    "konjunktiv_ii": {
+      "ich": "geschähe",
+      "du": "geschähest",
+      "er": "geschähe",
+      "wir": "geschähen",
+      "ihr": "geschähet",
+      "sie": "geschähen"
+    },
+    "imperativ_du": "Geschieh!",
+    "imperativ_ihr": "Gescheht!",
+    "imperativ_sie": "Geschehen Sie!",
+    "examples": [
+      {
+        "de": "Was ist hier geschehen?",
+        "pt": "O que aconteceu aqui?"
+      },
+      {
+        "de": "Es geschieht oft, dass Fehler gemacht werden.",
+        "pt": "Acontece frequentemente que erros são cometidos."
+      },
+      {
+        "de": "Möge es nicht geschehen!",
+        "pt": "Que não aconteça!"
+      }
+    ],
+    "notes_pt": "Verbo forte e impessoal, geralmente usado na 3ª pessoa do singular (es geschieht). O Partizip II é idêntico ao infinitivo.",
+    "id": "geschehen",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "gewinnen",
+    "translation_pt": "ganhar, vencer, lucrar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gewonnen",
+    "praesens": {
+      "ich": "gewinne",
+      "du": "gewinnst",
+      "er": "gewinnt",
+      "wir": "gewinnen",
+      "ihr": "gewinnt",
+      "sie": "gewinnen"
+    },
+    "praeteritum": {
+      "ich": "gewann",
+      "du": "gewannst",
+      "er": "gewann",
+      "wir": "gewannen",
+      "ihr": "gewannt",
+      "sie": "gewannen"
+    },
+    "konjunktiv_ii": {
+      "ich": "gewänne",
+      "du": "gewännest",
+      "er": "gewänne",
+      "wir": "gewännen",
+      "ihr": "gewännet",
+      "sie": "gewännen"
+    },
+    "imperativ_du": "Gewinne!",
+    "imperativ_ihr": "Gewinnt!",
+    "imperativ_sie": "Gewinnen Sie!",
+    "examples": [
+      {
+        "de": "Wer gewinnt das Spiel?",
+        "pt": "Quem ganha o jogo?"
+      },
+      {
+        "de": "Ich habe im Lotto gewonnen.",
+        "pt": "Eu ganhei na loteria."
+      },
+      {
+        "de": "Sie konnten seine Unterstützung gewinnen.",
+        "pt": "Eles conseguiram o apoio dele."
+      }
+    ],
+    "notes_pt": "Gewinnen é um verbo forte (irregular) e significa 'ganhar' ou 'vencer'. Pode ser usado em contextos de jogos, competições, ou para obter algo (apoio, tempo).",
+    "id": "gewinnen",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "greifen",
+    "translation_pt": "agarrar, pegar, alcançar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gegriffen",
+    "praesens": {
+      "ich": "greife",
+      "du": "greifst",
+      "er": "greift",
+      "wir": "greifen",
+      "ihr": "greift",
+      "sie": "greifen"
+    },
+    "praeteritum": {
+      "ich": "griff",
+      "du": "griffst",
+      "er": "griff",
+      "wir": "griffen",
+      "ihr": "grifft",
+      "sie": "griffen"
+    },
+    "konjunktiv_ii": {
+      "ich": "griffe",
+      "du": "griffest",
+      "er": "griffe",
+      "wir": "griffen",
+      "ihr": "griffet",
+      "sie": "griffen"
+    },
+    "imperativ_du": "Greif!",
+    "imperativ_ihr": "Greift!",
+    "imperativ_sie": "Greifen Sie!",
+    "examples": [
+      {
+        "de": "Er greift nach dem Ball.",
+        "pt": "Ele agarra a bola."
+      },
+      {
+        "de": "Sie griff nach meiner Hand.",
+        "pt": "Ela pegou minha mão."
+      },
+      {
+        "de": "Greif zu, bevor es zu spät ist!",
+        "pt": "Aproveite antes que seja tarde demais!"
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica (ei > i) no Präteritum e Partizip II. Pode ser usado em sentido literal (agarrar algo) ou figurado (aproveitar uma oportunidade).",
+    "id": "greifen",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "haben",
     "translation_pt": "ter, possuir",
     "is_irregular": true,
@@ -1240,6 +2266,114 @@
     "id": "haben",
     "level_cefr": "A1",
     "theme": "hilfsverb"
+  },
+  {
+    "infinitive": "halten",
+    "translation_pt": "segurar, parar, manter, considerar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gehalten",
+    "praesens": {
+      "ich": "halte",
+      "du": "hältst",
+      "er": "hält",
+      "wir": "halten",
+      "ihr": "haltet",
+      "sie": "halten"
+    },
+    "praeteritum": {
+      "ich": "hielt",
+      "du": "hieltest",
+      "er": "hielt",
+      "wir": "hielten",
+      "ihr": "hieltet",
+      "sie": "hielten"
+    },
+    "konjunktiv_ii": {
+      "ich": "hielte",
+      "du": "hieltest",
+      "er": "hielte",
+      "wir": "hielten",
+      "ihr": "hieltet",
+      "sie": "hielten"
+    },
+    "imperativ_du": "Halt!",
+    "imperativ_ihr": "Haltet!",
+    "imperativ_sie": "Halten Sie!",
+    "examples": [
+      {
+        "de": "Ich halte das Buch in der Hand.",
+        "pt": "Eu seguro o livro na mão."
+      },
+      {
+        "de": "Er hält seine Versprechen immer.",
+        "pt": "Ele sempre cumpre suas promessas."
+      },
+      {
+        "de": "Das Auto hält an der Ampel.",
+        "pt": "O carro para no semáforo."
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica (a > ä no Präsens, a > ie no Präteritum). Pode ser usado com 'sein' como auxiliar no Perfekt quando significa 'parar' (intransitivo, ex: Das Auto ist gehalten), mas 'haben' é o auxiliar mais comum para a maioria dos significados.",
+    "id": "halten",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "heißen",
+    "translation_pt": "chamar-se, ter o nome de, significar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geheißen",
+    "praesens": {
+      "ich": "heiße",
+      "du": "heißt",
+      "er": "heißt",
+      "wir": "heißen",
+      "ihr": "heißt",
+      "sie": "heißen"
+    },
+    "praeteritum": {
+      "ich": "hieß",
+      "du": "hießest",
+      "er": "hieß",
+      "wir": "hießen",
+      "ihr": "hießt",
+      "sie": "hießen"
+    },
+    "konjunktiv_ii": {
+      "ich": "hieße",
+      "du": "hießest",
+      "er": "hieße",
+      "wir": "hießen",
+      "ihr": "hießet",
+      "sie": "hießen"
+    },
+    "imperativ_du": "Heiß!",
+    "imperativ_ihr": "Heißt!",
+    "imperativ_sie": "Heißen Sie!",
+    "examples": [
+      {
+        "de": "Wie heißen Sie?",
+        "pt": "Como o(a) senhor(a) se chama?"
+      },
+      {
+        "de": "Ich heiße Anna.",
+        "pt": "Eu me chamo Anna."
+      },
+      {
+        "de": "Das heißt, wir müssen gehen.",
+        "pt": "Isso significa que temos que ir."
+      }
+    ],
+    "notes_pt": "Verbo forte. A forma 'du' no Präsens e Imperativo é 'heißt' e 'Heiß!' respectivamente, sem 'e' adicional devido ao 'ß' no radical. Pode significar 'chamar-se' ou 'significar'.",
+    "id": "heißen",
+    "level_cefr": "A1",
+    "theme": "kommunikation"
   },
   {
     "infinitive": "helfen",
@@ -1350,6 +2484,114 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "klettern",
+    "translation_pt": "escalar, trepar, subir",
+    "is_irregular": false,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "geklettert",
+    "praesens": {
+      "ich": "klettere",
+      "du": "kletterst",
+      "er": "klettert",
+      "wir": "klettern",
+      "ihr": "klettert",
+      "sie": "klettern"
+    },
+    "praeteritum": {
+      "ich": "kletterte",
+      "du": "klettertest",
+      "er": "kletterte",
+      "wir": "kletterten",
+      "ihr": "klettertet",
+      "sie": "kletterten"
+    },
+    "konjunktiv_ii": {
+      "ich": "würde klettern",
+      "du": "würdest klettern",
+      "er": "würde klettern",
+      "wir": "würden klettern",
+      "ihr": "würdet klettern",
+      "sie": "würden klettern"
+    },
+    "imperativ_du": "Kletter!",
+    "imperativ_ihr": "Klettert!",
+    "imperativ_sie": "Klettern Sie!",
+    "examples": [
+      {
+        "de": "Ich klettere gerne auf Bäume.",
+        "pt": "Eu gosto de escalar árvores."
+      },
+      {
+        "de": "Die Kinder kletterten auf den Spielplatz.",
+        "pt": "As crianças subiram no parquinho."
+      },
+      {
+        "de": "Er ist auf den Berg geklettert.",
+        "pt": "Ele escalou a montanha."
+      }
+    ],
+    "notes_pt": "Verbo regular de movimento, usa 'sein' como auxiliar no Perfekt. Pode ser usado com preposições como 'auf' (em cima de) ou 'über' (sobre).",
+    "id": "klettern",
+    "level_cefr": "B1",
+    "theme": "bewegung"
+  },
+  {
+    "infinitive": "klingen",
+    "translation_pt": "soar, tocar (sino), parecer (ter som de)",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geklungen",
+    "praesens": {
+      "ich": "klinge",
+      "du": "klingst",
+      "er": "klingt",
+      "wir": "klingen",
+      "ihr": "klingt",
+      "sie": "klingen"
+    },
+    "praeteritum": {
+      "ich": "klang",
+      "du": "klangst",
+      "er": "klang",
+      "wir": "klangen",
+      "ihr": "klangt",
+      "sie": "klangen"
+    },
+    "konjunktiv_ii": {
+      "ich": "klänge",
+      "du": "klängest",
+      "er": "klänge",
+      "wir": "klängen",
+      "ihr": "klänget",
+      "sie": "klängen"
+    },
+    "imperativ_du": "Kling!",
+    "imperativ_ihr": "Klingt!",
+    "imperativ_sie": "Klingen Sie!",
+    "examples": [
+      {
+        "de": "Das klingt gut!",
+        "pt": "Isso soa bem!"
+      },
+      {
+        "de": "Die Glocken klingen festlich.",
+        "pt": "Os sinos tocam festivamente."
+      },
+      {
+        "de": "Sein Vorschlag klingt interessant.",
+        "pt": "A sugestão dele parece interessante."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Significa 'soar' ou 'ter um certo som/parecer'. Não confundir com 'klingeln' (tocar a campainha).",
+    "id": "klingen",
+    "level_cefr": "B1",
+    "theme": "wahrnehmung"
+  },
+  {
     "infinitive": "kommen",
     "translation_pt": "vir, chegar",
     "is_irregular": true,
@@ -1456,6 +2698,60 @@
     "id": "können",
     "level_cefr": "A1",
     "theme": "modal"
+  },
+  {
+    "infinitive": "lassen",
+    "translation_pt": "deixar, permitir, mandar (fazer algo)",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gelassen",
+    "praesens": {
+      "ich": "lasse",
+      "du": "lässt",
+      "er": "lässt",
+      "wir": "lassen",
+      "ihr": "lasst",
+      "sie": "lassen"
+    },
+    "praeteritum": {
+      "ich": "ließ",
+      "du": "ließest",
+      "er": "ließ",
+      "wir": "ließen",
+      "ihr": "ließt",
+      "sie": "ließen"
+    },
+    "konjunktiv_ii": {
+      "ich": "ließe",
+      "du": "ließest",
+      "er": "ließe",
+      "wir": "ließen",
+      "ihr": "ließt",
+      "sie": "ließen"
+    },
+    "imperativ_du": "Lass!",
+    "imperativ_ihr": "Lasst!",
+    "imperativ_sie": "Lassen Sie!",
+    "examples": [
+      {
+        "de": "Lass mich in Ruhe!",
+        "pt": "Deixe-me em paz!"
+      },
+      {
+        "de": "Ich lasse mein Auto reparieren.",
+        "pt": "Eu mando consertar meu carro."
+      },
+      {
+        "de": "Sie lässt die Kinder draußen spielen.",
+        "pt": "Ela permite que as crianças brinquem lá fora."
+      }
+    ],
+    "notes_pt": "O verbo 'lassen' é um verbo forte e possui múltiplos significados, como 'deixar', 'permitir' e 'mandar fazer algo' (construção causativa). No Partizip II, 'gelassen' é a forma regular, mas em construções com outro infinitivo (ex: 'Ich habe es machen lassen'), usa-se 'lassen' sem 'ge-'.",
+    "id": "lassen",
+    "level_cefr": "A2",
+    "theme": "alltag"
   },
   {
     "infinitive": "laufen",
@@ -1620,6 +2916,114 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "liegen",
+    "translation_pt": "estar deitado, jazer, estar situado",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gelegen",
+    "praesens": {
+      "ich": "liege",
+      "du": "liegst",
+      "er": "liegt",
+      "wir": "liegen",
+      "ihr": "liegt",
+      "sie": "liegen"
+    },
+    "praeteritum": {
+      "ich": "lag",
+      "du": "lagst",
+      "er": "lag",
+      "wir": "lagen",
+      "ihr": "lagt",
+      "sie": "lagen"
+    },
+    "konjunktiv_ii": {
+      "ich": "läge",
+      "du": "lägest",
+      "er": "läge",
+      "wir": "lägen",
+      "ihr": "läget",
+      "sie": "lägen"
+    },
+    "imperativ_du": "Lieg!",
+    "imperativ_ihr": "Liegt!",
+    "imperativ_sie": "Liegen Sie!",
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "pt": "O livro está em cima da mesa."
+      },
+      {
+        "de": "Er liegt den ganzen Tag im Bett.",
+        "pt": "Ele fica deitado na cama o dia todo."
+      },
+      {
+        "de": "Die Stadt liegt am Fluss.",
+        "pt": "A cidade está situada no rio."
+      }
+    ],
+    "notes_pt": "Liegen descreve a posição de algo ou alguém que está deitado ou situado. Não confundir com 'legen' (colocar, deitar algo), que é um verbo fraco e transitivo.",
+    "id": "liegen",
+    "level_cefr": "A1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "lügen",
+    "translation_pt": "mentir, enganar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gelogen",
+    "praesens": {
+      "ich": "lüge",
+      "du": "lügst",
+      "er": "lügt",
+      "wir": "lügen",
+      "ihr": "lügt",
+      "sie": "lügen"
+    },
+    "praeteritum": {
+      "ich": "log",
+      "du": "logst",
+      "er": "log",
+      "wir": "logen",
+      "ihr": "logt",
+      "sie": "logen"
+    },
+    "konjunktiv_ii": {
+      "ich": "löge",
+      "du": "lögest",
+      "er": "löge",
+      "wir": "lögen",
+      "ihr": "löget",
+      "sie": "lögen"
+    },
+    "imperativ_du": "Lüg!",
+    "imperativ_ihr": "Lügt!",
+    "imperativ_sie": "Lügen Sie!",
+    "examples": [
+      {
+        "de": "Er lügt oft, um Ärger zu vermeiden.",
+        "pt": "Ele mente frequentemente para evitar problemas."
+      },
+      {
+        "de": "Du solltest niemals lügen.",
+        "pt": "Você nunca deveria mentir."
+      },
+      {
+        "de": "Ich habe noch nie in meinem Leben gelogen.",
+        "pt": "Eu nunca menti na minha vida."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica de 'ü' para 'o' no Präteritum e Partizip II, e 'ö' no Konjunktiv II.",
+    "id": "lügen",
+    "level_cefr": "B1",
+    "theme": "kommunikation"
+  },
+  {
     "infinitive": "machen",
     "translation_pt": "fazer, criar, produzir",
     "is_irregular": false,
@@ -1726,6 +3130,60 @@
     "id": "mitkommen",
     "level_cefr": "A2",
     "theme": "bewegung"
+  },
+  {
+    "infinitive": "mitnehmen",
+    "translation_pt": "levar junto, levar consigo, pegar",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "mitgenommen",
+    "praesens": {
+      "ich": "nehme mit",
+      "du": "nimmst mit",
+      "er": "nimmt mit",
+      "wir": "nehmen mit",
+      "ihr": "nehmt mit",
+      "sie": "nehmen mit"
+    },
+    "praeteritum": {
+      "ich": "nahm mit",
+      "du": "nahmst mit",
+      "er": "nahm mit",
+      "wir": "nahmen mit",
+      "ihr": "nahmt mit",
+      "sie": "nahmen mit"
+    },
+    "konjunktiv_ii": {
+      "ich": "nähme mit",
+      "du": "nähmest mit",
+      "er": "nähme mit",
+      "wir": "nähmen mit",
+      "ihr": "nähmet mit",
+      "sie": "nähmen mit"
+    },
+    "imperativ_du": "Nimm mit!",
+    "imperativ_ihr": "Nehmt mit!",
+    "imperativ_sie": "Nehmen Sie mit!",
+    "examples": [
+      {
+        "de": "Ich nehme mein Buch mit zur Arbeit.",
+        "pt": "Eu levo meu livro comigo para o trabalho."
+      },
+      {
+        "de": "Kannst du bitte den Müll mitnehmen?",
+        "pt": "Você pode, por favor, levar o lixo?"
+      },
+      {
+        "de": "Wir haben unsere Freunde zum Konzert mitgenommen.",
+        "pt": "Nós levamos nossos amigos para o show."
+      }
+    ],
+    "notes_pt": "Verbo forte e separável. A vogal 'e' do radical muda para 'i' na 2ª e 3ª pessoa do singular do presente (du nimmst, er nimmt) e no imperativo singular (Nimm!).",
+    "id": "mitnehmen",
+    "level_cefr": "A2",
+    "theme": "alltag"
   },
   {
     "infinitive": "mögen",
@@ -1890,6 +3348,276 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "passieren",
+    "translation_pt": "acontecer, passar, ocorrer",
+    "is_irregular": false,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "passiert",
+    "praesens": {
+      "ich": "passiere",
+      "du": "passierst",
+      "er": "passiert",
+      "wir": "passieren",
+      "ihr": "passiert",
+      "sie": "passieren"
+    },
+    "praeteritum": {
+      "ich": "passierte",
+      "du": "passiertest",
+      "er": "passierte",
+      "wir": "passierten",
+      "ihr": "passiertet",
+      "sie": "passierten"
+    },
+    "konjunktiv_ii": {
+      "ich": "passierte",
+      "du": "passiertest",
+      "er": "passierte",
+      "wir": "passierten",
+      "ihr": "passiertet",
+      "sie": "passierten"
+    },
+    "imperativ_du": "Passier!",
+    "imperativ_ihr": "Passiert!",
+    "imperativ_sie": "Passieren Sie!",
+    "examples": [
+      {
+        "de": "Was ist passiert?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "de": "Das kann jedem passieren.",
+        "pt": "Isso pode acontecer com qualquer um."
+      },
+      {
+        "de": "Wir sind an der Grenze passiert.",
+        "pt": "Nós passamos pela fronteira."
+      }
+    ],
+    "notes_pt": "Verbo regular. Usa 'sein' como auxiliar quando significa 'acontecer' ou 'passar por/através de'. Pode usar 'haben' quando significa 'passar (uma bola)'.",
+    "id": "passieren",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "raten",
+    "translation_pt": "aconselhar, adivinhar, supor",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geraten",
+    "praesens": {
+      "ich": "rate",
+      "du": "rätst",
+      "er": "rät",
+      "wir": "raten",
+      "ihr": "ratet",
+      "sie": "raten"
+    },
+    "praeteritum": {
+      "ich": "riet",
+      "du": "rietst",
+      "er": "riet",
+      "wir": "rieten",
+      "ihr": "rietet",
+      "sie": "rieten"
+    },
+    "konjunktiv_ii": {
+      "ich": "riete",
+      "du": "rietest",
+      "er": "riete",
+      "wir": "rieten",
+      "ihr": "rietet",
+      "sie": "rieten"
+    },
+    "imperativ_du": "Rat!",
+    "imperativ_ihr": "Ratet!",
+    "imperativ_sie": "Raten Sie!",
+    "examples": [
+      {
+        "de": "Ich rate dir, vorsichtig zu sein.",
+        "pt": "Eu te aconselho a ser cuidadoso."
+      },
+      {
+        "de": "Kannst du raten, wie alt ich bin?",
+        "pt": "Você consegue adivinhar quantos anos eu tenho?"
+      },
+      {
+        "de": "Er hat mir geraten, den Job anzunehmen.",
+        "pt": "Ele me aconselhou a aceitar o emprego."
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica (a -> ä) na 2ª e 3ª pessoa do singular no presente. O imperativo singular 'Rat!' não tem umlaut.",
+    "id": "raten",
+    "level_cefr": "B1",
+    "theme": "kognition"
+  },
+  {
+    "infinitive": "rennen",
+    "translation_pt": "correr, disparar, apressar-se",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "gerannt",
+    "praesens": {
+      "ich": "renne",
+      "du": "rennst",
+      "er": "rennt",
+      "wir": "rennen",
+      "ihr": "rennt",
+      "sie": "rennen"
+    },
+    "praeteritum": {
+      "ich": "rannte",
+      "du": "ranntest",
+      "er": "rannte",
+      "wir": "rannten",
+      "ihr": "ranntet",
+      "sie": "rannten"
+    },
+    "konjunktiv_ii": {
+      "ich": "rennte",
+      "du": "renntest",
+      "er": "rennte",
+      "wir": "rennten",
+      "ihr": "renntet",
+      "sie": "rennten"
+    },
+    "imperativ_du": "Renn!",
+    "imperativ_ihr": "Rennt!",
+    "imperativ_sie": "Rennen Sie!",
+    "examples": [
+      {
+        "de": "Ich renne jeden Morgen im Park.",
+        "pt": "Eu corro todas as manhãs no parque."
+      },
+      {
+        "de": "Die Kinder rannten schnell zum Spielplatz.",
+        "pt": "As crianças correram rapidamente para o parquinho."
+      },
+      {
+        "de": "Er ist gerannt, um den Bus noch zu erreichen.",
+        "pt": "Ele correu para ainda conseguir pegar o ônibus."
+      }
+    ],
+    "notes_pt": "Rennen é um verbo misto (Mischverb), o que significa que ele tem uma mudança de vogal no Präteritum e Partizip II (rennen -> rannte -> gerannt), mas usa as terminações regulares dos verbos fracos. Usa 'sein' como auxiliar por indicar movimento.",
+    "id": "rennen",
+    "level_cefr": "B1",
+    "theme": "bewegung"
+  },
+  {
+    "infinitive": "riechen",
+    "translation_pt": "cheirar, farejar, sentir o cheiro de",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gerochen",
+    "praesens": {
+      "ich": "rieche",
+      "du": "riechst",
+      "er": "riecht",
+      "wir": "riechen",
+      "ihr": "riecht",
+      "sie": "riechen"
+    },
+    "praeteritum": {
+      "ich": "roch",
+      "du": "rochst",
+      "er": "roch",
+      "wir": "rochen",
+      "ihr": "rocht",
+      "sie": "rochen"
+    },
+    "konjunktiv_ii": {
+      "ich": "röche",
+      "du": "röchest",
+      "er": "röche",
+      "wir": "röchen",
+      "ihr": "röchet",
+      "sie": "röchen"
+    },
+    "imperativ_du": "Riech!",
+    "imperativ_ihr": "Riecht!",
+    "imperativ_sie": "Riechen Sie!",
+    "examples": [
+      {
+        "de": "Es riecht nach frischem Brot.",
+        "pt": "Cheira a pão fresco."
+      },
+      {
+        "de": "Ich rieche den Frühling.",
+        "pt": "Eu sinto o cheiro da primavera."
+      },
+      {
+        "de": "Die Blumen riechen gut.",
+        "pt": "As flores cheiram bem."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Pode ser usado com 'nach' para indicar o que cheira (riechen nach Dativ).",
+    "id": "riechen",
+    "level_cefr": "B1",
+    "theme": "wahrnehmung"
+  },
+  {
+    "infinitive": "rufen",
+    "translation_pt": "chamar, gritar, ligar (por telefone)",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gerufen",
+    "praesens": {
+      "ich": "rufe",
+      "du": "rufst",
+      "er": "ruft",
+      "wir": "rufen",
+      "ihr": "ruft",
+      "sie": "rufen"
+    },
+    "praeteritum": {
+      "ich": "rief",
+      "du": "riefst",
+      "er": "rief",
+      "wir": "riefen",
+      "ihr": "rieft",
+      "sie": "riefen"
+    },
+    "konjunktiv_ii": {
+      "ich": "riefe",
+      "du": "riefest",
+      "er": "riefe",
+      "wir": "riefen",
+      "ihr": "riefet",
+      "sie": "riefen"
+    },
+    "imperativ_du": "Ruf!",
+    "imperativ_ihr": "Ruft!",
+    "imperativ_sie": "Rufen Sie!",
+    "examples": [
+      {
+        "de": "Er ruft um Hilfe.",
+        "pt": "Ele grita por socorro."
+      },
+      {
+        "de": "Sie rufen ihren Hund.",
+        "pt": "Eles chamam o cachorro deles."
+      },
+      {
+        "de": "Ich rufe dich morgen an.",
+        "pt": "Eu te ligo amanhã."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Pode significar 'chamar', 'gritar' ou 'ligar' (neste último sentido, é frequentemente usado com o prefixo 'an-', formando 'anrufen').",
+    "id": "rufen",
+    "level_cefr": "A2",
+    "theme": "kommunikation"
+  },
+  {
     "infinitive": "sagen",
     "translation_pt": "dizer, falar, contar",
     "is_irregular": false,
@@ -1942,6 +3670,114 @@
     "id": "sagen",
     "level_cefr": "A1",
     "theme": "kommunikation"
+  },
+  {
+    "infinitive": "scheinen",
+    "translation_pt": "brilhar, luzir, parecer",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschienen",
+    "praesens": {
+      "ich": "scheine",
+      "du": "scheinst",
+      "er": "scheint",
+      "wir": "scheinen",
+      "ihr": "scheint",
+      "sie": "scheinen"
+    },
+    "praeteritum": {
+      "ich": "schien",
+      "du": "schienst",
+      "er": "schien",
+      "wir": "schienen",
+      "ihr": "schient",
+      "sie": "schienen"
+    },
+    "konjunktiv_ii": {
+      "ich": "schiene",
+      "du": "schienest",
+      "er": "schiene",
+      "wir": "schienen",
+      "ihr": "schienet",
+      "sie": "schienen"
+    },
+    "imperativ_du": "Schein!",
+    "imperativ_ihr": "Scheint!",
+    "imperativ_sie": "Scheinen Sie!",
+    "examples": [
+      {
+        "de": "Die Sonne scheint heute sehr hell.",
+        "pt": "O sol brilha muito forte hoje."
+      },
+      {
+        "de": "Es scheint, als ob er die Antwort wüsste.",
+        "pt": "Parece que ele sabe a resposta."
+      },
+      {
+        "de": "Sie schien sehr glücklich zu sein.",
+        "pt": "Ela parecia estar muito feliz."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com dois significados principais: 'brilhar/luzir' (como o sol) e 'parecer' (como em 'parece que...').",
+    "id": "scheinen",
+    "level_cefr": "B1",
+    "theme": "wahrnehmung"
+  },
+  {
+    "infinitive": "schießen",
+    "translation_pt": "atirar, chutar, disparar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschossen",
+    "praesens": {
+      "ich": "schieße",
+      "du": "schießt",
+      "er": "schießt",
+      "wir": "schießen",
+      "ihr": "schießt",
+      "sie": "schießen"
+    },
+    "praeteritum": {
+      "ich": "schoss",
+      "du": "schosst",
+      "er": "schoss",
+      "wir": "schossen",
+      "ihr": "schosst",
+      "sie": "schossen"
+    },
+    "konjunktiv_ii": {
+      "ich": "schösse",
+      "du": "schössest",
+      "er": "schösse",
+      "wir": "schössen",
+      "ihr": "schösset",
+      "sie": "schössen"
+    },
+    "imperativ_du": "Schieß!",
+    "imperativ_ihr": "Schießt!",
+    "imperativ_sie": "Schießen Sie!",
+    "examples": [
+      {
+        "de": "Er schießt den Ball ins Tor.",
+        "pt": "Ele chuta a bola para o gol."
+      },
+      {
+        "de": "Der Jäger schoss auf den Hirsch.",
+        "pt": "O caçador atirou no cervo."
+      },
+      {
+        "de": "Die Pflanze schießt schnell in die Höhe.",
+        "pt": "A planta cresce rapidamente em altura."
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica no Präsens (i -> ie em du/er/sie) e no Präteritum (ie -> o). Pode significar 'atirar', 'chutar' (bola) ou 'disparar'.",
+    "id": "schießen",
+    "level_cefr": "B2",
+    "theme": "alltag"
   },
   {
     "infinitive": "schlafen",
@@ -1998,6 +3834,168 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "schlagen",
+    "translation_pt": "bater, golpear, derrotar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschlagen",
+    "praesens": {
+      "ich": "schlage",
+      "du": "schlägst",
+      "er": "schlägt",
+      "wir": "schlagen",
+      "ihr": "schlagt",
+      "sie": "schlagen"
+    },
+    "praeteritum": {
+      "ich": "schlug",
+      "du": "schlugst",
+      "er": "schlug",
+      "wir": "schlugen",
+      "ihr": "schlugt",
+      "sie": "schlugen"
+    },
+    "konjunktiv_ii": {
+      "ich": "schlüge",
+      "du": "schlügest",
+      "er": "schlüge",
+      "wir": "schlügen",
+      "ihr": "schlüget",
+      "sie": "schlügen"
+    },
+    "imperativ_du": "Schlag!",
+    "imperativ_ihr": "Schlagt!",
+    "imperativ_sie": "Schlagen Sie!",
+    "examples": [
+      {
+        "de": "Er schlägt den Ball sehr fest.",
+        "pt": "Ele bate na bola muito forte."
+      },
+      {
+        "de": "Die Uhr schlägt Mitternacht.",
+        "pt": "O relógio bate meia-noite."
+      },
+      {
+        "de": "Wir haben den Gegner im Finale geschlagen.",
+        "pt": "Nós derrotamos o adversário na final."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica de 'a' para 'ä' na 2ª e 3ª pessoa do singular do Präsens, e de 'a' para 'u' no Präteritum e Partizip II. O Konjunktiv II usa o umlaut 'ü'.",
+    "id": "schlagen",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "schließen",
+    "translation_pt": "fechar, trancar, concluir",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschlossen",
+    "praesens": {
+      "ich": "schließe",
+      "du": "schließt",
+      "er": "schließt",
+      "wir": "schließen",
+      "ihr": "schließt",
+      "sie": "schließen"
+    },
+    "praeteritum": {
+      "ich": "schloss",
+      "du": "schlossest",
+      "er": "schloss",
+      "wir": "schlossen",
+      "ihr": "schlosst",
+      "sie": "schlossen"
+    },
+    "konjunktiv_ii": {
+      "ich": "schlösse",
+      "du": "schlössest",
+      "er": "schlösse",
+      "wir": "schlössen",
+      "ihr": "schlösset",
+      "sie": "schlössen"
+    },
+    "imperativ_du": "Schließ!",
+    "imperativ_ihr": "Schließt!",
+    "imperativ_sie": "Schließen Sie!",
+    "examples": [
+      {
+        "de": "Bitte schließen Sie die Tür.",
+        "pt": "Por favor, feche a porta."
+      },
+      {
+        "de": "Wir müssen den Vertrag bald schließen.",
+        "pt": "Precisamos concluir o contrato em breve."
+      },
+      {
+        "de": "Die Geschäfte schließen um 18 Uhr.",
+        "pt": "As lojas fecham às 18h."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica (ie -> o -> o). Pode ser usado de forma transitiva (fechar algo) ou intransitiva (algo fecha). Também significa 'concluir' (um acordo, um contrato).",
+    "id": "schließen",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "schneiden",
+    "translation_pt": "cortar, talhar, fatiar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschnitten",
+    "praesens": {
+      "ich": "schneide",
+      "du": "schneidest",
+      "er": "schneidet",
+      "wir": "schneiden",
+      "ihr": "schneidet",
+      "sie": "schneiden"
+    },
+    "praeteritum": {
+      "ich": "schnitt",
+      "du": "schnittst",
+      "er": "schnitt",
+      "wir": "schnitten",
+      "ihr": "schnittet",
+      "sie": "schnitten"
+    },
+    "konjunktiv_ii": {
+      "ich": "schnitte",
+      "du": "schnittest",
+      "er": "schnitte",
+      "wir": "schnitten",
+      "ihr": "schnittet",
+      "sie": "schnitten"
+    },
+    "imperativ_du": "Schneide!",
+    "imperativ_ihr": "Schneidet!",
+    "imperativ_sie": "Schneiden Sie!",
+    "examples": [
+      {
+        "de": "Ich schneide das Gemüse für die Suppe.",
+        "pt": "Eu corto os legumes para a sopa."
+      },
+      {
+        "de": "Sie hat sich in den Finger geschnitten.",
+        "pt": "Ela cortou o dedo."
+      },
+      {
+        "de": "Der Friseur schneidet meine Haare sehr gut.",
+        "pt": "O cabeleireiro corta meu cabelo muito bem."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Pode ser usado reflexivamente (sich schneiden) para 'cortar-se'.",
+    "id": "schneiden",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "schreiben",
     "translation_pt": "escrever, redigir",
     "is_irregular": true,
@@ -2050,6 +4048,168 @@
     "id": "schreiben",
     "level_cefr": "A1",
     "theme": "alltag"
+  },
+  {
+    "infinitive": "schreien",
+    "translation_pt": "gritar, berrar, clamar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschrien",
+    "praesens": {
+      "ich": "schreie",
+      "du": "schreist",
+      "er": "schreit",
+      "wir": "schreien",
+      "ihr": "schreit",
+      "sie": "schreien"
+    },
+    "praeteritum": {
+      "ich": "schrie",
+      "du": "schriest",
+      "er": "schrie",
+      "wir": "schrien",
+      "ihr": "schriet",
+      "sie": "schrien"
+    },
+    "konjunktiv_ii": {
+      "ich": "schriee",
+      "du": "schrieest",
+      "er": "schriee",
+      "wir": "schrieen",
+      "ihr": "schrieet",
+      "sie": "schrieen"
+    },
+    "imperativ_du": "Schrei!",
+    "imperativ_ihr": "Schreit!",
+    "imperativ_sie": "Schreien Sie!",
+    "examples": [
+      {
+        "de": "Warum schreist du so laut?",
+        "pt": "Por que você grita tão alto?"
+      },
+      {
+        "de": "Das Baby hat die ganze Nacht geschrien.",
+        "pt": "O bebê gritou a noite toda."
+      },
+      {
+        "de": "Sie schrie vor Schmerz.",
+        "pt": "Ela gritou de dor."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica no Präteritum (ei -> ie). O Konjunktiv II sintético 'schriee' é correto, mas 'würde schreien' também é comum.",
+    "id": "schreien",
+    "level_cefr": "B1",
+    "theme": "kommunikation"
+  },
+  {
+    "infinitive": "schweigen",
+    "translation_pt": "calar-se, silenciar, ficar em silêncio",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geschwiegen",
+    "praesens": {
+      "ich": "schweige",
+      "du": "schweigst",
+      "er": "schweigt",
+      "wir": "schweigen",
+      "ihr": "schweigt",
+      "sie": "schweigen"
+    },
+    "praeteritum": {
+      "ich": "schwieg",
+      "du": "schwiegst",
+      "er": "schwieg",
+      "wir": "schwiegen",
+      "ihr": "schwiegt",
+      "sie": "schwiegen"
+    },
+    "konjunktiv_ii": {
+      "ich": "schwiege",
+      "du": "schwiegest",
+      "er": "schwiege",
+      "wir": "schwiegen",
+      "ihr": "schwieget",
+      "sie": "schwiegen"
+    },
+    "imperativ_du": "Schweig!",
+    "imperativ_ihr": "Schweigt!",
+    "imperativ_sie": "Schweigen Sie!",
+    "examples": [
+      {
+        "de": "Er schwieg die ganze Zeit.",
+        "pt": "Ele ficou em silêncio o tempo todo."
+      },
+      {
+        "de": "Warum schweigst du?",
+        "pt": "Por que você está calado?"
+      },
+      {
+        "de": "Manchmal ist es besser zu schweigen.",
+        "pt": "Às vezes é melhor calar."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) que significa 'ficar em silêncio' ou 'calar-se'. Não confundir com 'verschweigen' (omitir, esconder algo).",
+    "id": "schweigen",
+    "level_cefr": "B2",
+    "theme": "kommunikation"
+  },
+  {
+    "infinitive": "schwimmen",
+    "translation_pt": "nadar, boiar, flutuar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "geschwommen",
+    "praesens": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie": "schwimmen"
+    },
+    "praeteritum": {
+      "ich": "schwamm",
+      "du": "schwammst",
+      "er": "schwamm",
+      "wir": "schwammen",
+      "ihr": "schwammt",
+      "sie": "schwammen"
+    },
+    "konjunktiv_ii": {
+      "ich": "schwämme",
+      "du": "schwämmest",
+      "er": "schwämme",
+      "wir": "schwämmen",
+      "ihr": "schwämmet",
+      "sie": "schwämmen"
+    },
+    "imperativ_du": "Schwimm!",
+    "imperativ_ihr": "Schwimmt!",
+    "imperativ_sie": "Schwimmen Sie!",
+    "examples": [
+      {
+        "de": "Ich schwimme jeden Morgen im See.",
+        "pt": "Eu nado no lago todas as manhãs."
+      },
+      {
+        "de": "Kannst du schwimmen?",
+        "pt": "Você sabe nadar?"
+      },
+      {
+        "de": "Wir sind im Urlaub viel geschwommen.",
+        "pt": "Nós nadamos muito nas férias."
+      }
+    ],
+    "notes_pt": "Verbo forte de movimento, usa 'sein' como auxiliar no Perfekt. Pode significar também 'boiar' ou 'flutuar'.",
+    "id": "schwimmen",
+    "level_cefr": "A2",
+    "theme": "bewegung"
   },
   {
     "infinitive": "sehen",
@@ -2158,6 +4318,114 @@
     "id": "sein",
     "level_cefr": "A1",
     "theme": "hilfsverb"
+  },
+  {
+    "infinitive": "sich beeilen",
+    "translation_pt": "apressar-se, ter pressa",
+    "is_irregular": false,
+    "is_separable": false,
+    "is_reflexive": true,
+    "perfekt_aux": "haben",
+    "partizip_ii": "beeilt",
+    "praesens": {
+      "ich": "beeile mich",
+      "du": "beeilst dich",
+      "er": "beeilt sich",
+      "wir": "beeilen uns",
+      "ihr": "beeilt euch",
+      "sie": "beeilen sich"
+    },
+    "praeteritum": {
+      "ich": "beeilte mich",
+      "du": "beeiltest dich",
+      "er": "beeilte sich",
+      "wir": "beeilten uns",
+      "ihr": "beeiltet euch",
+      "sie": "beeilten sich"
+    },
+    "konjunktiv_ii": {
+      "ich": "würde mich beeilen",
+      "du": "würdest dich beeilen",
+      "er": "würde sich beeilen",
+      "wir": "würden uns beeilen",
+      "ihr": "würdet euch beeilen",
+      "sie": "würden sich beeilen"
+    },
+    "imperativ_du": "Beeil dich!",
+    "imperativ_ihr": "Beeilt euch!",
+    "imperativ_sie": "Beeilen Sie sich!",
+    "examples": [
+      {
+        "de": "Ich muss mich beeilen, sonst verpasse ich den Zug.",
+        "pt": "Preciso me apressar, senão perco o trem."
+      },
+      {
+        "de": "Beeil dich, wir haben nicht viel Zeit!",
+        "pt": "Apresse-se, não temos muito tempo!"
+      },
+      {
+        "de": "Sie beeilt sich immer, um pünktlich zu sein.",
+        "pt": "Ela sempre se apressa para ser pontual."
+      }
+    ],
+    "notes_pt": "Verbo reflexivo regular com prefixo inseparável 'be-'. O pronome reflexivo muda de acordo com a pessoa e o número.",
+    "id": "sich_beeilen",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "sich entschuldigen",
+    "translation_pt": "pedir desculpas, desculpar-se",
+    "is_irregular": false,
+    "is_separable": false,
+    "is_reflexive": true,
+    "perfekt_aux": "haben",
+    "partizip_ii": "entschuldigt",
+    "praesens": {
+      "ich": "entschuldige mich",
+      "du": "entschuldigst dich",
+      "er": "entschuldigt sich",
+      "wir": "entschuldigen uns",
+      "ihr": "entschuldigt euch",
+      "sie": "entschuldigen sich"
+    },
+    "praeteritum": {
+      "ich": "entschuldigte mich",
+      "du": "entschuldigtest dich",
+      "er": "entschuldigte sich",
+      "wir": "entschuldigten uns",
+      "ihr": "entschuldigtet euch",
+      "sie": "entschuldigten sich"
+    },
+    "konjunktiv_ii": {
+      "ich": "entschuldigte mich",
+      "du": "entschuldigtest dich",
+      "er": "entschuldigte sich",
+      "wir": "entschuldigten uns",
+      "ihr": "entschuldigtet euch",
+      "sie": "entschuldigten sich"
+    },
+    "imperativ_du": "Entschuldige dich!",
+    "imperativ_ihr": "Entschuldigt euch!",
+    "imperativ_sie": "Entschuldigen Sie sich!",
+    "examples": [
+      {
+        "de": "Ich möchte mich für den Fehler entschuldigen.",
+        "pt": "Gostaria de me desculpar pelo erro."
+      },
+      {
+        "de": "Entschuldigen Sie bitte die Verspätung.",
+        "pt": "Desculpe o atraso, por favor."
+      },
+      {
+        "de": "Er hat sich bei ihr entschuldigt.",
+        "pt": "Ele se desculpou com ela."
+      }
+    ],
+    "notes_pt": "Verbo regular e reflexivo. O prefixo 'ent-' é inseparável.",
+    "id": "sich_entschuldigen",
+    "level_cefr": "A2",
+    "theme": "kommunikation"
   },
   {
     "infinitive": "sich erinnern",
@@ -2322,6 +4590,60 @@
     "theme": "emotion"
   },
   {
+    "infinitive": "sich setzen",
+    "translation_pt": "sentar-se, assentar-se",
+    "is_irregular": false,
+    "is_separable": false,
+    "is_reflexive": true,
+    "perfekt_aux": "haben",
+    "partizip_ii": "sich gesetzt",
+    "praesens": {
+      "ich": "setze mich",
+      "du": "setzt dich",
+      "er": "setzt sich",
+      "wir": "setzen uns",
+      "ihr": "setzt euch",
+      "sie": "setzen sich"
+    },
+    "praeteritum": {
+      "ich": "setzte mich",
+      "du": "setztest dich",
+      "er": "setzte sich",
+      "wir": "setzten uns",
+      "ihr": "setztet euch",
+      "sie": "setzten sich"
+    },
+    "konjunktiv_ii": {
+      "ich": "würde mich setzen",
+      "du": "würdest dich setzen",
+      "er": "würde sich setzen",
+      "wir": "würden uns setzen",
+      "ihr": "würdet euch setzen",
+      "sie": "würden sich setzen"
+    },
+    "imperativ_du": "Setz dich!",
+    "imperativ_ihr": "Setzt euch!",
+    "imperativ_sie": "Setzen Sie sich!",
+    "examples": [
+      {
+        "de": "Ich setze mich auf den Stuhl.",
+        "pt": "Eu me sento na cadeira."
+      },
+      {
+        "de": "Setz dich bitte!",
+        "pt": "Sente-se, por favor!"
+      },
+      {
+        "de": "Sie setzen sich an den Tisch.",
+        "pt": "Eles se sentam à mesa."
+      }
+    ],
+    "notes_pt": "Verbo reflexivo que significa 'sentar-se' (o ato de se sentar). Não confundir com 'sitzen' (estar sentado).",
+    "id": "sich_setzen",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "sich treffen",
     "translation_pt": "encontrar-se, reunir-se, encontrar (alguém)",
     "is_irregular": true,
@@ -2374,6 +4696,114 @@
     "id": "sich_treffen",
     "level_cefr": "A2",
     "theme": "kommunikation"
+  },
+  {
+    "infinitive": "sich unterhalten",
+    "translation_pt": "conversar, entreter-se",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": true,
+    "perfekt_aux": "haben",
+    "partizip_ii": "unterhalten",
+    "praesens": {
+      "ich": "unterhalte mich",
+      "du": "unterhältst dich",
+      "er": "unterhält sich",
+      "wir": "unterhalten uns",
+      "ihr": "unterhaltet euch",
+      "sie": "unterhalten sich"
+    },
+    "praeteritum": {
+      "ich": "unterhielt mich",
+      "du": "unterhieltst dich",
+      "er": "unterhielt sich",
+      "wir": "unterhielten uns",
+      "ihr": "unterhieltet euch",
+      "sie": "unterhielten sich"
+    },
+    "konjunktiv_ii": {
+      "ich": "unterhielte mich",
+      "du": "unterhieltest dich",
+      "er": "unterhielte sich",
+      "wir": "unterhielten uns",
+      "ihr": "unterhieltet euch",
+      "sie": "unterhielten sich"
+    },
+    "imperativ_du": "Unterhalt dich!",
+    "imperativ_ihr": "Unterhaltet euch!",
+    "imperativ_sie": "Unterhalten Sie sich!",
+    "examples": [
+      {
+        "de": "Wir unterhalten uns gerne über Bücher.",
+        "pt": "Nós gostamos de conversar sobre livros."
+      },
+      {
+        "de": "Er unterhält sich oft mit seinen Nachbarn.",
+        "pt": "Ele conversa frequentemente com seus vizinhos."
+      },
+      {
+        "de": "Sie unterhielten sich stundenlang im Café.",
+        "pt": "Eles conversaram por horas no café."
+      }
+    ],
+    "notes_pt": "Verbo reflexivo e irregular. O prefixo 'unter-' é inseparável neste contexto. Significa 'conversar' ou 'entreter-se'.",
+    "id": "sich_unterhalten",
+    "level_cefr": "B1",
+    "theme": "kommunikation"
+  },
+  {
+    "infinitive": "sitzen",
+    "translation_pt": "sentar, estar sentado",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gesessen",
+    "praesens": {
+      "ich": "sitze",
+      "du": "sitzt",
+      "er": "sitzt",
+      "wir": "sitzen",
+      "ihr": "sitzt",
+      "sie": "sitzen"
+    },
+    "praeteritum": {
+      "ich": "saß",
+      "du": "saßest",
+      "er": "saß",
+      "wir": "saßen",
+      "ihr": "saßt",
+      "sie": "saßen"
+    },
+    "konjunktiv_ii": {
+      "ich": "säße",
+      "du": "säßest",
+      "er": "säße",
+      "wir": "säßen",
+      "ihr": "säßet",
+      "sie": "säßen"
+    },
+    "imperativ_du": "Sitz!",
+    "imperativ_ihr": "Sitzt!",
+    "imperativ_sie": "Sitzen Sie!",
+    "examples": [
+      {
+        "de": "Ich sitze gern am Fenster.",
+        "pt": "Eu gosto de sentar na janela."
+      },
+      {
+        "de": "Sie saßen stundenlang im Café.",
+        "pt": "Eles ficaram sentados no café por horas."
+      },
+      {
+        "de": "Wenn ich Zeit hätte, säße ich jetzt am Strand.",
+        "pt": "Se eu tivesse tempo, estaria sentado na praia agora."
+      }
+    ],
+    "notes_pt": "O verbo 'sitzen' significa 'estar sentado' ou 'sentar-se' (no sentido de permanecer sentado). Para a ação de 'sentar-se' (ir para a posição sentada), usa-se 'sich setzen'.",
+    "id": "sitzen",
+    "level_cefr": "A1",
+    "theme": "alltag"
   },
   {
     "infinitive": "sollen",
@@ -2538,6 +4968,438 @@
     "theme": "kommunikation"
   },
   {
+    "infinitive": "springen",
+    "translation_pt": "saltar, pular, brotar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "gesprungen",
+    "praesens": {
+      "ich": "springe",
+      "du": "springst",
+      "er": "springt",
+      "wir": "springen",
+      "ihr": "springt",
+      "sie": "springen"
+    },
+    "praeteritum": {
+      "ich": "sprang",
+      "du": "sprangst",
+      "er": "sprang",
+      "wir": "sprangen",
+      "ihr": "sprangt",
+      "sie": "sprangen"
+    },
+    "konjunktiv_ii": {
+      "ich": "spränge",
+      "du": "sprängest",
+      "er": "spränge",
+      "wir": "sprängen",
+      "ihr": "spränget",
+      "sie": "sprängen"
+    },
+    "imperativ_du": "Spring!",
+    "imperativ_ihr": "Springt!",
+    "imperativ_sie": "Springen Sie!",
+    "examples": [
+      {
+        "de": "Der Frosch springt ins Wasser.",
+        "pt": "O sapo pula na água."
+      },
+      {
+        "de": "Ich bin über den Zaun gesprungen.",
+        "pt": "Eu pulei por cima da cerca."
+      },
+      {
+        "de": "Die Quelle springt aus dem Felsen.",
+        "pt": "A fonte brota da rocha."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) que indica movimento, por isso usa 'sein' como auxiliar no Perfekt. Pode significar pular, saltar ou brotar/jorrar (água).",
+    "id": "springen",
+    "level_cefr": "A2",
+    "theme": "bewegung"
+  },
+  {
+    "infinitive": "stattfinden",
+    "translation_pt": "ocorrer, acontecer, realizar-se",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "stattgefunden",
+    "praesens": {
+      "ich": "finde statt",
+      "du": "findest statt",
+      "er": "findet statt",
+      "wir": "finden statt",
+      "ihr": "findet statt",
+      "sie": "finden statt"
+    },
+    "praeteritum": {
+      "ich": "fand statt",
+      "du": "fandest statt",
+      "er": "fand statt",
+      "wir": "fanden statt",
+      "ihr": "fandet statt",
+      "sie": "fanden statt"
+    },
+    "konjunktiv_ii": {
+      "ich": "fände statt",
+      "du": "fändest statt",
+      "er": "fände statt",
+      "wir": "fänden statt",
+      "ihr": "fändet statt",
+      "sie": "fänden statt"
+    },
+    "imperativ_du": "Finde statt!",
+    "imperativ_ihr": "Findet statt!",
+    "imperativ_sie": "Finden Sie statt!",
+    "examples": [
+      {
+        "de": "Das Konzert findet morgen statt.",
+        "pt": "O concerto acontece amanhã."
+      },
+      {
+        "de": "Wo hat die Besprechung stattgefunden?",
+        "pt": "Onde a reunião ocorreu?"
+      },
+      {
+        "de": "Die Olympischen Spiele finden alle vier Jahre statt.",
+        "pt": "Os Jogos Olímpicos acontecem a cada quatro anos."
+      }
+    ],
+    "notes_pt": "Verbo separável e irregular (forte). A partícula 'statt-' significa 'em vez de' ou 'lugar', indicando que algo toma lugar. É sempre usado de forma impessoal ou com um sujeito que representa o evento.",
+    "id": "stattfinden",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "stehen",
+    "translation_pt": "estar de pé, ficar, estar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gestanden",
+    "praesens": {
+      "ich": "stehe",
+      "du": "stehst",
+      "er": "steht",
+      "wir": "stehen",
+      "ihr": "steht",
+      "sie": "stehen"
+    },
+    "praeteritum": {
+      "ich": "stand",
+      "du": "standest",
+      "er": "stand",
+      "wir": "standen",
+      "ihr": "standet",
+      "sie": "standen"
+    },
+    "konjunktiv_ii": {
+      "ich": "stünde",
+      "du": "stündest",
+      "er": "stünde",
+      "wir": "stünden",
+      "ihr": "stündet",
+      "sie": "stünden"
+    },
+    "imperativ_du": "Steh!",
+    "imperativ_ihr": "Steht!",
+    "imperativ_sie": "Stehen Sie!",
+    "examples": [
+      {
+        "de": "Ich stehe am Fenster.",
+        "pt": "Eu estou em pé na janela."
+      },
+      {
+        "de": "Das Buch steht im Regal.",
+        "pt": "O livro está na estante."
+      },
+      {
+        "de": "Er stand lange vor der Tür.",
+        "pt": "Ele ficou muito tempo em frente à porta."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Usa 'haben' como auxiliar no Perfekt para indicar uma posição estática. Pode ser usado para pessoas ou objetos.",
+    "id": "stehen",
+    "level_cefr": "A1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "steigen",
+    "translation_pt": "subir, escalar, aumentar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "gestiegen",
+    "praesens": {
+      "ich": "steige",
+      "du": "steigst",
+      "er": "steigt",
+      "wir": "steigen",
+      "ihr": "steigt",
+      "sie": "steigen"
+    },
+    "praeteritum": {
+      "ich": "stieg",
+      "du": "stiegst",
+      "er": "stieg",
+      "wir": "stiegen",
+      "ihr": "stiegt",
+      "sie": "stiegen"
+    },
+    "konjunktiv_ii": {
+      "ich": "stiege",
+      "du": "stiegest",
+      "er": "stiege",
+      "wir": "stiegen",
+      "ihr": "stieget",
+      "sie": "stiegen"
+    },
+    "imperativ_du": "Steig!",
+    "imperativ_ihr": "Steigt!",
+    "imperativ_sie": "Steigen Sie!",
+    "examples": [
+      {
+        "de": "Ich steige in den Bus.",
+        "pt": "Eu entro no ônibus."
+      },
+      {
+        "de": "Die Preise sind stark gestiegen.",
+        "pt": "Os preços subiram muito."
+      },
+      {
+        "de": "Er stieg auf den Berg.",
+        "pt": "Ele escalou a montanha."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Usa 'sein' como auxiliar no Perfekt por indicar movimento ou mudança de estado. Pode significar subir, escalar ou aumentar.",
+    "id": "steigen",
+    "level_cefr": "B1",
+    "theme": "bewegung"
+  },
+  {
+    "infinitive": "sterben",
+    "translation_pt": "morrer, falecer",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "gestorben",
+    "praesens": {
+      "ich": "sterbe",
+      "du": "stirbst",
+      "er": "stirbt",
+      "wir": "sterben",
+      "ihr": "sterbt",
+      "sie": "sterben"
+    },
+    "praeteritum": {
+      "ich": "starb",
+      "du": "starbst",
+      "er": "starb",
+      "wir": "starben",
+      "ihr": "starbt",
+      "sie": "starben"
+    },
+    "konjunktiv_ii": {
+      "ich": "stürbe",
+      "du": "stürbest",
+      "er": "stürbe",
+      "wir": "stürben",
+      "ihr": "stürbet",
+      "sie": "stürben"
+    },
+    "imperativ_du": "Stirb!",
+    "imperativ_ihr": "Sterbt!",
+    "imperativ_sie": "Sterben Sie!",
+    "examples": [
+      {
+        "de": "Er ist letztes Jahr gestorben.",
+        "pt": "Ele morreu no ano passado."
+      },
+      {
+        "de": "Viele Menschen sterben an dieser Krankheit.",
+        "pt": "Muitas pessoas morrem desta doença."
+      },
+      {
+        "de": "Ich möchte nicht jung sterben.",
+        "pt": "Eu não quero morrer jovem."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica (e -> i) na 2ª e 3ª pessoa do singular no Präsens. Usa 'sein' como auxiliar no Perfekt por indicar mudança de estado.",
+    "id": "sterben",
+    "level_cefr": "B1",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "stinken",
+    "translation_pt": "cheirar mal, feder, ter mau cheiro",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gestunken",
+    "praesens": {
+      "ich": "stinke",
+      "du": "stinkst",
+      "er": "stinkt",
+      "wir": "stinken",
+      "ihr": "stinkt",
+      "sie": "stinken"
+    },
+    "praeteritum": {
+      "ich": "stank",
+      "du": "stankst",
+      "er": "stank",
+      "wir": "stanken",
+      "ihr": "stankt",
+      "sie": "stanken"
+    },
+    "konjunktiv_ii": {
+      "ich": "stänke",
+      "du": "stänkest",
+      "er": "stänke",
+      "wir": "stänken",
+      "ihr": "stänket",
+      "sie": "stänken"
+    },
+    "imperativ_du": "Stink!",
+    "imperativ_ihr": "Stinkt!",
+    "imperativ_sie": "Stinken Sie!",
+    "examples": [
+      {
+        "de": "Es stinkt hier nach Müll.",
+        "pt": "Está fedendo a lixo aqui."
+      },
+      {
+        "de": "Warum stinkt deine Socke so?",
+        "pt": "Por que sua meia fede tanto?"
+      },
+      {
+        "de": "Die ganze Sache stinkt zum Himmel.",
+        "pt": "A coisa toda fede aos céus (é muito suspeita)."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Significa 'cheirar mal', 'feder'. Pode ser usado figurativamente para indicar que algo é suspeito ou errado.",
+    "id": "stinken",
+    "level_cefr": "B2",
+    "theme": "wahrnehmung"
+  },
+  {
+    "infinitive": "tragen",
+    "translation_pt": "carregar, usar (roupa), suportar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "getragen",
+    "praesens": {
+      "ich": "trage",
+      "du": "trägst",
+      "er": "trägt",
+      "wir": "tragen",
+      "ihr": "tragt",
+      "sie": "tragen"
+    },
+    "praeteritum": {
+      "ich": "trug",
+      "du": "trugst",
+      "er": "trug",
+      "wir": "trugen",
+      "ihr": "trugt",
+      "sie": "trugen"
+    },
+    "konjunktiv_ii": {
+      "ich": "trüge",
+      "du": "trügest",
+      "er": "trüge",
+      "wir": "trügen",
+      "ihr": "trüget",
+      "sie": "trügen"
+    },
+    "imperativ_du": "Trag!",
+    "imperativ_ihr": "Tragt!",
+    "imperativ_sie": "Tragen Sie!",
+    "examples": [
+      {
+        "de": "Ich trage einen schweren Rucksack.",
+        "pt": "Eu carrego uma mochila pesada."
+      },
+      {
+        "de": "Sie trägt heute ein schönes Kleid.",
+        "pt": "Ela está usando um vestido bonito hoje."
+      },
+      {
+        "de": "Er kann diese Verantwortung nicht mehr tragen.",
+        "pt": "Ele não consegue mais suportar essa responsabilidade."
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica (a > ä no Präsens para du/er/sie/es, a > u no Präteritum e Partizip II). Pode significar carregar, usar (roupa) ou suportar.",
+    "id": "tragen",
+    "level_cefr": "A2",
+    "theme": "alltag"
+  },
+  {
+    "infinitive": "treffen",
+    "translation_pt": "encontrar, acertar, atingir",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "getroffen",
+    "praesens": {
+      "ich": "treffe",
+      "du": "triffst",
+      "er": "trifft",
+      "wir": "treffen",
+      "ihr": "trefft",
+      "sie": "treffen"
+    },
+    "praeteritum": {
+      "ich": "traf",
+      "du": "trafst",
+      "er": "traf",
+      "wir": "trafen",
+      "ihr": "traft",
+      "sie": "trafen"
+    },
+    "konjunktiv_ii": {
+      "ich": "träfe",
+      "du": "träfest",
+      "er": "träfe",
+      "wir": "träfen",
+      "ihr": "träfet",
+      "sie": "träfen"
+    },
+    "imperativ_du": "Triff!",
+    "imperativ_ihr": "Trefft!",
+    "imperativ_sie": "Treffen Sie!",
+    "examples": [
+      {
+        "de": "Ich treffe meine Freunde heute Abend.",
+        "pt": "Eu encontro meus amigos hoje à noite."
+      },
+      {
+        "de": "Er hat den Nagel auf den Kopf getroffen.",
+        "pt": "Ele acertou o prego na cabeça (atingiu o ponto)."
+      },
+      {
+        "de": "Wir treffen uns um 8 Uhr.",
+        "pt": "Nós nos encontramos às 8 horas."
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica (e -> i) na 2ª e 3ª pessoa do singular no Präsens. Pode ser usado reflexivamente (sich treffen) para 'encontrar-se'.",
+    "id": "treffen",
+    "level_cefr": "A2",
+    "theme": "soziales"
+  },
+  {
     "infinitive": "trinken",
     "translation_pt": "beber",
     "is_irregular": true,
@@ -2590,6 +5452,60 @@
     "id": "trinken",
     "level_cefr": "A1",
     "theme": "essen"
+  },
+  {
+    "infinitive": "tun",
+    "translation_pt": "fazer, pôr, colocar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "getan",
+    "praesens": {
+      "ich": "tue",
+      "du": "tust",
+      "er": "tut",
+      "wir": "tun",
+      "ihr": "tut",
+      "sie": "tun"
+    },
+    "praeteritum": {
+      "ich": "tat",
+      "du": "tatest",
+      "er": "tat",
+      "wir": "taten",
+      "ihr": "tatet",
+      "sie": "taten"
+    },
+    "konjunktiv_ii": {
+      "ich": "täte",
+      "du": "tätest",
+      "er": "täte",
+      "wir": "täten",
+      "ihr": "tätet",
+      "sie": "täten"
+    },
+    "imperativ_du": "Tu!",
+    "imperativ_ihr": "Tut!",
+    "imperativ_sie": "Tun Sie!",
+    "examples": [
+      {
+        "de": "Was tust du gerade?",
+        "pt": "O que você está fazendo agora?"
+      },
+      {
+        "de": "Er tat so, als ob er nichts wüsste.",
+        "pt": "Ele agiu como se não soubesse de nada."
+      },
+      {
+        "de": "Ich würde das gerne tun.",
+        "pt": "Eu gostaria de fazer isso."
+      }
+    ],
+    "notes_pt": "Tun é um verbo forte e irregular. É frequentemente usado em expressões idiomáticas ou como um substituto para outros verbos quando o contexto é claro, significando 'fazer', 'pôr', 'colocar' ou 'agir'.",
+    "id": "tun",
+    "level_cefr": "A2",
+    "theme": "alltag"
   },
   {
     "infinitive": "umsteigen",
@@ -2808,6 +5724,60 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "verschwinden",
+    "translation_pt": "desaparecer, sumir",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "verschwunden",
+    "praesens": {
+      "ich": "verschwinde",
+      "du": "verschwindest",
+      "er": "verschwindet",
+      "wir": "verschwinden",
+      "ihr": "verschwindet",
+      "sie": "verschwinden"
+    },
+    "praeteritum": {
+      "ich": "verschwand",
+      "du": "verschwandest",
+      "er": "verschwand",
+      "wir": "verschwanden",
+      "ihr": "verschwandet",
+      "sie": "verschwanden"
+    },
+    "konjunktiv_ii": {
+      "ich": "verschwände",
+      "du": "verschwändest",
+      "er": "verschwände",
+      "wir": "verschwänden",
+      "ihr": "verschwändet",
+      "sie": "verschwänden"
+    },
+    "imperativ_du": "Verschwinde!",
+    "imperativ_ihr": "Verschwindet!",
+    "imperativ_sie": "Verschwinden Sie!",
+    "examples": [
+      {
+        "de": "Der Schlüssel ist verschwunden.",
+        "pt": "A chave desapareceu."
+      },
+      {
+        "de": "Die Sonne verschwindet hinter den Wolken.",
+        "pt": "O sol desaparece atrás das nuvens."
+      },
+      {
+        "de": "Er verschwand spurlos.",
+        "pt": "Ele desapareceu sem deixar rastros."
+      }
+    ],
+    "notes_pt": "É um verbo forte (irregular) e usa 'sein' como auxiliar no Perfekt, pois indica uma mudança de estado ou localização.",
+    "id": "verschwinden",
+    "level_cefr": "B1",
+    "theme": "bewegung"
+  },
+  {
     "infinitive": "verstehen",
     "translation_pt": "entender, compreender, perceber",
     "is_irregular": true,
@@ -2970,6 +5940,168 @@
     "theme": "alltag"
   },
   {
+    "infinitive": "vorschlagen",
+    "translation_pt": "sugerir, propor, indicar",
+    "is_irregular": true,
+    "is_separable": true,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "vorgeschlagen",
+    "praesens": {
+      "ich": "schlage vor",
+      "du": "schlägst vor",
+      "er": "schlägt vor",
+      "wir": "schlagen vor",
+      "ihr": "schlagt vor",
+      "sie": "schlagen vor"
+    },
+    "praeteritum": {
+      "ich": "schlug vor",
+      "du": "schlugst vor",
+      "er": "schlug vor",
+      "wir": "schlugen vor",
+      "ihr": "schlugt vor",
+      "sie": "schlugen vor"
+    },
+    "konjunktiv_ii": {
+      "ich": "schlüge vor",
+      "du": "schlügest vor",
+      "er": "schlüge vor",
+      "wir": "schlügen vor",
+      "ihr": "schlüget vor",
+      "sie": "schlügen vor"
+    },
+    "imperativ_du": "Schlag vor!",
+    "imperativ_ihr": "Schlagt vor!",
+    "imperativ_sie": "Schlagen Sie vor!",
+    "examples": [
+      {
+        "de": "Ich schlage vor, dass wir uns morgen treffen.",
+        "pt": "Eu sugiro que nos encontremos amanhã."
+      },
+      {
+        "de": "Er hat einen interessanten Plan vorgeschlagen.",
+        "pt": "Ele propôs um plano interessante."
+      },
+      {
+        "de": "Was würdest du vorschlagen?",
+        "pt": "O que você sugeriria?"
+      }
+    ],
+    "notes_pt": "Verbo forte e separável. A vogal do radical muda de 'a' para 'ä' na 2ª e 3ª pessoa do singular no Präsens, e para 'u' no Präteritum e Partizip II. O Konjunktiv II é formado com 'ü'.",
+    "id": "vorschlagen",
+    "level_cefr": "B1",
+    "theme": "kommunikation"
+  },
+  {
+    "infinitive": "wachsen",
+    "translation_pt": "crescer, aumentar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "sein",
+    "partizip_ii": "gewachsen",
+    "praesens": {
+      "ich": "wachse",
+      "du": "wächst",
+      "er": "wächst",
+      "wir": "wachsen",
+      "ihr": "wachst",
+      "sie": "wachsen"
+    },
+    "praeteritum": {
+      "ich": "wuchs",
+      "du": "wuchsest",
+      "er": "wuchs",
+      "wir": "wuchsen",
+      "ihr": "wuchst",
+      "sie": "wuchsen"
+    },
+    "konjunktiv_ii": {
+      "ich": "wüchse",
+      "du": "wüchsest",
+      "er": "wüchse",
+      "wir": "wüchsen",
+      "ihr": "wüchset",
+      "sie": "wüchsen"
+    },
+    "imperativ_du": "Wachs!",
+    "imperativ_ihr": "Wachst!",
+    "imperativ_sie": "Wachsen Sie!",
+    "examples": [
+      {
+        "de": "Die Blumen wachsen schnell im Frühling.",
+        "pt": "As flores crescem rapidamente na primavera."
+      },
+      {
+        "de": "Mein Sohn ist in den letzten Jahren sehr gewachsen.",
+        "pt": "Meu filho cresceu muito nos últimos anos."
+      },
+      {
+        "de": "Die Wirtschaft soll weiter wachsen.",
+        "pt": "A economia deve continuar a crescer."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular) com mudança vocálica (a -> ä no Präsens para du/er/sie, a -> u no Präteritum e Partizip II). Usa 'sein' como auxiliar por indicar mudança de estado ou crescimento.",
+    "id": "wachsen",
+    "level_cefr": "B1",
+    "theme": "natur"
+  },
+  {
+    "infinitive": "waschen",
+    "translation_pt": "lavar, banhar, limpar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gewaschen",
+    "praesens": {
+      "ich": "wasche",
+      "du": "wäschst",
+      "er": "wäscht",
+      "wir": "waschen",
+      "ihr": "wascht",
+      "sie": "waschen"
+    },
+    "praeteritum": {
+      "ich": "wusch",
+      "du": "wuschst",
+      "er": "wusch",
+      "wir": "wuschen",
+      "ihr": "wuscht",
+      "sie": "wuschen"
+    },
+    "konjunktiv_ii": {
+      "ich": "wüsche",
+      "du": "wüschest",
+      "er": "wüsche",
+      "wir": "wüschen",
+      "ihr": "wüschet",
+      "sie": "wüschen"
+    },
+    "imperativ_du": "Wasch!",
+    "imperativ_ihr": "Wascht!",
+    "imperativ_sie": "Waschen Sie!",
+    "examples": [
+      {
+        "de": "Ich wasche meine Hände vor dem Essen.",
+        "pt": "Eu lavo minhas mãos antes de comer."
+      },
+      {
+        "de": "Wäschst du die Wäsche heute?",
+        "pt": "Você lava a roupa hoje?"
+      },
+      {
+        "de": "Er hat das Auto gestern gewaschen.",
+        "pt": "Ele lavou o carro ontem."
+      }
+    ],
+    "notes_pt": "Waschen é um verbo forte (irregular) que apresenta mudança vocálica (a > ä) na 2ª e 3ª pessoa do singular do Präsens e (a > u) no Präteritum e Partizip II. Pode ser usado reflexivamente (sich waschen - lavar-se).",
+    "id": "waschen",
+    "level_cefr": "A1",
+    "theme": "alltag"
+  },
+  {
     "infinitive": "werden",
     "translation_pt": "tornar-se, vir a ser, ficar",
     "is_irregular": true,
@@ -3022,6 +6154,60 @@
     "id": "werden",
     "level_cefr": "A1",
     "theme": "hilfsverb"
+  },
+  {
+    "infinitive": "werfen",
+    "translation_pt": "jogar, arremessar, lançar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "geworfen",
+    "praesens": {
+      "ich": "werfe",
+      "du": "wirfst",
+      "er": "wirft",
+      "wir": "werfen",
+      "ihr": "werft",
+      "sie": "werfen"
+    },
+    "praeteritum": {
+      "ich": "warf",
+      "du": "warfst",
+      "er": "warf",
+      "wir": "warfen",
+      "ihr": "warft",
+      "sie": "warfen"
+    },
+    "konjunktiv_ii": {
+      "ich": "würfe",
+      "du": "würfest",
+      "er": "würfe",
+      "wir": "würfen",
+      "ihr": "würfet",
+      "sie": "würfen"
+    },
+    "imperativ_du": "Wirf!",
+    "imperativ_ihr": "Werft!",
+    "imperativ_sie": "Werfen Sie!",
+    "examples": [
+      {
+        "de": "Ich werfe den Ball.",
+        "pt": "Eu jogo a bola."
+      },
+      {
+        "de": "Er hat den Müll in den Eimer geworfen.",
+        "pt": "Ele jogou o lixo na lixeira."
+      },
+      {
+        "de": "Wirf das alte Brot weg!",
+        "pt": "Jogue fora o pão velho!"
+      }
+    ],
+    "notes_pt": "Verbo forte com mudança vocálica de 'e' para 'i' na 2ª e 3ª pessoa do singular no Präsens e no imperativo 'du'. O Präteritum e Konjunktiv II também são irregulares.",
+    "id": "werfen",
+    "level_cefr": "B1",
+    "theme": "alltag"
   },
   {
     "infinitive": "wissen",
@@ -3184,6 +6370,60 @@
     "id": "wollen",
     "level_cefr": "A1",
     "theme": "modal"
+  },
+  {
+    "infinitive": "ziehen",
+    "translation_pt": "puxar, arrastar, mudar-se, sacar",
+    "is_irregular": true,
+    "is_separable": false,
+    "is_reflexive": false,
+    "perfekt_aux": "haben",
+    "partizip_ii": "gezogen",
+    "praesens": {
+      "ich": "ziehe",
+      "du": "ziehst",
+      "er": "zieht",
+      "wir": "ziehen",
+      "ihr": "zieht",
+      "sie": "ziehen"
+    },
+    "praeteritum": {
+      "ich": "zog",
+      "du": "zogst",
+      "er": "zog",
+      "wir": "zogen",
+      "ihr": "zogt",
+      "sie": "zogen"
+    },
+    "konjunktiv_ii": {
+      "ich": "zöge",
+      "du": "zögest",
+      "er": "zöge",
+      "wir": "zögen",
+      "ihr": "zöget",
+      "sie": "zögen"
+    },
+    "imperativ_du": "Zieh!",
+    "imperativ_ihr": "Zieht!",
+    "imperativ_sie": "Ziehen Sie!",
+    "examples": [
+      {
+        "de": "Er zieht die schwere Kiste.",
+        "pt": "Ele puxa a caixa pesada."
+      },
+      {
+        "de": "Wir ziehen nächste Woche in eine neue Stadt.",
+        "pt": "Nós nos mudamos para uma nova cidade na próxima semana."
+      },
+      {
+        "de": "Der Zahnarzt zieht den Zahn.",
+        "pt": "O dentista arranca o dente."
+      }
+    ],
+    "notes_pt": "Verbo forte (irregular). Usa 'haben' para o sentido transitivo (puxar, arrastar) e 'sein' para o sentido intransitivo de movimento (mudar-se, ir para algum lugar).",
+    "id": "ziehen",
+    "level_cefr": "B1",
+    "theme": "alltag"
   },
   {
     "infinitive": "zumachen",

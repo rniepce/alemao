@@ -100,6 +100,82 @@ VERBS: list[dict] = [
     {"id": "versuchen", "infinitive": "versuchen", "level": "B1", "theme": "alltag"},
     {"id": "verlassen", "infinitive": "verlassen", "level": "B1", "theme": "bewegung"},
     {"id": "entscheiden", "infinitive": "entscheiden", "level": "B2", "theme": "kognition"},
+
+    # ===== EXPANSÃO: +60 verbos irregulares e úteis =====
+
+    # ----- Mais separáveis comuns (10) -----
+    {"id": "anrufen", "infinitive": "anrufen", "level": "A1", "theme": "kommunikation"},
+    {"id": "anbieten", "infinitive": "anbieten", "level": "A2", "theme": "alltag"},
+    {"id": "ansehen", "infinitive": "ansehen", "level": "A2", "theme": "wahrnehmung"},
+    {"id": "aussehen", "infinitive": "aussehen", "level": "A2", "theme": "wahrnehmung"},
+    {"id": "anziehen", "infinitive": "anziehen", "level": "A1", "theme": "alltag"},
+    {"id": "ausziehen", "infinitive": "ausziehen", "level": "A2", "theme": "alltag"},
+    {"id": "einsteigen", "infinitive": "einsteigen", "level": "A2", "theme": "reisen"},
+    {"id": "aussteigen", "infinitive": "aussteigen", "level": "A2", "theme": "reisen"},
+    {"id": "einschlafen", "infinitive": "einschlafen", "level": "A2", "theme": "alltag"},
+    {"id": "mitnehmen", "infinitive": "mitnehmen", "level": "A2", "theme": "alltag"},
+
+    # ----- Strong verbs A1-A2 frequentes (15) -----
+    {"id": "lassen", "infinitive": "lassen", "level": "A2", "theme": "alltag"},
+    {"id": "halten", "infinitive": "halten", "level": "A2", "theme": "alltag"},
+    {"id": "tragen", "infinitive": "tragen", "level": "A2", "theme": "alltag"},
+    {"id": "fallen", "infinitive": "fallen", "level": "A2", "theme": "bewegung"},
+    {"id": "fangen", "infinitive": "fangen", "level": "B1", "theme": "alltag"},
+    {"id": "heißen", "infinitive": "heißen", "level": "A1", "theme": "kommunikation"},
+    {"id": "treffen", "infinitive": "treffen", "level": "A2", "theme": "soziales"},
+    {"id": "stehen", "infinitive": "stehen", "level": "A1", "theme": "alltag"},
+    {"id": "sitzen", "infinitive": "sitzen", "level": "A1", "theme": "alltag"},
+    {"id": "liegen", "infinitive": "liegen", "level": "A1", "theme": "alltag"},
+    {"id": "rufen", "infinitive": "rufen", "level": "A2", "theme": "kommunikation"},
+    {"id": "tun", "infinitive": "tun", "level": "A2", "theme": "alltag"},
+    {"id": "ziehen", "infinitive": "ziehen", "level": "B1", "theme": "alltag"},
+    {"id": "schließen", "infinitive": "schließen", "level": "A2", "theme": "alltag"},
+    {"id": "schneiden", "infinitive": "schneiden", "level": "A2", "theme": "alltag"},
+
+    # ----- Movimento e ação (10) -----
+    {"id": "schwimmen", "infinitive": "schwimmen", "level": "A2", "theme": "bewegung"},
+    {"id": "springen", "infinitive": "springen", "level": "A2", "theme": "bewegung"},
+    {"id": "steigen", "infinitive": "steigen", "level": "B1", "theme": "bewegung"},
+    {"id": "rennen", "infinitive": "rennen", "level": "B1", "theme": "bewegung"},
+    {"id": "klettern", "infinitive": "klettern", "level": "B1", "theme": "bewegung"},
+    {"id": "werfen", "infinitive": "werfen", "level": "B1", "theme": "alltag"},
+    {"id": "fließen", "infinitive": "fließen", "level": "B1", "theme": "natur"},
+    {"id": "wachsen", "infinitive": "wachsen", "level": "B1", "theme": "natur"},
+    {"id": "sterben", "infinitive": "sterben", "level": "B1", "theme": "alltag"},
+    {"id": "verschwinden", "infinitive": "verschwinden", "level": "B1", "theme": "bewegung"},
+
+    # ----- Comunicação / Cognição (8) -----
+    {"id": "bringen", "infinitive": "bringen", "level": "A1", "theme": "alltag"},
+    {"id": "empfehlen", "infinitive": "empfehlen", "level": "B1", "theme": "kommunikation"},
+    {"id": "raten", "infinitive": "raten", "level": "B1", "theme": "kognition"},
+    {"id": "erkennen", "infinitive": "erkennen", "level": "B1", "theme": "kognition"},
+    {"id": "schweigen", "infinitive": "schweigen", "level": "B2", "theme": "kommunikation"},
+    {"id": "schreien", "infinitive": "schreien", "level": "B1", "theme": "kommunikation"},
+    {"id": "lügen", "infinitive": "lügen", "level": "B1", "theme": "kommunikation"},
+    {"id": "vorschlagen", "infinitive": "vorschlagen", "level": "B1", "theme": "kommunikation"},
+
+    # ----- Eventos / Estados (7) -----
+    {"id": "geschehen", "infinitive": "geschehen", "level": "B1", "theme": "alltag"},
+    {"id": "passieren", "infinitive": "passieren", "level": "A2", "theme": "alltag"},
+    {"id": "stattfinden", "infinitive": "stattfinden", "level": "B1", "theme": "alltag"},
+    {"id": "scheinen", "infinitive": "scheinen", "level": "B1", "theme": "wahrnehmung"},
+    {"id": "klingen", "infinitive": "klingen", "level": "B1", "theme": "wahrnehmung"},
+    {"id": "stinken", "infinitive": "stinken", "level": "B2", "theme": "wahrnehmung"},
+    {"id": "riechen", "infinitive": "riechen", "level": "B1", "theme": "wahrnehmung"},
+
+    # ----- Ações específicas (6) -----
+    {"id": "backen", "infinitive": "backen", "level": "A2", "theme": "essen"},
+    {"id": "waschen", "infinitive": "waschen", "level": "A1", "theme": "alltag"},
+    {"id": "schießen", "infinitive": "schießen", "level": "B2", "theme": "alltag"},
+    {"id": "gewinnen", "infinitive": "gewinnen", "level": "B1", "theme": "alltag"},
+    {"id": "schlagen", "infinitive": "schlagen", "level": "B1", "theme": "alltag"},
+    {"id": "greifen", "infinitive": "greifen", "level": "B1", "theme": "alltag"},
+
+    # ----- Reflexivos B1+ (4) -----
+    {"id": "sich_beeilen", "infinitive": "sich beeilen", "level": "B1", "theme": "alltag"},
+    {"id": "sich_entschuldigen", "infinitive": "sich entschuldigen", "level": "A2", "theme": "kommunikation"},
+    {"id": "sich_unterhalten", "infinitive": "sich unterhalten", "level": "B1", "theme": "kommunikation"},
+    {"id": "sich_setzen", "infinitive": "sich setzen", "level": "A2", "theme": "alltag"},
 ]
 
 

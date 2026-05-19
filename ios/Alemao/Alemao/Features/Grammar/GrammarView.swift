@@ -24,6 +24,11 @@ struct GrammarView: View {
                     } label: {
                         Label("Pergunte ao tutor", systemImage: "bubble.left.and.bubble.right.fill")
                     }
+                    NavigationLink {
+                        DeclensionTablesView()
+                    } label: {
+                        Label("Tabelas de declinação", systemImage: "tablecells")
+                    }
                     Button {
                         showGenerator = true
                     } label: {
