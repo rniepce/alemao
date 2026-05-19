@@ -93,12 +93,13 @@ struct DeclensionTablesView: View {
 
             // Linhas de dados
             ForEach(Array(presentGenders.enumerated()), id: \.element.id) { idx, gender in
+                let custom = selected.customRowLabels?[gender]
                 HStack(spacing: 0) {
                     VStack(alignment: .leading, spacing: 1) {
-                        Text(gender.shortLabel)
+                        Text(custom?.short ?? gender.shortLabel)
                             .font(.caption.bold())
-                            .foregroundStyle(colorFor(gender))
-                        Text(gender.label)
+                            .foregroundStyle(custom != nil ? Color.secondary : colorFor(gender))
+                        Text(custom?.full ?? gender.label)
                             .font(.system(size: 9))
                             .foregroundStyle(.tertiary)
                     }

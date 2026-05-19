@@ -1,6 +1,8 @@
 import SwiftData
 import SwiftUI
 
+// PersistentModel é declarado em SwiftData e usado pela generic helper deleteAll(_:).
+
 struct SettingsView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var users: [User]
@@ -119,9 +121,33 @@ struct SettingsView: View {
         }
     }
 
+    /// Logout completo: apaga User + todos os dados associados (decks, cards,
+    /// lições, readings, escrita, conversas, SRS logs). O conteúdo bundleado
+    /// (library.sqlite, dictionary.sqlite, seed JSONs) permanece — só as
+    /// cópias materializadas em SwiftData são limpas. Próximo login dispara
+    /// os Seed*Loaders novamente para repopular do bundle.
     private func signOut() {
         if let user { modelContext.delete(user) }
+
+        // Cascata de limpeza: não há `inverse` no User, então deletamos cada
+        // tipo de modelo de usuário explicitamente.
+        deleteAll(VocabCard.self)
+        deleteAll(Deck.self)
+        deleteAll(GeneratedLesson.self)
+        deleteAll(GeneratedReadingEntity.self)
+        deleteAll(WritingEntry.self)
+        deleteAll(ConversationSession.self)
+        deleteAll(ReviewLog.self)
+
         try? modelContext.save()
+    }
+
+    private func deleteAll<T: PersistentModel>(_ type: T.Type) {
+        do {
+            try modelContext.delete(model: type)
+        } catch {
+            print("[signOut] Falha ao apagar \(type): \(error)")
+        }
     }
 
     private func load() {

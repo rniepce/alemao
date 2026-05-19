@@ -143,12 +143,36 @@ struct ConjugationQuizView: View {
                         .font(.title3.bold())
                         .foregroundStyle(Color.accentColor)
                 }
+
+                if let hint = formatHint(for: q) {
+                    Label(hint, systemImage: "info.circle.fill")
+                        .font(.caption)
+                        .foregroundStyle(.orange)
+                        .padding(.top, 4)
+                }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
             .background(Color.secondary.opacity(0.08))
             .clipShape(RoundedRectangle(cornerRadius: 14))
         }
+    }
+
+    /// Hint de formato quando o verbo tem partícula separável ou pronome reflexivo.
+    /// Sem hint, usuário não sabe se digita "stehe" ou "stehe auf".
+    private func formatHint(for q: Question) -> String? {
+        if q.isSeparable {
+            // Tenta extrair a partícula do final da forma esperada
+            let parts = q.expected.split(separator: " ")
+            if parts.count >= 2, let last = parts.last {
+                return "Digite a forma completa, incluindo a partícula '\(last)' no fim"
+            }
+            return "Digite a forma completa (com partícula separada)"
+        }
+        if q.isReflexive {
+            return "Inclua o pronome reflexivo correspondente à pessoa"
+        }
+        return nil
     }
 
     @ViewBuilder
@@ -292,10 +316,26 @@ struct ConjugationQuizView: View {
             // Acertou mas errou diacrítico (ä/ö/ü/ß)
             result = .almost(q.expected)
             correctCount += 1   // conta como acerto parcial
+        } else if isPartialMatch(user: userFolded, expected: expectedFolded) {
+            // Para separáveis ("stehe" sem "auf") ou reflexivos ("freue" sem "mich")
+            result = .almost(q.expected)
+            correctCount += 1
         } else {
             result = .incorrect(q.expected)
         }
         inputFocused = false
+    }
+
+    /// Detecta resposta parcialmente correta: usuário digitou só a forma conjugada
+    /// sem a partícula separável ou sem o pronome reflexivo.
+    /// Ex: expected="stehe auf", user="stehe" → true.
+    /// Ex: expected="freue mich", user="freue" → true.
+    private func isPartialMatch(user: String, expected: String) -> Bool {
+        let parts = expected.split(separator: " ")
+        guard parts.count >= 2 else { return false }
+        // Tenta cada subconjunto contíguo começando do início
+        let firstPart = String(parts[0])
+        return user == firstPart
     }
 
     // MARK: - Helpers

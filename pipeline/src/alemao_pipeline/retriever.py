@@ -120,55 +120,60 @@ def retrieve(
     dense_pool: int = 20,
     library_path: str | None = None,
 ) -> list[Hit]:
-    """Pipeline completa: query → FTS + dense → RRF → Hits enriquecidos."""
+    """Pipeline completa: query → FTS + dense → RRF → Hits enriquecidos.
+
+    Connection management: usa try/finally para garantir close mesmo em
+    early returns (sem embeddings de query, sem hits, exceções).
+    """
     conn = db.connect(library_path or str(config.library_db_path()))
+    try:
+        # 1. FTS
+        fts = fts_search(conn, query, limit=fts_pool)
 
-    # 1. FTS
-    fts = fts_search(conn, query, limit=fts_pool)
+        # 2. Dense
+        query_vecs = gemini.embed_batch([query], task_type="RETRIEVAL_QUERY")
+        if not query_vecs:
+            return []
+        dense = dense_search(conn, query_vecs[0], limit=dense_pool)
 
-    # 2. Dense
-    query_vecs = gemini.embed_batch([query], task_type="RETRIEVAL_QUERY")
-    if not query_vecs:
-        return []
-    dense = dense_search(conn, query_vecs[0], limit=dense_pool)
+        # 3. RRF
+        fused = reciprocal_rank_fusion(fts, dense, limit=limit)
 
-    # 3. RRF
-    fused = reciprocal_rank_fusion(fts, dense, limit=limit)
+        # 4. Buscar metadata dos chunks vencedores
+        ids = [c for c, _, _ in fused]
+        if not ids:
+            return []
+        placeholders = ",".join("?" for _ in ids)
+        meta_rows = conn.execute(
+            f"""
+            SELECT c.id, c.book_id, c.section_title, c.page_start, c.page_end, c.text,
+                   b.title AS book_title
+            FROM chunks c JOIN books b ON b.id = c.book_id
+            WHERE c.id IN ({placeholders})
+            """,
+            ids,
+        ).fetchall()
+        meta_by_id = {r["id"]: r for r in meta_rows}
 
-    # 4. Buscar metadata dos chunks vencedores
-    ids = [c for c, _, _ in fused]
-    if not ids:
-        return []
-    placeholders = ",".join("?" for _ in ids)
-    meta_rows = conn.execute(
-        f"""
-        SELECT c.id, c.book_id, c.section_title, c.page_start, c.page_end, c.text,
-               b.title AS book_title
-        FROM chunks c JOIN books b ON b.id = c.book_id
-        WHERE c.id IN ({placeholders})
-        """,
-        ids,
-    ).fetchall()
-    meta_by_id = {r["id"]: r for r in meta_rows}
-
-    hits: list[Hit] = []
-    for cid, score, positions in fused:
-        m = meta_by_id.get(cid)
-        if not m:
-            continue
-        hits.append(
-            Hit(
-                chunk_id=cid,
-                book_id=m["book_id"],
-                book_title=m["book_title"],
-                section_title=m["section_title"],
-                page_start=m["page_start"],
-                page_end=m["page_end"],
-                text=m["text"],
-                score=score,
-                fts_rank=positions.get(0),
-                dense_rank=positions.get(1),
+        hits: list[Hit] = []
+        for cid, score, positions in fused:
+            m = meta_by_id.get(cid)
+            if not m:
+                continue
+            hits.append(
+                Hit(
+                    chunk_id=cid,
+                    book_id=m["book_id"],
+                    book_title=m["book_title"],
+                    section_title=m["section_title"],
+                    page_start=m["page_start"],
+                    page_end=m["page_end"],
+                    text=m["text"],
+                    score=score,
+                    fts_rank=positions.get(0),
+                    dense_rank=positions.get(1),
+                )
             )
-        )
-    conn.close()
-    return hits
+        return hits
+    finally:
+        conn.close()

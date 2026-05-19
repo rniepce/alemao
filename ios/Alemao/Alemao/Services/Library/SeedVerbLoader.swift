@@ -77,7 +77,6 @@ enum SeedVerbLoader {
             .map { $0.headword.lowercased() }
         )
 
-        let encoder = JSONEncoder()
         var inserted = 0
         for s in seeds {
             if existingInfs.contains(s.infinitive.lowercased()) { continue }
@@ -135,6 +134,5 @@ enum SeedVerbLoader {
             try context.save()
             print("[SeedVerbLoader] +\(inserted) verbos no deck '\(deckName)'")
         }
-        _ = encoder // silenciar warning, manter por simetria
     }
 }

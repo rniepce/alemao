@@ -56,6 +56,10 @@ enum DeclensionGender: String, CaseIterable, Identifiable {
 }
 
 /// Uma tabela de declinação: nome + linhas indexadas por gênero/caso.
+///
+/// Para tabelas onde as "linhas" não representam gênero gramatical (ex: pronomes
+/// pessoais, onde as linhas são pessoas — 1ª/2ª/3ª singular e plural), o campo
+/// `customRowLabels` substitui o label de gênero (e a cor) por algo mais apropriado.
 struct DeclensionTable: Identifiable {
     let id: String
     let title: String
@@ -64,6 +68,26 @@ struct DeclensionTable: Identifiable {
     let cells: [DeclensionGender: [DeclensionCase: String]]
     /// Notas extras (regras especiais)
     let notes: [String]
+    /// Quando presente, substitui os labels padrão (`der`, `Masculino`, etc) pelo
+    /// par (short, full) fornecido. Útil para tabelas onde as linhas não são
+    /// gênero gramatical — ex: pronomes pessoais.
+    let customRowLabels: [DeclensionGender: (short: String, full: String)]?
+
+    init(
+        id: String,
+        title: String,
+        summary: String,
+        cells: [DeclensionGender: [DeclensionCase: String]],
+        notes: [String],
+        customRowLabels: [DeclensionGender: (short: String, full: String)]? = nil
+    ) {
+        self.id = id
+        self.title = title
+        self.summary = summary
+        self.cells = cells
+        self.notes = notes
+        self.customRowLabels = customRowLabels
+    }
 }
 
 enum DeclensionTables {
@@ -133,15 +157,15 @@ enum DeclensionTables {
         ]
     )
 
-    /// Pronomes pessoais — declinação completa
+    /// Pronomes pessoais — declinação completa.
+    /// As "linhas" aqui representam PESSOA, não gênero gramatical. Usamos
+    /// `customRowLabels` para que a view exiba "1ª p. sing." etc. em vez de
+    /// "Masculino: der" (que seria absurdo).
     static let personalPronouns = DeclensionTable(
         id: "personal_pronouns",
         title: "Pronomes Pessoais",
         summary: "ich / du / er / sie / es / wir / ihr / sie/Sie — em todos os 4 casos.",
         cells: [
-            // Hack: usamos masculine=1ª pessoa sg, feminine=2ª pessoa sg, neuter=3ª pessoa sg, plural=3ª pessoa plural
-            // Mas isso conflita. Vou usar uma estrutura ad-hoc dentro da view.
-            // Por ora, marcamos com formato linha-única: "ich/mich/mir/meiner" etc.
             .masculine: [.nominativ: "ich", .akkusativ: "mich", .dativ: "mir", .genitiv: "meiner"],
             .feminine:  [.nominativ: "du",  .akkusativ: "dich", .dativ: "dir", .genitiv: "deiner"],
             .neuter:    [.nominativ: "er/sie/es", .akkusativ: "ihn/sie/es", .dativ: "ihm/ihr/ihm", .genitiv: "seiner/ihrer/seiner"],
@@ -151,6 +175,12 @@ enum DeclensionTables {
             "Sie formal (qualquer pessoa, singular ou plural) usa sempre o pronome de 3ª pessoa plural: Sie/Sie/Ihnen.",
             "Formas de Genitiv (meiner, deiner, ihrer) são raras em alemão moderno — quase só literário.",
             "Pronomes pessoais SEMPRE precedem substantivos no campo central: 'Er hat es mir gegeben' (não 'Er hat mir es...').",
+        ],
+        customRowLabels: [
+            .masculine: (short: "1ª sg", full: "1ª pessoa singular"),
+            .feminine:  (short: "2ª sg", full: "2ª pessoa singular"),
+            .neuter:    (short: "3ª sg", full: "3ª pessoa singular"),
+            .plural:    (short: "Plural", full: "1ª / 2ª / 3ª pessoa plural"),
         ]
     )
 
