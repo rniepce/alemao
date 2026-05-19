@@ -109,6 +109,100 @@ THEMES: dict[str, dict] = {
             "heute", "morgen", "gestern", "jetzt", "spät", "früh",
         ],
     },
+
+    # ===== EXPANSÃO: +6 decks temáticos =====
+
+    "staedte": {
+        "title": "Cidades e Geografia Alemã",
+        "level_default": "A2",
+        "words": [
+            "Berlin", "München", "Hamburg", "Köln", "Frankfurt", "Stuttgart",
+            "Düsseldorf", "Leipzig", "Dresden", "Hannover", "Bremen", "Nürnberg",
+            "Bundesland", "Bayern", "Sachsen", "Hessen", "Niedersachsen",
+            "Rheinland-Pfalz", "Norden", "Süden", "Osten", "Westen",
+            "Hauptstadt", "Großstadt", "Kleinstadt", "Dorf", "Land", "Bundesrepublik",
+            "Grenze", "Berg", "Tal", "Fluss", "Rhein", "Donau", "Elbe",
+            "Alpen", "Schwarzwald", "Ostsee", "Nordsee", "Sehenswürdigkeit",
+            "Brandenburger Tor", "Schloss", "Dom",
+        ],
+    },
+
+    "medien": {
+        "title": "Mídia e Tecnologia",
+        "level_default": "B1",
+        "words": [
+            "Medien", "Internet", "Nachricht", "Zeitung", "Zeitschrift", "Magazin",
+            "Fernsehen", "Radio", "Podcast", "Sendung", "Film", "Serie",
+            "Schauspieler", "Schauspielerin", "Regisseur", "Kanal", "Sender",
+            "Werbung", "Anzeige", "Streaming", "Plattform", "Soziale Medien",
+            "Beitrag", "Kommentar", "Like", "teilen", "abonnieren", "folgen",
+            "Computer", "Laptop", "Handy", "Smartphone", "App", "Bildschirm",
+            "Tastatur", "Maus", "WLAN", "Passwort", "Konto",
+            "klicken", "herunterladen", "hochladen", "speichern", "löschen", "drucken",
+        ],
+    },
+
+    "hobbies": {
+        "title": "Hobbies e Tempo Livre",
+        "level_default": "A2",
+        "words": [
+            "Hobby", "Freizeit", "Sport", "Musik", "Kunst", "Lesen", "Tanzen",
+            "Wandern", "Reisen", "Kochen", "Garten", "Fotografie", "Film",
+            "Theater", "Konzert", "Museum", "Ausstellung", "Bibliothek",
+            "Fußball", "Tennis", "Schwimmen", "Yoga", "Fitness", "Joggen",
+            "Fahrradfahren", "Skifahren", "Surfen", "Schach", "Karten",
+            "Brettspiel", "Videospiel", "Buch", "Roman", "Comic",
+            "Gitarre", "Klavier", "Lied", "Band", "Festival",
+            "Pinsel", "Stift", "Kamera", "Foto", "malen", "singen", "spielen",
+        ],
+    },
+
+    "religion": {
+        "title": "Religião e Filosofia",
+        "level_default": "B2",
+        "words": [
+            "Religion", "Gott", "Glaube", "Kirche", "Kathedrale", "Kapelle",
+            "Tempel", "Moschee", "Synagoge", "Pfarrer", "Priester", "Pastor",
+            "Mönch", "Nonne", "Bibel", "Koran", "Tora", "Gebet", "Messe",
+            "Gottesdienst", "Predigt", "Christentum", "Judentum", "Islam",
+            "Buddhismus", "Hinduismus", "Atheismus", "Spiritualität", "Seele",
+            "Geist", "Engel", "Heilige", "Himmel", "Hölle", "Paradies",
+            "Sünde", "Vergebung", "Gnade", "Wunder",
+            "beten", "glauben", "taufen", "segnen",
+            "Philosophie", "Ethik", "Moral",
+        ],
+    },
+
+    "politik": {
+        "title": "Política e Sociedade",
+        "level_default": "B2",
+        "words": [
+            "Politik", "Regierung", "Bundeskanzler", "Bundespräsident", "Minister",
+            "Bundestag", "Bundesrat", "Partei", "Koalition", "Opposition",
+            "Wahl", "Wähler", "Wahlrecht", "Stimme", "Mehrheit", "Minderheit",
+            "Demokratie", "Diktatur", "Monarchie", "Republik", "Verfassung",
+            "Grundgesetz", "Gesetz", "Recht", "Pflicht", "Bürger", "Bürgerin",
+            "Staat", "Land", "Nation", "Europa", "EU", "Vereinte Nationen",
+            "Krieg", "Frieden", "Migration", "Asyl", "Integration",
+            "Demonstration", "Protest", "Streik",
+            "wählen", "regieren", "entscheiden", "abstimmen",
+        ],
+    },
+
+    "finanzen": {
+        "title": "Dinheiro e Finanças",
+        "level_default": "A2",
+        "words": [
+            "Geld", "Euro", "Cent", "Münze", "Geldschein", "Bargeld",
+            "Bank", "Konto", "Kontonummer", "IBAN", "Kreditkarte", "EC-Karte",
+            "Überweisung", "Lastschrift", "Geldautomat", "Wechselkurs",
+            "Einkommen", "Gehalt", "Lohn", "Steuer", "Rente", "Versicherung",
+            "Kredit", "Schulden", "Sparen", "Investition", "Aktie", "Fonds",
+            "Inflation", "Rechnung", "Quittung", "Preis", "Kosten", "Ausgabe",
+            "Einnahme", "Gewinn", "Verlust", "Budget", "billig", "teuer",
+            "bezahlen", "kaufen", "verkaufen", "sparen", "leihen",
+        ],
+    },
 }
 
 

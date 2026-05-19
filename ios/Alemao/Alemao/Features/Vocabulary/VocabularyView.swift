@@ -37,6 +37,13 @@ struct VocabularyView: View {
                         }
                     }
                     .disabled(dueCards.isEmpty)
+
+                    NavigationLink {
+                        ConjugationQuizView()
+                    } label: {
+                        Label("Quiz de conjugação", systemImage: "questionmark.bubble.fill")
+                            .foregroundStyle(.purple)
+                    }
                 }
 
                 if !orphanCards.isEmpty {
