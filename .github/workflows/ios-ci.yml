@@ -1,0 +1,66 @@
+name: iOS Build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ios/**"
+      - ".github/workflows/ios-ci.yml"
+  pull_request:
+    paths:
+      - "ios/**"
+      - ".github/workflows/ios-ci.yml"
+
+jobs:
+  build:
+    runs-on: macos-15
+    defaults:
+      run:
+        working-directory: ios/Alemao
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode_16.app
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Resolve SPM dependencies
+        run: |
+          xcodebuild -resolvePackageDependencies \
+            -project Alemao.xcodeproj \
+            -scheme Alemao
+
+      - name: Build (Debug, sem signing)
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project Alemao.xcodeproj \
+            -scheme Alemao \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            -skipPackagePluginValidation \
+            build 2>&1 | xcbeautify --renderer github-actions || true
+          # xcbeautify pode não estar instalado; fallback raw
+          xcodebuild \
+            -project Alemao.xcodeproj \
+            -scheme Alemao \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            -skipPackagePluginValidation \
+            build | tail -20
+
+      - name: Run unit tests (se houver)
+        run: |
+          if [ -d ../AlemaoTests ] || grep -q "AlemaoTests" Alemao.xcodeproj/project.pbxproj 2>/dev/null; then
+            xcodebuild test \
+              -project Alemao.xcodeproj \
+              -scheme Alemao \
+              -destination 'platform=iOS Simulator,name=iPhone 16 Pro' \
+              CODE_SIGNING_ALLOWED=NO | tail -30
+          else
+            echo "Sem target de teste — skip"
+          fi

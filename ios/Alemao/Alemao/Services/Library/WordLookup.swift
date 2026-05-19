@@ -29,10 +29,11 @@ final class WordLookup {
         self.dictionary = dictionary
     }
 
-    /// Estratégia em cascata. Retorna nil se todas as fontes falharem.
+    /// Estratégia em cascata: dicionário bundleado → Wiktionary → Gemini.
+    /// Retorna nil se todas as fontes falharem.
     func lookup(_ word: String, contextSentence: String? = nil) async -> WordEntry? {
         let cleaned = normalize(word)
-        // 1. Dicionário bundleado
+        // 1. Dicionário bundleado (offline, instantâneo)
         if let dict = dictionary, let entries = try? dict.lookup(cleaned), let first = entries.first {
             return WordEntry(
                 headword: first.headword,
@@ -45,7 +46,13 @@ final class WordLookup {
                 source: "dictionary"
             )
         }
-        // 2. Gemini fallback
+        // 2. Wiktionary alemão (live, sem custo de tokens, dados estruturados)
+        if cleaned.count >= 3,
+           let viaWikt = try? await WiktionaryClient.shared.lookup(cleaned),
+           !viaWikt.translations.isEmpty {
+            return viaWikt
+        }
+        // 3. Gemini fallback (custa tokens, mas tem contexto e tradução PT direta)
         if let viaLLM = try? await llmLookup(cleaned, context: contextSentence) {
             return viaLLM
         }

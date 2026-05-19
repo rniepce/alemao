@@ -145,9 +145,31 @@ struct ReviewSessionView: View {
         modelContext.insert(log)
         try? modelContext.save()
 
+        // Atualiza widget timeline com novo snapshot (palavra revisada vira "palavra do dia")
+        publishWidgetSnapshot(reviewedJust: card)
+
         showAnswer = false
         index += 1
         reviewedCount += 1
+    }
+
+    private func publishWidgetSnapshot(reviewedJust justReviewed: VocabCard) {
+        // Buscar usuário + todos os cards rapidamente. Como não temos @Query aqui
+        // (recebemos `cards` como parâmetro), faz um fetch ad-hoc.
+        let user = try? modelContext.fetch(FetchDescriptor<User>()).first
+        let all = (try? modelContext.fetch(FetchDescriptor<VocabCard>())) ?? []
+        let now = Date()
+        let due = all.filter { $0.nextReviewDate <= now }
+            .sorted { $0.nextReviewDate < $1.nextReviewDate }
+
+        let snapshot = WidgetSnapshot(
+            streakDays: user?.streakDays ?? 0,
+            xp: user?.xp ?? 0,
+            dueCount: due.count,
+            nextDueCard: due.first.map(SharedCard.from),
+            wordOfDay: SharedCard.from(justReviewed)
+        )
+        WidgetDataPublisher.publish(snapshot: snapshot)
     }
 
     private func intervalLabel(for rating: Rating, card: VocabCard) -> String {

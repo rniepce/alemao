@@ -1,17 +1,22 @@
 import SwiftData
 import SwiftUI
 
-/// Aba Leitura: gerar textos sob demanda + lista de textos salvos.
+/// Aba Leitura: notícias DW + gerar textos sob demanda + lista de textos salvos.
 struct ReadingView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \GeneratedReadingEntity.createdAt, order: .reverse)
     private var readings: [GeneratedReadingEntity]
     @State private var showGenerator = false
     @State private var seedLoaded = false
+    @State private var dwNews: [DWNewsItem] = []
+    @State private var dwLoading: Bool = false
+    @State private var dwError: String? = nil
 
     var body: some View {
         NavigationStack {
             List {
+                dwNewsSection
+
                 Section {
                     Button {
                         showGenerator = true
@@ -56,14 +61,91 @@ struct ReadingView: View {
             .sheet(isPresented: $showGenerator) {
                 GenerateReadingSheet()
             }
-            .task { loadSeedsIfNeeded() }
+            .task {
+                loadSeedsIfNeeded()
+                await loadDWNewsIfNeeded()
+            }
+            .refreshable { await refreshDWNews() }
         }
     }
+
+    // MARK: - DW News Section
+
+    @ViewBuilder
+    private var dwNewsSection: some View {
+        Section {
+            if dwLoading {
+                HStack {
+                    ProgressView().controlSize(.small)
+                    Text("Buscando notícias…").font(.caption).foregroundStyle(.secondary)
+                }
+            } else if let dwError {
+                Label(dwError, systemImage: "wifi.exclamationmark")
+                    .font(.caption)
+                    .foregroundStyle(.orange)
+            } else if dwNews.isEmpty {
+                Text("Nenhuma notícia carregada — puxe para atualizar.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            } else {
+                ForEach(dwNews.prefix(5)) { item in
+                    NavigationLink {
+                        DWNewsDetailView(item: item)
+                    } label: {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(item.title).font(.subheadline.bold())
+                            Text(item.description)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                                .lineLimit(2)
+                            if let date = item.pubDate {
+                                Text(date, style: .relative)
+                                    .font(.caption2)
+                                    .foregroundStyle(.tertiary)
+                            }
+                        }
+                    }
+                }
+            }
+        } header: {
+            HStack {
+                Image(systemName: "newspaper")
+                Text("Nachrichten leicht (DW)")
+                Spacer()
+                if dwLoading {
+                    ProgressView().controlSize(.small)
+                }
+            }
+        } footer: {
+            Text("Notícias diárias em alemão simplificado (~B1) da Deutsche Welle.")
+                .font(.caption2)
+        }
+    }
+
+    // MARK: - Lifecycle
 
     private func loadSeedsIfNeeded() {
         guard !seedLoaded else { return }
         seedLoaded = true
         try? SeedReadingLoader.load(into: modelContext)
+    }
+
+    @MainActor
+    private func loadDWNewsIfNeeded() async {
+        guard dwNews.isEmpty, !dwLoading else { return }
+        await refreshDWNews()
+    }
+
+    @MainActor
+    private func refreshDWNews() async {
+        dwLoading = true
+        dwError = nil
+        do {
+            dwNews = try await DWNewsClient.shared.fetch()
+        } catch {
+            dwError = error.localizedDescription
+        }
+        dwLoading = false
     }
 }
 

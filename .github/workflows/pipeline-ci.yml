@@ -1,0 +1,72 @@
+name: Pipeline CI (Python)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/**"
+      - ".github/workflows/pipeline-ci.yml"
+  pull_request:
+    paths:
+      - "pipeline/**"
+      - ".github/workflows/pipeline-ci.yml"
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.11
+
+      - name: Install dependencies
+        run: uv sync --dev
+
+      - name: Ruff lint
+        run: uv run ruff check src/
+
+      - name: Ruff format check
+        run: uv run ruff format --check src/
+
+      - name: Pytest (se houver testes)
+        run: |
+          if [ -d tests ] && [ "$(find tests -name 'test_*.py' | wc -l)" -gt 0 ]; then
+            uv run pytest tests/
+          else
+            echo "Sem testes ainda — skip"
+          fi
+
+      - name: Validate seed_lessons.json schema
+        run: |
+          uv run python -c "
+          import json, sys
+          required = {'topic_id', 'title', 'level_cefr', 'summary', 'explanation_md', 'examples', 'exercises', 'citations'}
+          data = json.load(open('output/seed_lessons.json'))
+          for i, l in enumerate(data):
+              missing = required - set(l.keys())
+              assert not missing, f'lesson {i} missing keys: {missing}'
+              assert l['level_cefr'] in ['A1','A2','B1','B2','C1','C2'], f'lesson {i} invalid level'
+          print(f'✓ {len(data)} lessons valid')
+          "
+
+      - name: Validate seed_readings.json schema
+        run: |
+          uv run python -c "
+          import json
+          required = {'id', 'title', 'level_cefr', 'topic', 'body_de', 'glossary', 'comprehension_questions'}
+          data = json.load(open('output/seed_readings.json'))
+          for i, r in enumerate(data):
+              missing = required - set(r.keys())
+              assert not missing, f'reading {i} missing keys: {missing}'
+              assert r['level_cefr'] in ['A1','A2','B1','B2','C1','C2'], f'reading {i} invalid level'
+          print(f'✓ {len(data)} readings valid')
+          "

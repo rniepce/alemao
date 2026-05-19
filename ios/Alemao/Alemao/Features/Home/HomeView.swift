@@ -222,6 +222,34 @@ struct HomeView: View {
         seedLoaded = true
         // Upsert por launch: insere tópicos novos do bundle (no-op se já estiverem).
         try? SeedLessonLoader.load(into: modelContext)
+        // Atualiza snapshot do widget com estado atual
+        publishWidgetSnapshot()
+    }
+
+    private func publishWidgetSnapshot() {
+        let now = Date()
+        let due = allCards.filter { $0.nextReviewDate <= now }
+        let sortedDue = due.sorted(by: { $0.nextReviewDate < $1.nextReviewDate })
+
+        // "Palavra do dia" = primeiro card revisado hoje, ou primeiro card pendente
+        let cal = Calendar.current
+        let todayStart = cal.startOfDay(for: now)
+        let reviewedToday = allCards.filter {
+            $0.lastReviewedAt.map { $0 >= todayStart } ?? false
+        }.sorted(by: { ($0.lastReviewedAt ?? .distantPast) > ($1.lastReviewedAt ?? .distantPast) })
+
+        let wordOfDay = reviewedToday.first.map(SharedCard.from)
+            ?? sortedDue.first.map(SharedCard.from)
+            ?? allCards.first.map(SharedCard.from)
+
+        let snapshot = WidgetSnapshot(
+            streakDays: user?.streakDays ?? 0,
+            xp: user?.xp ?? 0,
+            dueCount: due.count,
+            nextDueCard: sortedDue.first.map(SharedCard.from),
+            wordOfDay: wordOfDay
+        )
+        WidgetDataPublisher.publish(snapshot: snapshot)
     }
 }
 
