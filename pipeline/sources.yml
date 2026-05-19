@@ -2,20 +2,17 @@
 # Edite conforme necessário.
 
 dw_learn:
-  enabled: false  # ativar quando dw_learn.py estiver implementado
+  enabled: false
   base_url: https://learngerman.dw.com
-  # Lista de slugs/IDs de cursos. Preencha conforme curado.
   courses: []
 
 wiktionary:
   enabled: false
-  # Top N palavras mais frequentes em alemão a serem pré-carregadas no dicionário
   top_n_words: 5000
-  word_list_url: ""  # URL para lista de frequência (ex: Leipzig Corpora)
+  word_list_url: ""
 
 tatoeba:
   enabled: false
-  # URLs dos dumps (a baixar manualmente ou via script)
   pairs:
     - lang_a: deu
       lang_b: por
@@ -23,65 +20,89 @@ tatoeba:
       lang_b: eng
 
 seed_lessons:
-  # Tópicos canônicos de gramática para geração de lições iniciais
+  # 60 tópicos canônicos cobrindo A1 até C1.
+  # Para regenerar apenas os novos, use --only <topic_id>.
   topics:
-    - id: akkusativ
-      title: "O caso Acusativo (Akkusativ)"
-      level: A2
-    - id: dativ
-      title: "O caso Dativo (Dativ)"
-      level: A2
-    - id: genitiv
-      title: "O caso Genitivo (Genitiv)"
-      level: B1
-    - id: nominativ
-      title: "O caso Nominativo (Nominativ)"
-      level: A1
-    - id: praeteritum
-      title: "Pretérito (Präteritum)"
-      level: B1
-    - id: perfekt
-      title: "Pretérito Perfeito (Perfekt)"
-      level: A2
-    - id: konjunktiv_ii
-      title: "Konjunktiv II (modo subjuntivo)"
-      level: B2
-    - id: konjunktiv_i
-      title: "Konjunktiv I (discurso indireto)"
-      level: C1
-    - id: passiv
-      title: "Voz passiva (Passiv)"
-      level: B1
-    - id: trennbare_verben
-      title: "Verbos separáveis (trennbare Verben)"
-      level: A2
-    - id: modalverben
-      title: "Verbos modais (Modalverben)"
-      level: A2
-    - id: relativsaetze
-      title: "Orações relativas (Relativsätze)"
-      level: B1
-    - id: nebensaetze
-      title: "Orações subordinadas (Nebensätze)"
-      level: B1
-    - id: artikel_deklination
-      title: "Declinação de artigos"
-      level: A2
-    - id: adjektiv_deklination
-      title: "Declinação de adjetivos"
-      level: B1
-    - id: pronomen
-      title: "Pronomes pessoais e possessivos"
-      level: A1
-    - id: praepositionen_akk
-      title: "Preposições com Acusativo"
-      level: A2
-    - id: praepositionen_dat
-      title: "Preposições com Dativo"
-      level: A2
-    - id: wechselpraepositionen
-      title: "Wechselpräpositionen (Acusativo/Dativo)"
-      level: B1
-    - id: futur
-      title: "Futuro (Futur I e II)"
-      level: B1
+    # ----- Já existentes (20 originais) -----
+    - { id: nominativ, title: "O caso Nominativo (Nominativ)", level: A1 }
+    - { id: akkusativ, title: "O caso Acusativo (Akkusativ)", level: A2 }
+    - { id: dativ, title: "O caso Dativo (Dativ)", level: A2 }
+    - { id: genitiv, title: "O caso Genitivo (Genitiv)", level: B1 }
+    - { id: praeteritum, title: "Pretérito (Präteritum)", level: B1 }
+    - { id: perfekt, title: "Pretérito Perfeito (Perfekt)", level: A2 }
+    - { id: konjunktiv_ii, title: "Konjunktiv II (modo subjuntivo)", level: B2 }
+    - { id: konjunktiv_i, title: "Konjunktiv I (discurso indireto)", level: C1 }
+    - { id: passiv, title: "Voz passiva (Passiv)", level: B1 }
+    - { id: trennbare_verben, title: "Verbos separáveis (trennbare Verben)", level: A2 }
+    - { id: modalverben, title: "Verbos modais (Modalverben)", level: A2 }
+    - { id: relativsaetze, title: "Orações relativas (Relativsätze)", level: B1 }
+    - { id: nebensaetze, title: "Orações subordinadas (Nebensätze)", level: B1 }
+    - { id: artikel_deklination, title: "Declinação de artigos", level: A2 }
+    - { id: adjektiv_deklination, title: "Declinação de adjetivos", level: B1 }
+    - { id: pronomen, title: "Pronomes pessoais e possessivos", level: A1 }
+    - { id: praepositionen_akk, title: "Preposições com Acusativo", level: A2 }
+    - { id: praepositionen_dat, title: "Preposições com Dativo", level: A2 }
+    - { id: wechselpraepositionen, title: "Wechselpräpositionen (Acusativo/Dativo)", level: B1 }
+    - { id: futur, title: "Futuro (Futur I e II)", level: B1 }
+
+    # ----- Casos: aprofundamento -----
+    - { id: akkusativ_vs_dativ, title: "Akkusativ vs Dativ: como escolher", level: A2 }
+    - { id: genitiv_vs_von_dativ, title: "Genitiv vs 'von + Dativ'", level: B1 }
+    - { id: praepositionen_gen, title: "Preposições com Genitivo (wegen, trotz, statt...)", level: B2 }
+    - { id: n_deklination, title: "N-Deklination (substantivos masculinos fracos)", level: B1 }
+
+    # ----- Verbos -----
+    - { id: praesens, title: "Presente (Präsens) — conjugações regulares e irregulares", level: A1 }
+    - { id: plusquamperfekt, title: "Pretérito mais-que-perfeito (Plusquamperfekt)", level: B1 }
+    - { id: imperativ, title: "Imperativo (Imperativ)", level: A1 }
+    - { id: reflexive_verben, title: "Verbos reflexivos (sich-Verben)", level: B1 }
+    - { id: verben_mit_praeposition, title: "Verbos com preposições fixas (denken an, warten auf...)", level: B1 }
+    - { id: untrennbare_verben, title: "Verbos inseparáveis (be-, ge-, ver-, ent-...)", level: B1 }
+    - { id: funktionsverbgefuege, title: "Funktionsverbgefüge (verbos funcionais)", level: C1 }
+    - { id: hilfsverben, title: "Verbos auxiliares: haben, sein, werden", level: A1 }
+    - { id: zustandspassiv, title: "Zustandspassiv vs Vorgangspassiv (passiva de estado vs processo)", level: B2 }
+    - { id: konjunktiv_ii_modalverben, title: "Konjunktiv II dos verbos modais (könnte, sollte, möchte)", level: B1 }
+    - { id: lassen, title: "O verbo 'lassen' e seus usos", level: B2 }
+
+    # ----- Sintaxe / Ordem de palavras -----
+    - { id: wortstellung_hauptsatz, title: "Ordem de palavras em orações principais", level: A2 }
+    - { id: wortstellung_nebensatz, title: "Ordem de palavras em orações subordinadas", level: B1 }
+    - { id: tekamolo, title: "TeKaMoLo (ordem de complementos)", level: B1 }
+    - { id: infinitivsaetze_zu, title: "Orações infinitivas com 'zu'", level: B1 }
+    - { id: indirekte_fragen, title: "Perguntas indiretas (ob, w-Fragen)", level: B1 }
+    - { id: zweiteilige_konjunktionen, title: "Conjunções correlativas (entweder...oder, sowohl...als auch)", level: B2 }
+    - { id: partizipialkonstruktionen, title: "Construções com particípio (Partizipialkonstruktionen)", level: C1 }
+    - { id: nominalisierung, title: "Nominalização (de verbos e adjetivos)", level: B2 }
+
+    # ----- Substantivos / Adjetivos -----
+    - { id: plural, title: "Plural dos substantivos (regras e exceções)", level: A2 }
+    - { id: komposita, title: "Palavras compostas (Komposita)", level: A2 }
+    - { id: genus_regeln, title: "Regras para deduzir o gênero (der/die/das)", level: A2 }
+    - { id: komparativ_superlativ, title: "Grau comparativo e superlativo dos adjetivos", level: A2 }
+    - { id: adjektive_als_substantive, title: "Adjetivos usados como substantivos (der Deutsche, das Gute)", level: B2 }
+
+    # ----- Pronomes / Determinantes -----
+    - { id: reflexivpronomen, title: "Pronomes reflexivos (mich, mir, dich, dir, sich...)", level: A2 }
+    - { id: indefinitpronomen, title: "Pronomes indefinidos (man, jemand, etwas, niemand)", level: B1 }
+    - { id: demonstrativpronomen, title: "Pronomes demonstrativos (dieser, jener, derselbe...)", level: B1 }
+    - { id: interrogativpronomen, title: "Pronomes interrogativos (wer, was, welcher, was für)", level: A2 }
+
+    # ----- Negação / Modal particles -----
+    - { id: kein_vs_nicht, title: "kein vs nicht: quando usar cada um", level: A1 }
+    - { id: position_nicht, title: "Posição de 'nicht' na frase", level: A2 }
+    - { id: modalpartikeln, title: "Partículas modais (doch, mal, eben, ja, halt, schon)", level: B2 }
+
+    # ----- Conectivos -----
+    - { id: kausale_konnektoren, title: "Conectivos causais (weil, denn, deshalb, deswegen, daher)", level: B1 }
+    - { id: konzessive_konnektoren, title: "Conectivos concessivos (obwohl, trotz, trotzdem)", level: B1 }
+    - { id: temporale_konnektoren, title: "Conectivos temporais (als vs wenn, bevor, nachdem, während)", level: B1 }
+    - { id: finale_konnektoren, title: "Conectivos finais (um...zu, damit)", level: B1 }
+    - { id: konditionale_konnektoren, title: "Conectivos condicionais (wenn, falls, sofern)", level: B1 }
+
+    # ----- Conversação / Pragmática -----
+    - { id: hoeflichkeit, title: "Formal vs informal: Sie/du e Höflichkeitsformen", level: A2 }
+    - { id: redemittel_meinung, title: "Expressões para opinar (Ich finde, meiner Meinung nach...)", level: B1 }
+    - { id: small_talk, title: "Small talk e situações cotidianas em alemão", level: A2 }
+
+    # ----- Erros comuns brasileiros -----
+    - { id: erros_brasileiros, title: "Erros mais comuns de brasileiros aprendendo alemão", level: B1 }

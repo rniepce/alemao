@@ -12,8 +12,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PIPELINE_OUTPUT="$ROOT/pipeline/output"
 PIPELINE_BOOKS="$ROOT/pipeline/books"
-IOS_PREBUILT="$ROOT/ios/Alemao/Resources/PrebuiltContent"
-IOS_BOOKS="$ROOT/ios/Alemao/Resources/Books"
+IOS_PREBUILT="$ROOT/ios/Alemao/Alemao/Resources/PrebuiltContent"
+IOS_BOOKS="$ROOT/ios/Alemao/Alemao/Resources/Books"
 
 WITH_PDFS=0
 for arg in "$@"; do

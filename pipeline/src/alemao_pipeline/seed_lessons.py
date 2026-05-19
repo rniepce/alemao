@@ -173,7 +173,14 @@ def generate_all(
     output_path: Path | None = None,
     only_topics: list[str] | None = None,
     delay_seconds: float = 1.0,
+    skip_existing: bool = True,
 ) -> list[Lesson]:
+    """Gera lições.
+
+    skip_existing=True (default): preserva lições já presentes em output_path.
+    Apenas tópicos sem lição (ou explicitamente em only_topics) são (re)gerados.
+    O JSON final é mergeado, mantendo lições antigas + adicionando/atualizando as novas.
+    """
     sources_yml = Path(sources_yml or config.SOURCES_YAML)
     output_path = Path(output_path or config.seed_lessons_path())
 
@@ -187,20 +194,47 @@ def generate_all(
         console.print("[yellow]Nenhum tópico configurado em sources.yml[/yellow]")
         return []
 
+    # Carrega lições existentes
+    existing: dict[str, dict] = {}
+    if output_path.exists():
+        try:
+            existing_list = json.loads(output_path.read_text(encoding="utf-8"))
+            existing = {l["topic_id"]: l for l in existing_list if isinstance(l, dict) and "topic_id" in l}
+        except Exception as e:
+            console.print(f"[yellow]Não consegui ler {output_path.name}: {e}; recriando[/yellow]")
+            existing = {}
+
+    # Filtra: se skip_existing e não há only_topics, pula tópicos já gerados
+    if skip_existing and not only_topics:
+        before = len(topics)
+        topics = [t for t in topics if t["id"] not in existing]
+        skipped = before - len(topics)
+        if skipped > 0:
+            console.print(f"[dim]Pulando {skipped} tópicos já gerados (--no-skip para regerar)[/dim]")
+
     console.print(f"[bold]Gerando {len(topics)} lições[/bold]\n")
 
-    lessons: list[Lesson] = []
+    # Salva incrementalmente após cada lição gerada — não perde trabalho se for interrompido.
+    merged: dict[str, dict] = dict(existing)
+
+    def _persist() -> None:
+        payload = [merged[k] for k in sorted(merged.keys())]
+        output_path.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
+    new_lessons: list[Lesson] = []
     for t in topics:
         lesson = generate_lesson(t["id"], t["title"], t.get("level", "B1"))
         if lesson:
-            lessons.append(lesson)
-        time.sleep(delay_seconds)  # rate limiting suave
+            new_lessons.append(lesson)
+            merged[lesson.topic_id] = json.loads(lesson.model_dump_json())
+            _persist()
+        time.sleep(delay_seconds)
 
-    # Persistir
-    payload = [json.loads(lesson.model_dump_json()) for lesson in lessons]
-    output_path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
-        encoding="utf-8",
+    console.print(
+        f"\n[bold green]✓[/bold green] {len(new_lessons)} novas geradas, "
+        f"{len(merged)} no total em {output_path}"
     )
-    console.print(f"\n[bold green]✓[/bold green] {len(lessons)} lições salvas em {output_path}")
-    return lessons
+    return new_lessons
