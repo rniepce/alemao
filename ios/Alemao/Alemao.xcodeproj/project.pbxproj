@@ -15,7 +15,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CA674F042FBB7552006E0B9F = {
+		CA674F042FBB7552006E0B9F /* Exceptions for "Alemao" folder in "Alemao" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -25,7 +25,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CA674EF92FBB7551006E0B9F /* Alemao */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CA674F042FBB7552006E0B9F, ); path = Alemao; sourceTree = "<group>"; };
+		CA674EF92FBB7551006E0B9F /* Alemao */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA674F042FBB7552006E0B9F /* Exceptions for "Alemao" folder in "Alemao" target */,
+			);
+			path = Alemao;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +114,7 @@
 			mainGroup = CA674EEE2FBB7551006E0B9F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B0E2485A9D747E873150592C /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				B0E2485A9D747E873150592C /* XCRemoteSwiftPackageReference "GRDB" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CA674EF82FBB7551006E0B9F /* Products */;
@@ -361,7 +368,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B0E2485A9D747E873150592C /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+		B0E2485A9D747E873150592C /* XCRemoteSwiftPackageReference "GRDB" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/groue/GRDB.swift";
 			requirement = {
@@ -374,7 +381,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		273F46C7B051CA0CE254286C /* GRDB */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0E2485A9D747E873150592C /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			package = B0E2485A9D747E873150592C /* XCRemoteSwiftPackageReference "GRDB" */;
 			productName = GRDB;
 		};
 /* End XCSwiftPackageProductDependency section */

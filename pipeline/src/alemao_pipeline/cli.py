@@ -11,6 +11,8 @@ from rich.table import Table
 from . import config, db, embeddings, ingest, retriever
 from . import seed_lessons as seed_lessons_mod
 from . import seed_readings as seed_readings_mod
+from . import seed_verbs as seed_verbs_mod
+from . import seed_vocab as seed_vocab_mod
 
 app = typer.Typer(no_args_is_help=True, add_completion=False)
 console = Console()
@@ -217,6 +219,26 @@ def seed_readings_cmd(
 ) -> None:
     """Gera readings (textos de leitura) seed por nível CEFR."""
     seed_readings_mod.generate_all(only_ids=only or None, delay_seconds=delay)
+
+
+@app.command(name="seed-verbs")
+def seed_verbs_cmd(
+    only: list[str] = typer.Option(None, "--only", help="Apenas estes verb IDs"),
+    delay: float = typer.Option(0.4, "--delay", help="Segundos entre gerações"),
+) -> None:
+    """Gera tabelas de conjugação para 60 verbos comuns alemães."""
+    seed_verbs_mod.generate_all(only_ids=only or None, delay_seconds=delay)
+
+
+@app.command(name="seed-vocab")
+def seed_vocab_cmd(
+    only: list[str] = typer.Option(
+        None, "--only", help="Apenas estes themes (familie, essen, reisen, arbeit, koerper, zahlen_farben)"
+    ),
+    delay: float = typer.Option(1.0, "--delay", help="Segundos entre temas"),
+) -> None:
+    """Gera 6 decks temáticos de vocabulário comum (~240 palavras)."""
+    seed_vocab_mod.generate_all(only_themes=only or None, delay_seconds=delay)
 
 
 if __name__ == "__main__":

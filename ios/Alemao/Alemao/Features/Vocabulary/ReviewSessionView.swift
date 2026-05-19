@@ -70,17 +70,26 @@ struct ReviewSessionView: View {
             .padding(.horizontal)
 
             if showAnswer {
-                VStack(spacing: 8) {
-                    Text(card.translation)
-                        .font(.title3)
-                    if let ex = card.exampleDE {
-                        Text(ex).font(.callout).foregroundStyle(.secondary)
-                        if let ept = card.examplePT {
-                            Text(ept).font(.caption).foregroundStyle(.tertiary)
+                if card.isVerb,
+                   let conj = VerbConjugation.decode(from: card.conjugationJSON) {
+                    ScrollView {
+                        ConjugationTableView(conjugation: conj)
+                            .padding()
+                    }
+                    .frame(maxHeight: 380)
+                } else {
+                    VStack(spacing: 8) {
+                        Text(card.translation)
+                            .font(.title3)
+                        if let ex = card.exampleDE {
+                            Text(ex).font(.callout).foregroundStyle(.secondary)
+                            if let ept = card.examplePT {
+                                Text(ept).font(.caption).foregroundStyle(.tertiary)
+                            }
                         }
                     }
+                    .padding()
                 }
-                .padding()
             }
 
             Spacer()

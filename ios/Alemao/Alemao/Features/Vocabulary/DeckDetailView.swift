@@ -28,18 +28,27 @@ struct DeckDetailView: View {
                     Text("Vazio").foregroundStyle(.secondary)
                 } else {
                     ForEach(deck.cards.sorted(by: { $0.headword < $1.headword }), id: \.id) { card in
-                        VStack(alignment: .leading, spacing: 2) {
-                            HStack {
-                                if let g = card.gender {
-                                    Text(g).foregroundStyle(genderColor(g)).bold()
+                        NavigationLink {
+                            CardDetailView(card: card)
+                        } label: {
+                            VStack(alignment: .leading, spacing: 2) {
+                                HStack {
+                                    if let g = card.gender {
+                                        Text(g).foregroundStyle(genderColor(g)).bold()
+                                    }
+                                    Text(card.headword).bold()
+                                    if card.isVerb {
+                                        Image(systemName: "tablecells")
+                                            .font(.caption2)
+                                            .foregroundStyle(.purple)
+                                    }
+                                    Spacer()
+                                    Text(formatInterval(card.interval))
+                                        .font(.caption2.monospacedDigit())
+                                        .foregroundStyle(.tertiary)
                                 }
-                                Text(card.headword).bold()
-                                Spacer()
-                                Text(formatInterval(card.interval))
-                                    .font(.caption2.monospacedDigit())
-                                    .foregroundStyle(.tertiary)
+                                Text(card.translation).font(.caption).foregroundStyle(.secondary)
                             }
-                            Text(card.translation).font(.caption).foregroundStyle(.secondary)
                         }
                     }
                     .onDelete { offsets in

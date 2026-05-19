@@ -8,6 +8,7 @@ struct VocabularyView: View {
     @Query(sort: \Deck.createdAt, order: .reverse) private var decks: [Deck]
     @Query private var allCards: [VocabCard]
     @State private var showNewDeckSheet = false
+    @State private var seedLoaded = false
 
     /// Cards sem deck (criados via tap-to-translate, etc).
     private var orphanCards: [VocabCard] {
@@ -86,7 +87,15 @@ struct VocabularyView: View {
             .sheet(isPresented: $showNewDeckSheet) {
                 NewDeckSheet()
             }
+            .task { loadSeedsIfNeeded() }
         }
+    }
+
+    private func loadSeedsIfNeeded() {
+        guard !seedLoaded else { return }
+        seedLoaded = true
+        try? SeedVocabLoader.load(into: modelContext)
+        try? SeedVerbLoader.load(into: modelContext)
     }
 }
 

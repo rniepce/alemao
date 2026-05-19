@@ -34,7 +34,9 @@ fi
 mkdir -p "$IOS_PREBUILT"
 
 echo "→ Copiando artefatos do pipeline para $IOS_PREBUILT"
-for f in library.sqlite dictionary.sqlite books_meta.json seed_lessons.json seed_readings.json; do
+for f in library.sqlite dictionary.sqlite books_meta.json \
+         seed_lessons.json seed_readings.json \
+         seed_vocab.json seed_verbs.json; do
   src="$PIPELINE_OUTPUT/$f"
   if [[ -f "$src" ]]; then
     cp -v "$src" "$IOS_PREBUILT/"
