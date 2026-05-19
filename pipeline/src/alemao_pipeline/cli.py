@@ -10,6 +10,7 @@ from rich.table import Table
 
 from . import config, db, embeddings, ingest, retriever
 from . import seed_lessons as seed_lessons_mod
+from . import seed_readings as seed_readings_mod
 
 app = typer.Typer(no_args_is_help=True, add_completion=False)
 console = Console()
@@ -205,6 +206,17 @@ def seed_lessons_cmd(
 ) -> None:
     """Gera lições iniciais por tópico canônico (sources.yml) via RAG + Gemini."""
     seed_lessons_mod.generate_all(only_topics=only or None, delay_seconds=delay)
+
+
+@app.command(name="seed-readings")
+def seed_readings_cmd(
+    only: list[str] = typer.Option(
+        None, "--only", help="Apenas estes reading IDs (pode repetir)"
+    ),
+    delay: float = typer.Option(0.5, "--delay", help="Segundos entre gerações"),
+) -> None:
+    """Gera readings (textos de leitura) seed por nível CEFR."""
+    seed_readings_mod.generate_all(only_ids=only or None, delay_seconds=delay)
 
 
 if __name__ == "__main__":

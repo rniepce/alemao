@@ -43,12 +43,15 @@ enum SeedLessonLoader {
         }
     }
 
-    /// Carrega só se ainda não existirem lições com `source = "seed"`.
+    /// Carrega ou faz upsert: insere as lições do bundle que ainda não existem
+    /// no SwiftData (por `topicId`). Lições existentes são preservadas com seu
+    /// estado (caso o usuário tenha alterado / favoritado depois).
+    /// Roda em todo app launch — barato (índice por topicId).
     static func load(into context: ModelContext) throws {
-        let already = (try? context.fetch(
+        let existingSeeds = (try? context.fetch(
             FetchDescriptor<GeneratedLesson>(predicate: #Predicate { $0.source == "seed" })
         )) ?? []
-        guard already.isEmpty else { return }
+        let existingByTopic = Dictionary(uniqueKeysWithValues: existingSeeds.map { ($0.topicId, $0) })
 
         let url = Bundle.main.url(
             forResource: "seed_lessons", withExtension: "json",
@@ -65,8 +68,12 @@ enum SeedLessonLoader {
             throw LoadError.decode(String(describing: error))
         }
 
+        var insertedCount = 0
         let encoder = JSONEncoder()
         for s in seeds {
+            if existingByTopic[s.topic_id] != nil {
+                continue  // já existe; preserva estado do usuário
+            }
             let lesson = GeneratedLesson(
                 topicId: s.topic_id,
                 title: s.title,
@@ -80,8 +87,12 @@ enum SeedLessonLoader {
                 source: "seed"
             )
             context.insert(lesson)
+            insertedCount += 1
         }
-        try context.save()
+        if insertedCount > 0 {
+            try context.save()
+            print("[SeedLessonLoader] +\(insertedCount) seed lessons inseridas (total: \(existingSeeds.count + insertedCount))")
+        }
     }
 }
 

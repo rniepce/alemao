@@ -3,9 +3,11 @@ import SwiftUI
 
 /// Aba Leitura: gerar textos sob demanda + lista de textos salvos.
 struct ReadingView: View {
+    @Environment(\.modelContext) private var modelContext
     @Query(sort: \GeneratedReadingEntity.createdAt, order: .reverse)
     private var readings: [GeneratedReadingEntity]
     @State private var showGenerator = false
+    @State private var seedLoaded = false
 
     var body: some View {
         NavigationStack {
@@ -54,7 +56,14 @@ struct ReadingView: View {
             .sheet(isPresented: $showGenerator) {
                 GenerateReadingSheet()
             }
+            .task { loadSeedsIfNeeded() }
         }
+    }
+
+    private func loadSeedsIfNeeded() {
+        guard !seedLoaded else { return }
+        seedLoaded = true
+        try? SeedReadingLoader.load(into: modelContext)
     }
 }
 

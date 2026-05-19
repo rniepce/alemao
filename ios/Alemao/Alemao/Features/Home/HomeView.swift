@@ -220,9 +220,8 @@ struct HomeView: View {
     private func ensureSeedLessons() async {
         guard !seedLoaded else { return }
         seedLoaded = true
-        if lessons.isEmpty {
-            try? SeedLessonLoader.load(into: modelContext)
-        }
+        // Upsert por launch: insere tópicos novos do bundle (no-op se já estiverem).
+        try? SeedLessonLoader.load(into: modelContext)
     }
 }
 

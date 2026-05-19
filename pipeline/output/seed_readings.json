@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "a1_familia",
+    "title": "Meine Familie",
+    "level_cefr": "A1",
+    "topic": "Minha família: pais, irmãos, idade, profissão",
+    "body_de": "Hallo! Ich heiße Anna. Ich bin 20 Jahre alt. Ich habe eine kleine Familie. Ich wohne mit meiner Familie in Berlin. Es ist schön hier.\nMeine Mutter heißt Maria. Sie ist 50 Jahre alt. Sie ist Lehrerin von Beruf. Mein Vater heißt Peter. Er ist 52 Jahre alt. Er arbeitet als Ingenieur.\nIch habe einen Bruder. Er heißt Max. Max ist 16 Jahre alt. Er ist Schüler. Ich habe keine Schwester. Wir sind eine glückliche Familie.",
+    "glossary": [
+      {
+        "de": "heiße",
+        "pt": "chamo-me"
+      },
+      {
+        "de": "Jahre alt",
+        "pt": "anos de idade"
+      },
+      {
+        "de": "Mutter",
+        "pt": "mãe"
+      },
+      {
+        "de": "Vater",
+        "pt": "pai"
+      },
+      {
+        "de": "Lehrerin",
+        "pt": "professora"
+      },
+      {
+        "de": "Beruf",
+        "pt": "profissão"
+      },
+      {
+        "de": "Ingenieur",
+        "pt": "engenheiro"
+      },
+      {
+        "de": "Bruder",
+        "pt": "irmão"
+      },
+      {
+        "de": "Schüler",
+        "pt": "estudante (masculino)"
+      },
+      {
+        "de": "wohnen",
+        "pt": "morar"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wie heißt das Mädchen?",
+        "answer": "Sie heißt Anna."
+      },
+      {
+        "question": "Wie alt ist Annas Mutter?",
+        "answer": "Annas Mutter ist 50 Jahre alt."
+      },
+      {
+        "question": "Was ist Annas Vater von Beruf?",
+        "answer": "Er ist Ingenieur."
+      },
+      {
+        "question": "Hat Anna eine Schwester?",
+        "answer": "Nein, Anna hat keine Schwester."
+      },
+      {
+        "question": "Wo wohnt die Familie?",
+        "answer": "Die Familie wohnt in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "a1_hobbies",
+    "title": "Annas Hobbys",
+    "level_cefr": "A1",
+    "topic": "Hobbies: o que gosto de fazer no tempo livre",
+    "body_de": "Ich heiße Anna. Ich habe viele Hobbys. In meiner Freizeit lese ich gern Bücher. Das ist entspannend und macht mir Spaß.Am Wochenende mache ich gern Sport. Ich spiele oft Tennis mit Freunden. Sport ist gut für die Gesundheit. Manchmal höre ich auch Musik. Ich mag Popmusik sehr.Ich gehe auch gern spazieren, besonders im Park. Das ist schön. Abends koche ich gern für meine Familie. Kochen ist auch ein Hobby für mich.",
+    "glossary": [
+      {
+        "de": "Hobbys",
+        "pt": "hobbies"
+      },
+      {
+        "de": "Freizeit",
+        "pt": "tempo livre"
+      },
+      {
+        "de": "lesen",
+        "pt": "ler"
+      },
+      {
+        "de": "entspannend",
+        "pt": "relaxante"
+      },
+      {
+        "de": "Sport machen",
+        "pt": "praticar esporte"
+      },
+      {
+        "de": "Freunde",
+        "pt": "amigos"
+      },
+      {
+        "de": "Gesundheit",
+        "pt": "saúde"
+      },
+      {
+        "de": "kochen",
+        "pt": "cozinhar"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wie heißt die Person im Text?",
+        "answer": "Die Person heißt Anna."
+      },
+      {
+        "question": "Was macht Anna in ihrer Freizeit?",
+        "answer": "Anna liest gern Bücher."
+      },
+      {
+        "question": "Was ist gut für die Gesundheit?",
+        "answer": "Sport ist gut für die Gesundheit."
+      },
+      {
+        "question": "Welche Musik mag Anna?",
+        "answer": "Anna mag Popmusik."
+      },
+      {
+        "question": "Was macht Anna abends?",
+        "answer": "Abends kocht Anna gern."
+      }
+    ]
+  },
+  {
+    "id": "a1_meu_dia",
+    "title": "Meine Morgenroutine",
+    "level_cefr": "A1",
+    "topic": "Meu dia: rotina matinal simples (acordar, café, escola/trabalho)",
+    "body_de": "Mein Tag beginnt früh. Ich stehe um sieben Uhr auf. Dann gehe ich ins Bad und wasche mein Gesicht. Das ist mein erster Schritt am Morgen. Danach mache ich Kaffee. Ich trinke den Kaffee und esse ein Brot zum Frühstück. Das ist wichtig für mich, um Energie für den Tag zu haben. Um halb acht packe ich meine Tasche. Dann gehe ich zur Arbeit. Die Arbeit beginnt um acht Uhr. Ich mag meine Morgenroutine, sie ist einfach und hilft mir, gut in den Tag zu starten.",
+    "glossary": [
+      {
+        "de": "aufstehen",
+        "pt": "levantar-se"
+      },
+      {
+        "de": "früh",
+        "pt": "cedo"
+      },
+      {
+        "de": "das Bad",
+        "pt": "o banheiro"
+      },
+      {
+        "de": "waschen",
+        "pt": "lavar"
+      },
+      {
+        "de": "der Kaffee",
+        "pt": "o café"
+      },
+      {
+        "de": "das Brot",
+        "pt": "o pão"
+      },
+      {
+        "de": "die Tasche",
+        "pt": "a bolsa/sacola"
+      },
+      {
+        "de": "die Arbeit",
+        "pt": "o trabalho"
+      },
+      {
+        "de": "beginnen",
+        "pt": "começar"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wann steht die Person auf?",
+        "answer": "Die Person steht um sieben Uhr auf."
+      },
+      {
+        "question": "Was macht die Person nach dem Aufstehen?",
+        "answer": "Sie geht ins Bad und wäscht ihr Gesicht."
+      },
+      {
+        "question": "Was trinkt und isst die Person zum Frühstück?",
+        "answer": "Die Person trinkt Kaffee und isst ein Brot."
+      },
+      {
+        "question": "Wohin geht die Person um halb acht?",
+        "answer": "Die Person packt ihre Tasche und geht zur Arbeit."
+      },
+      {
+        "question": "Wann beginnt die Arbeit?",
+        "answer": "Die Arbeit beginnt um acht Uhr."
+      }
+    ]
+  },
+  {
+    "id": "a1_meu_quarto",
+    "title": "Mein gemütliches Zimmer",
+    "level_cefr": "A1",
+    "topic": "Meu quarto: móveis e objetos",
+    "body_de": "Das ist mein Zimmer. Es ist nicht sehr groß, aber gemütlich. Ich mag mein Zimmer sehr. Hier verbringe ich viel Zeit.\n\nIm Zimmer steht ein Bett. Es ist bequem und ich schlafe gut darin. Neben dem Bett ist ein kleiner Nachttisch. Auf dem Nachttisch steht eine Lampe und liegt mein Handy.\n\nGegenüber vom Bett steht ein großer Kleiderschrank. Dort sind meine Kleider. Es gibt auch einen Schreibtisch und einen Stuhl. Auf dem Schreibtisch sind meine Bücher und mein Computer.\n\nIch habe auch ein Fenster in meinem Zimmer. Es ist schön hell am Tag. Mein Zimmer ist ein wichtiger Ort für mich.",
+    "glossary": [
+      {
+        "de": "gemütlich",
+        "pt": "aconchegante"
+      },
+      {
+        "de": "das Bett",
+        "pt": "a cama"
+      },
+      {
+        "de": "der Nachttisch",
+        "pt": "a mesa de cabeceira"
+      },
+      {
+        "de": "die Lampe",
+        "pt": "o candeeiro/a lâmpada"
+      },
+      {
+        "de": "das Handy",
+        "pt": "o telemóvel/celular"
+      },
+      {
+        "de": "der Kleiderschrank",
+        "pt": "o guarda-roupa"
+      },
+      {
+        "de": "der Schreibtisch",
+        "pt": "a secretária"
+      },
+      {
+        "de": "der Stuhl",
+        "pt": "a cadeira"
+      },
+      {
+        "de": "die Bücher",
+        "pt": "os livros"
+      },
+      {
+        "de": "das Fenster",
+        "pt": "a janela"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wie ist das Zimmer?",
+        "answer": "Das Zimmer ist gemütlich."
+      },
+      {
+        "question": "Was steht neben dem Bett?",
+        "answer": "Neben dem Bett steht ein Nachttisch."
+      },
+      {
+        "question": "Was liegt auf dem Nachttisch?",
+        "answer": "Auf dem Nachttisch liegt das Handy."
+      },
+      {
+        "question": "Wo sind die Kleider?",
+        "answer": "Die Kleider sind im Kleiderschrank."
+      },
+      {
+        "question": "Was ist auf dem Schreibtisch?",
+        "answer": "Auf dem Schreibtisch sind Bücher und ein Computer."
+      }
+    ]
+  },
+  {
+    "id": "a1_no_cafe",
+    "title": "Im Café",
+    "level_cefr": "A1",
+    "topic": "No café: pedindo bebida e comida",
+    "body_de": "Anna geht ins Café. Es ist ein schöner Tag. Sie sagt: \"Guten Tag!\" Der Kellner fragt: \"Was möchten Sie?\" Anna sagt: \"Ich hätte gerne einen Kaffee, bitte.\"\n\nDer Kellner fragt: \"Möchten Sie auch etwas essen?\" Anna antwortet: \"Ja, ich nehme ein Stück Apfelkuchen.\"\n\nDer Kellner bringt den Kaffee und den Kuchen. Anna isst und trinkt. Dann sagt sie: \"Ich möchte bezahlen.\" Der Kellner sagt: \"Das macht 6 Euro.\" Anna bezahlt und sagt: \"Vielen Dank! Auf Wiedersehen!\" Sie geht glücklich nach Hause.",
+    "glossary": [
+      {
+        "de": "ins Café gehen",
+        "pt": "ir ao café"
+      },
+      {
+        "de": "Guten Tag",
+        "pt": "Bom dia/Boa tarde"
+      },
+      {
+        "de": "Was möchten Sie?",
+        "pt": "O que o(a) senhor(a) gostaria?"
+      },
+      {
+        "de": "Ich hätte gerne",
+        "pt": "Eu gostaria de"
+      },
+      {
+        "de": "der Kaffee",
+        "pt": "o café"
+      },
+      {
+        "de": "etwas essen",
+        "pt": "comer algo"
+      },
+      {
+        "de": "ein Stück Apfelkuchen",
+        "pt": "um pedaço de bolo de maçã"
+      },
+      {
+        "de": "bezahlen",
+        "pt": "pagar"
+      },
+      {
+        "de": "Auf Wiedersehen",
+        "pt": "Até logo/Adeus"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wohin geht Anna?",
+        "answer": "Anna geht ins Café."
+      },
+      {
+        "question": "Was möchte Anna trinken?",
+        "answer": "Anna möchte einen Kaffee trinken."
+      },
+      {
+        "question": "Was isst Anna?",
+        "answer": "Anna isst ein Stück Apfelkuchen."
+      },
+      {
+        "question": "Was sagt Anna, wenn sie geht?",
+        "answer": "Anna sagt: \"Vielen Dank! Auf Wiedersehen!\""
+      }
+    ]
+  },
+  {
+    "id": "a2_aniversario",
+    "title": "Annas Geburtstagsparty für Lisa",
+    "level_cefr": "A2",
+    "topic": "Aniversário do amigo: convite e festa",
+    "body_de": "Hallo! Meine Freundin Lisa hat bald Geburtstag. Sie wird 25 Jahre alt! Lisa hat mir eine Einladung geschickt. Die Party ist am Samstag, dem 15. Mai. Sie beginnt um 18 Uhr. Ich freue mich schon sehr darauf!\n\nDie Party findet bei Lisa zu Hause statt. Lisa wohnt in der Schillerstraße 12. Es gibt Musik und gutes Essen. Wir werden zusammen lachen und tanzen. Viele Freunde kommen auch, das wird bestimmt lustig.\n\nIch muss noch ein Geschenk für Lisa kaufen. Vielleicht ein gutes Buch oder eine schöne Pflanze. Ich werde auch einen Salat mitbringen. Lisa hat gesagt, dass jeder etwas mitbringen kann. Das wird sicher eine tolle Party!",
+    "glossary": [
+      {
+        "de": "Geburtstag",
+        "pt": "aniversário"
+      },
+      {
+        "de": "Einladung",
+        "pt": "convite"
+      },
+      {
+        "de": "beginnt",
+        "pt": "começa"
+      },
+      {
+        "de": "findet statt",
+        "pt": "acontece"
+      },
+      {
+        "de": "zu Hause",
+        "pt": "em casa"
+      },
+      {
+        "de": "Geschenk",
+        "pt": "presente"
+      },
+      {
+        "de": "mitbringen",
+        "pt": "trazer junto"
+      },
+      {
+        "de": "toll",
+        "pt": "ótimo/a"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wann ist Lisas Geburtstagsparty?",
+        "answer": "Lisas Geburtstagsparty ist am Samstag, dem 15. Mai."
+      },
+      {
+        "question": "Wo findet die Party statt?",
+        "answer": "Die Party findet bei Lisa zu Hause statt."
+      },
+      {
+        "question": "Was möchte die Erzählerin für Lisa kaufen?",
+        "answer": "Sie möchte ein gutes Buch oder eine schöne Pflanze kaufen."
+      },
+      {
+        "question": "Was bringt die Erzählerin zur Party mit?",
+        "answer": "Die Erzählerin bringt einen Salat mit."
+      },
+      {
+        "question": "Was gibt es auf der Party?",
+        "answer": "Es gibt Musik und gutes Essen auf der Party."
+      }
+    ]
+  },
+  {
+    "id": "a2_apartamento",
+    "title": "Wohnungssuche: Besichtigung anfragen",
+    "level_cefr": "A2",
+    "topic": "Procurando apartamento: pedido para visita",
+    "body_de": "Peter sucht eine neue Wohnung. Er hat eine interessante Anzeige im Internet gefunden. Die Wohnung ist in einer guten Lage und hat drei Zimmer. Sie sieht auf den Fotos sehr hell und modern aus. Peter denkt, diese Wohnung könnte perfekt für ihn sein. Er möchte die Wohnung gerne persönlich sehen.\n\nDafür muss er einen Besichtigungstermin vereinbaren. Oft steht in der Anzeige, wie man Kontakt aufnehmen kann, zum Beispiel per E-Mail oder Telefon. Peter entscheidet sich, eine E-Mail zu schreiben, weil er so alle wichtigen Informationen senden kann.\n\nIn seiner E-Mail stellt er sich kurz vor. Er schreibt seinen Namen und seine Telefonnummer. Dann fragt er freundlich nach einem möglichen Termin für eine Besichtigung. Er kann auch schreiben, an welchen Tagen er Zeit hat. Es ist immer gut, höflich zu sein und auf eine Antwort zu warten.",
+    "glossary": [
+      {
+        "de": "die Wohnungssuche",
+        "pt": "a procura por apartamento"
+      },
+      {
+        "de": "die Anzeige",
+        "pt": "o anúncio"
+      },
+      {
+        "de": "die Lage",
+        "pt": "a localização"
+      },
+      {
+        "de": "besichtigen",
+        "pt": "visitar (um imóvel)"
+      },
+      {
+        "de": "der Besichtigungstermin",
+        "pt": "o horário/data da visita"
+      },
+      {
+        "de": "vereinbaren",
+        "pt": "combinar, agendar"
+      },
+      {
+        "de": "Kontakt aufnehmen",
+        "pt": "entrar em contato"
+      },
+      {
+        "de": "sich vorstellen",
+        "pt": "apresentar-se"
+      },
+      {
+        "de": "höflich",
+        "pt": "educado, cortês"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Was sucht Peter?",
+        "answer": "Peter sucht eine neue Wohnung."
+      },
+      {
+        "question": "Wo hat Peter die Wohnungsanzeige gefunden?",
+        "answer": "Er hat die Anzeige im Internet gefunden."
+      },
+      {
+        "question": "Was möchte Peter mit der Wohnung machen?",
+        "answer": "Er möchte die Wohnung besichtigen."
+      },
+      {
+        "question": "Wie nimmt Peter Kontakt auf?",
+        "answer": "Peter schreibt eine E-Mail."
+      },
+      {
+        "question": "Welche Informationen sollte Peter in seiner E-Mail geben?",
+        "answer": "Er sollte seinen Namen und seine Telefonnummer geben."
+      }
+    ]
+  },
+  {
+    "id": "a2_clima",
+    "title": "Das Wetter in Deutschland",
+    "level_cefr": "A2",
+    "topic": "Clima e estações: previsão do tempo na Alemanha",
+    "body_de": "Deutschland hat vier Jahreszeiten: Frühling, Sommer, Herbst und Winter. Das Wetter kann sich oft ändern. Manchmal scheint die Sonne, manchmal regnet es. Es ist gut, die Wettervorhersage zu kennen.\n\nIm Frühling ist es oft mild. Die Blumen blühen und die Tage werden länger. Im Sommer ist es warm, manchmal auch heiß. Viele Leute gehen schwimmen oder verbringen Zeit draußen. Sie genießen die Sonne.\n\nDer Herbst bringt kühlere Temperaturen und oft viel Wind. Die Blätter an den Bäumen werden bunt und fallen ab. Im Winter ist es kalt. Oft schneit es und die Tage sind kurz. Manchmal gibt es Eis und Schnee, besonders in den Bergen.\n\nFür viele Menschen ist die Wettervorhersage sehr wichtig. Sie schauen im Fernsehen, hören im Radio oder nutzen eine App auf dem Handy, um zu wissen, wie das Wetter wird. So können sie planen, welche Kleidung sie anziehen sollen oder ob sie einen Regenschirm brauchen.",
+    "glossary": [
+      {
+        "de": "Jahreszeiten",
+        "pt": "estações do ano"
+      },
+      {
+        "de": "sich ändern",
+        "pt": "mudar"
+      },
+      {
+        "de": "scheint die Sonne",
+        "pt": "o sol brilha"
+      },
+      {
+        "de": "mild",
+        "pt": "ameno"
+      },
+      {
+        "de": "blühen",
+        "pt": "florescer"
+      },
+      {
+        "de": "verbringen Zeit draußen",
+        "pt": "passar tempo ao ar livre"
+      },
+      {
+        "de": "kühler",
+        "pt": "mais frio"
+      },
+      {
+        "de": "fallen ab",
+        "pt": "caem"
+      },
+      {
+        "de": "Wettervorhersage",
+        "pt": "previsão do tempo"
+      },
+      {
+        "de": "Regenschirm",
+        "pt": "guarda-chuva"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wie viele Jahreszeiten gibt es in Deutschland?",
+        "answer": "Es gibt vier Jahreszeiten in Deutschland."
+      },
+      {
+        "question": "Wie ist das Wetter oft im Sommer?",
+        "answer": "Im Sommer ist es oft warm oder heiß."
+      },
+      {
+        "question": "Was passiert mit den Blättern im Herbst?",
+        "answer": "Die Blätter werden bunt und fallen ab."
+      },
+      {
+        "question": "Warum ist die Wettervorhersage wichtig für die Menschen?",
+        "answer": "Die Wettervorhersage ist wichtig, um zu planen, was man anzieht oder ob man einen Regenschirm braucht."
+      },
+      {
+        "question": "Wo können die Leute die Wettervorhersage sehen oder hören?",
+        "answer": "Sie können die Wettervorhersage im Fernsehen, im Radio oder mit einer Handy-App sehen oder hören."
+      }
+    ]
+  },
+  {
+    "id": "a2_supermercado",
+    "title": "Lisas Einkauf im Supermarkt",
+    "level_cefr": "A2",
+    "topic": "No supermercado: lista de compras e conversa com atendente",
+    "body_de": "Lisa geht heute in den Supermarkt. Sie hat eine Einkaufsliste. Auf der Liste stehen viele Sachen: Milch, Brot, Käse, Äpfel und Wasser. Sie braucht auch etwas Gemüse für das Abendessen. Es ist wichtig, dass sie nichts vergisst. Lisa nimmt einen Einkaufswagen und geht in den Laden.\n\nZuerst geht Lisa zur Obst- und Gemüseabteilung. Sie legt Äpfel und Tomaten in ihren Wagen. Dann sucht sie die Milch. Sie findet sie schnell im Kühlregal. Danach sucht sie das Brot, aber sie kann es nicht finden. Lisa schaut sich um, aber das Brot ist nicht da, wo sie es erwartet.\n\nLisa sieht eine Mitarbeiterin. Sie fragt höflich: \"Entschuldigen Sie, wo finde ich das Brot?\" Die Mitarbeiterin ist sehr nett und sagt: \"Das Brot ist dort drüben, neben der Wursttheke.\" Lisa bedankt sich bei der Mitarbeiterin und geht zum Brotregal.\n\nJetzt hat Lisa alles, was auf ihrer Liste steht. Sie geht zur Kasse. Dort bezahlt sie ihre Einkäufe. Der Einkauf war schnell und einfach. Lisa freut sich auf das Abendessen mit frischen Zutaten.",
+    "glossary": [
+      {
+        "de": "Einkaufsliste",
+        "pt": "lista de compras"
+      },
+      {
+        "de": "brauchen",
+        "pt": "precisar"
+      },
+      {
+        "de": "Einkaufswagen",
+        "pt": "carrinho de compras"
+      },
+      {
+        "de": "Kühlregal",
+        "pt": "prateleira refrigerada"
+      },
+      {
+        "de": "Mitarbeiterin",
+        "pt": "funcionária"
+      },
+      {
+        "de": "Wursttheke",
+        "pt": "balcão de frios/salsicharia"
+      },
+      {
+        "de": "sich bedanken",
+        "pt": "agradecer"
+      },
+      {
+        "de": "Kasse",
+        "pt": "caixa (do supermercado)"
+      },
+      {
+        "de": "bezahlen",
+        "pt": "pagar"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Was hat Lisa, wenn sie in den Supermarkt geht?",
+        "answer": "Lisa hat eine Einkaufsliste."
+      },
+      {
+        "question": "Welche Dinge stehen auf Lisas Liste?",
+        "answer": "Auf Lisas Liste stehen Milch, Brot, Käse, Äpfel und Wasser."
+      },
+      {
+        "question": "Wo findet Lisa die Milch?",
+        "answer": "Sie findet die Milch im Kühlregal."
+      },
+      {
+        "question": "Wen fragt Lisa, als sie das Brot nicht finden kann?",
+        "answer": "Sie fragt eine Mitarbeiterin."
+      },
+      {
+        "question": "Was macht Lisa, nachdem sie alles gefunden hat?",
+        "answer": "Sie geht zur Kasse und bezahlt ihre Einkäufe."
+      }
+    ]
+  },
+  {
+    "id": "a2_viagem_berlim",
+    "title": "Ein Wochenende in Berlin",
+    "level_cefr": "A2",
+    "topic": "Uma viagem de fim de semana a Berlim",
+    "body_de": "Letztes Wochenende sind Anna und Max nach Berlin gefahren. Sie wollten die Hauptstadt von Deutschland sehen. Die Reise war mit dem Zug und dauerte nur ein paar Stunden. Sie hatten ein kleines Hotel im Zentrum von Berlin.\n\nAm Samstag haben sie zuerst das Brandenburger Tor besucht. Es ist sehr groß und bekannt. Danach sind sie zum Reichstag gegangen und haben viele Fotos gemacht. Am Nachmittag haben sie einen schönen Spaziergang durch den Tiergarten gemacht. Das Wetter war sehr gut.\n\nAm Sonntag haben Anna und Max die Museumsinsel besucht. Sie haben dort ein interessantes Museum gesehen und viel über die Geschichte gelernt. Zum Mittagessen haben sie eine typische Berliner Currywurst gegessen. Sie hat ihnen sehr gut geschmeckt.\n\nDie Stadt Berlin hat Anna und Max sehr gut gefallen. Es gab viel zu sehen und zu erleben. Sie möchten bald wieder nach Berlin fahren, vielleicht für eine längere Zeit.",
+    "glossary": [
+      {
+        "de": "Hauptstadt",
+        "pt": "capital"
+      },
+      {
+        "de": "dauerte",
+        "pt": "durou"
+      },
+      {
+        "de": "bekannt",
+        "pt": "famoso(a)"
+      },
+      {
+        "de": "Reichstag",
+        "pt": "Parlamento alemão"
+      },
+      {
+        "de": "Spaziergang",
+        "pt": "caminhada"
+      },
+      {
+        "de": "Museumsinsel",
+        "pt": "Ilha dos Museus"
+      },
+      {
+        "de": "Currywurst",
+        "pt": "salsicha com molho de curry (prato típico de Berlim)"
+      },
+      {
+        "de": "geschmeckt",
+        "pt": "saboroso / gostou (do sabor)"
+      },
+      {
+        "de": "gefallen",
+        "pt": "gostou"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wer ist letztes Wochenende nach Berlin gefahren?",
+        "answer": "Anna und Max sind nach Berlin gefahren."
+      },
+      {
+        "question": "Was haben Anna und Max am Samstag besucht?",
+        "answer": "Sie haben das Brandenburger Tor und den Reichstag besucht."
+      },
+      {
+        "question": "Was haben sie am Sonntag zum Mittagessen gegessen?",
+        "answer": "Sie haben eine typische Berliner Currywurst gegessen."
+      },
+      {
+        "question": "Hat ihnen die Stadt Berlin gefallen?",
+        "answer": "Ja, die Stadt Berlin hat ihnen sehr gut gefallen."
+      }
+    ]
+  },
+  {
+    "id": "b1_ecologia",
+    "title": "Recycling in Deutschland: Ein wichtiger Schritt zur Nachhaltigkeit",
+    "level_cefr": "B1",
+    "topic": "Vida sustentável: reciclagem alemã (Pfand, Mülltrennung)",
+    "body_de": "Deutschland ist bekannt für seine strenge Mülltrennung und das Pfandsystem. Viele Menschen in Deutschland legen großen Wert auf Nachhaltigkeit und Umweltschutz. Das Ziel dieser Systeme ist es, weniger Müll zu produzieren und wertvolle Ressourcen zu schonen. So können Materialien wiederverwertet und die Umwelt geschützt werden.\n\nDie Mülltrennung ist ein zentraler Bestandteil. Es gibt verschiedene Tonnen für unterschiedliche Abfallarten. Zum Beispiel gibt es blaue Tonnen für Altpapier und Kartons. Gelbe Tonnen oder Säcke sind für Verpackungen aus Plastik, Metall und Verbundstoffen gedacht. Biomüll kommt in die braune Tonne und Restmüll in die graue Tonne. Durch diese Trennung wird sichergestellt, dass viele Materialien recycelt werden können.\n\nEin weiteres wichtiges System ist das Pfand. Wenn man Getränkeflaschen oder Dosen kauft, zahlt man oft einen kleinen Betrag extra, das sogenannte Pfand. Wenn man die leeren Flaschen oder Dosen im Supermarkt zurückgibt, bekommt man dieses Pfandgeld zurück. Dieses System motiviert die Menschen, Flaschen und Dosen nicht einfach wegzuwerfen, sondern sie zurückzubringen, damit sie wiederverwendet oder recycelt werden können.\n\nDurch diese gut organisierten Systeme leistet Deutschland einen großen Beitrag zum Umweltschutz. Es ist wichtig, dass alle Bürgerinnen und Bürger mitmachen, damit unsere Umwelt sauber bleibt und wir die Ressourcen für zukünftige Generationen erhalten.",
+    "glossary": [
+      {
+        "de": "Nachhaltigkeit",
+        "pt": "Sustentabilidade"
+      },
+      {
+        "de": "Umweltschutz",
+        "pt": "Proteção ambiental"
+      },
+      {
+        "de": "Mülltrennung",
+        "pt": "Separação de lixo"
+      },
+      {
+        "de": "Ressourcen schonen",
+        "pt": "Poupar recursos"
+      },
+      {
+        "de": "Abfallarten",
+        "pt": "Tipos de lixo"
+      },
+      {
+        "de": "Pfand",
+        "pt": "Caução/Depósito (por garrafas, etc.)"
+      },
+      {
+        "de": "wiederverwerten",
+        "pt": "Reciclar/Reutilizar"
+      },
+      {
+        "de": "zurückgeben",
+        "pt": "Devolver"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Warum sind Mülltrennung und das Pfandsystem in Deutschland wichtig?",
+        "answer": "Sie sind wichtig, um weniger Müll zu produzieren, Ressourcen zu schonen und die Umwelt zu schützen."
+      },
+      {
+        "question": "Welche Farben haben die Tonnen für Altpapier und Biomüll in Deutschland?",
+        "answer": "Altpapier kommt in die blaue Tonne und Biomüll in die braune Tonne."
+      },
+      {
+        "question": "Wie funktioniert das Pfandsystem in Deutschland?",
+        "answer": "Man zahlt beim Kauf von Getränkeflaschen oder Dosen einen extra Betrag (Pfand) und bekommt ihn zurück, wenn man die leeren Flaschen oder Dosen im Supermarkt abgibt."
+      },
+      {
+        "question": "Was ist das Hauptziel der deutschen Recyclingsysteme?",
+        "answer": "Das Hauptziel ist der Umweltschutz, die Reduzierung von Müll und der Erhalt von Ressourcen für zukünftige Generationen."
+      }
+    ]
+  },
+  {
+    "id": "b1_emprego",
+    "title": "Tipps für Ihr Vorstellungsgespräch",
+    "level_cefr": "B1",
+    "topic": "Entrevista de emprego: dicas e relato",
+    "body_de": "Ein Vorstellungsgespräch ist ein wichtiger Schritt, wenn man eine neue Arbeitsstelle sucht. Es ist die Chance, sich persönlich vorzustellen und zu zeigen, dass man gut für die Stelle geeignet ist. Viele Menschen sind vor einem Gespräch nervös, aber mit guter Vorbereitung kann man diese Nervosität reduzieren. Es ist wichtig, diesen Moment ernst zu nehmen, um einen guten Eindruck zu hinterlassen.Zuerst ist es sehr wichtig, sich gut auf das Gespräch vorzubereiten. Informieren Sie sich über die Firma und die Position, für die Sie sich bewerben. Überlegen Sie, welche Fragen man Ihnen stellen könnte und wie Sie antworten möchten. Auch pünktlich zu sein und passende Kleidung zu tragen, ist sehr wichtig, um einen guten ersten Eindruck zu machen. Dies zeigt Professionalität und Respekt.Während des Gesprächs sollten Sie aufmerksam zuhören und ehrlich antworten. Zeigen Sie Interesse an der Firma und der Arbeit. Es ist auch gut, selbst Fragen zu stellen, zum Beispiel über die Aufgaben oder das Team. Das zeigt, dass Sie motiviert sind und sich wirklich für die Stelle interessieren. Höflichkeit ist dabei immer entscheidend.Nach dem Gespräch können Sie sich für die Zeit und das Gespräch bedanken. Es ist eine gute Erfahrung, auch wenn es nicht sofort mit einer Zusage klappt. Jedes Gespräch hilft Ihnen, besser zu werden und neue Chancen zu finden. Viel Erfolg bei Ihren zukünftigen Vorstellungsgesprächen!",
+    "glossary": [
+      {
+        "de": "das Vorstellungsgespräch",
+        "pt": "a entrevista de emprego"
+      },
+      {
+        "de": "die Arbeitsstelle",
+        "pt": "o emprego / a vaga de trabalho"
+      },
+      {
+        "de": "sich vorbereiten",
+        "pt": "preparar-se"
+      },
+      {
+        "de": "die Firma",
+        "pt": "a empresa"
+      },
+      {
+        "de": "die Position",
+        "pt": "o cargo / a posição"
+      },
+      {
+        "de": "pünktlich",
+        "pt": "pontual"
+      },
+      {
+        "de": "die Kleidung",
+        "pt": "a roupa"
+      },
+      {
+        "de": "der Eindruck",
+        "pt": "a impressão"
+      },
+      {
+        "de": "Fragen stellen",
+        "pt": "fazer perguntas"
+      },
+      {
+        "de": "die Zusage",
+        "pt": "a confirmação / a aceitação (da vaga)"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Was ist ein Vorstellungsgespräch?",
+        "answer": "Ein Vorstellungsgespräch ist ein wichtiger Schritt, um eine neue Arbeitsstelle zu finden und sich persönlich vorzustellen."
+      },
+      {
+        "question": "Wie kann man Nervosität vor einem Gespräch reduzieren?",
+        "answer": "Man kann Nervosität durch gute Vorbereitung reduzieren."
+      },
+      {
+        "question": "Was sollte man über die Firma wissen, bevor man zum Gespräch geht?",
+        "answer": "Man sollte sich über die Firma und die Position informieren, für die man sich bewirbt."
+      },
+      {
+        "question": "Warum ist es gut, selbst Fragen im Gespräch zu stellen?",
+        "answer": "Es zeigt, dass man motiviert ist und sich wirklich für die Stelle interessiert."
+      },
+      {
+        "question": "Was sollte man nach dem Gespräch tun?",
+        "answer": "Man sollte sich nach dem Gespräch für die Zeit und das Gespräch bedanken."
+      }
+    ]
+  },
+  {
+    "id": "b1_oktoberfest",
+    "title": "Das Oktoberfest: Geschichte und Traditionen",
+    "level_cefr": "B1",
+    "topic": "A Oktoberfest: história, tradições e curiosidades",
+    "body_de": "Das Oktoberfest ist das größte Volksfest der Welt und findet jedes Jahr in München statt. Es beginnt Mitte September und dauert bis zum ersten Sonntag im Oktober. Millionen von Menschen aus aller Welt besuchen die \"Wiesn\", wie die Einheimischen das Fest nennen, um die besondere Atmosphäre zu erleben. Es ist bekannt für seine großen Bierzelte, traditionelle Musik und gutes Essen.\n\nDie Geschichte des Oktoberfests begann im Jahr 1810. Damals feierten Kronprinz Ludwig von Bayern und Prinzessin Therese von Sachsen-Hildburghausen ihre Hochzeit. Zur Feier gab es ein großes Pferderennen auf einer Wiese, die später Theresienwiese genannt wurde. Dieses Ereignis war so beliebt, dass es jedes Jahr wiederholt wurde und sich zu einem großen Volksfest entwickelte.\n\nHeute sind die großen Bierzelte das Herzstück des Oktoberfests. Hier servieren Münchner Brauereien ihr spezielles Oktoberfestbier in großen Maßkrügen. Dazu gibt es traditionelle bayerische Spezialitäten wie Hendl (gebratenes Hähnchen), Brezn (Brezeln) und Weißwürste. Viele Besucher tragen auch traditionelle Kleidung: Frauen tragen Dirndl und Männer Lederhosen.\n\nNeben dem Bier und Essen gibt es auch viele Fahrgeschäfte und Attraktionen für Jung und Alt. Blaskapellen spielen traditionelle Musik in den Zelten und sorgen für gute Stimmung. Ein besonderer Brauch sind die Lebkuchenherzen, die man kaufen und als Gruß an Freunde oder Familie verschenken kann. Das Oktoberfest ist ein Fest der Freude und der Tradition, das Besucher immer wieder begeistert.",
+    "glossary": [
+      {
+        "de": "Volksfest",
+        "pt": "festival popular"
+      },
+      {
+        "de": "Einheimische",
+        "pt": "moradores locais"
+      },
+      {
+        "de": "Kronprinz",
+        "pt": "príncipe herdeiro"
+      },
+      {
+        "de": "Hochzeit",
+        "pt": "casamento"
+      },
+      {
+        "de": "Bierzelte",
+        "pt": "tendas de cerveja"
+      },
+      {
+        "de": "Maßkrug",
+        "pt": "caneca de um litro (de cerveja)"
+      },
+      {
+        "de": "Hendl",
+        "pt": "frango assado (dialeto bávaro)"
+      },
+      {
+        "de": "Brezn",
+        "pt": "pretzel (dialeto bávaro)"
+      },
+      {
+        "de": "Dirndl",
+        "pt": "vestido tradicional feminino"
+      },
+      {
+        "de": "Lederhosen",
+        "pt": "calças de couro tradicionais masculinas"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wann findet das Oktoberfest statt?",
+        "answer": "Es findet von Mitte September bis zum ersten Sonntag im Oktober statt."
+      },
+      {
+        "question": "Wie nennen die Einheimischen das Oktoberfest?",
+        "answer": "Sie nennen es die \"Wiesn\"."
+      },
+      {
+        "question": "Was war der ursprüngliche Anlass für das erste Oktoberfest im Jahr 1810?",
+        "answer": "Der ursprüngliche Anlass war die Hochzeit von Kronprinz Ludwig und Prinzessin Therese."
+      },
+      {
+        "question": "Welche traditionelle Kleidung tragen die Besucher oft?",
+        "answer": "Frauen tragen Dirndl und Männer Lederhosen."
+      },
+      {
+        "question": "Nennen Sie zwei traditionelle bayerische Spezialitäten, die man auf dem Oktoberfest essen kann.",
+        "answer": "Man kann Hendl und Brezn essen."
+      }
+    ]
+  },
+  {
+    "id": "b1_transporte_publico",
+    "title": "Münchens öffentliche Verkehrsmittel: Anas Erfahrung",
+    "level_cefr": "B1",
+    "topic": "Transporte público em Munique: experiência de um estrangeiro",
+    "body_de": "Ich heiße Ana und komme aus Spanien. Als ich vor sechs Monaten nach München kam, war ich gespannt auf das Leben in einer neuen Stadt. Zuerst war ich etwas unsicher, wie ich mich ohne Auto bewegen sollte. Aber schnell habe ich die öffentlichen Verkehrsmittel entdeckt und war sehr beeindruckt.München hat ein ausgezeichnetes Netzwerk aus U-Bahnen, S-Bahnen, Trams und Bussen. Egal, wohin ich wollte, ich konnte immer eine passende Verbindung finden. Die U-Bahn ist besonders schnell und bringt mich in kurzer Zeit zu vielen wichtigen Orten in der Stadt. Die S-Bahn fährt auch in die Vororte, was sehr praktisch ist, wenn man Ausflüge machen möchte.Was mich am meisten überrascht hat, war die Pünktlichkeit und Sauberkeit. Die Züge und Busse kommen fast immer genau zur geplanten Zeit, und die Haltestellen sind sehr gepflegt. Manchmal ist es in der Rush Hour etwas voll, aber das ist normal in einer Großstadt. Das Ticketsystem ist auch einfach zu verstehen, es gibt Einzelfahrkarten, Tageskarten und Monatskarten. Ich nutze meistens eine Monatskarte, weil ich jeden Tag fahre.Insgesamt bin ich sehr zufrieden mit dem öffentlichen Nahverkehr in München. Es ist eine umweltfreundliche und stressfreie Art, sich fortzubewegen. Ich kann es jedem empfehlen, der diese schöne Stadt besucht oder hier lebt. Man braucht wirklich kein eigenes Auto!",
+    "glossary": [
+      {
+        "de": "öffentliche Verkehrsmittel",
+        "pt": "transporte público"
+      },
+      {
+        "de": "unsicher",
+        "pt": "inseguro(a)"
+      },
+      {
+        "de": "sich bewegen",
+        "pt": "locomover-se"
+      },
+      {
+        "de": "Netzwerk",
+        "pt": "rede"
+      },
+      {
+        "de": "passende Verbindung",
+        "pt": "conexão adequada"
+      },
+      {
+        "de": "Pünktlichkeit",
+        "pt": "pontualidade"
+      },
+      {
+        "de": "Sauberkeit",
+        "pt": "limpeza"
+      },
+      {
+        "de": "Einzelfahrkarte",
+        "pt": "bilhete individual"
+      },
+      {
+        "de": "Monatskarte",
+        "pt": "passe mensal"
+      },
+      {
+        "de": "umweltfreundlich",
+        "pt": "amigo(a) do ambiente"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Woher kommt Ana?",
+        "answer": "Ana kommt aus Spanien."
+      },
+      {
+        "question": "Wie war Anas erste Erfahrung mit den öffentlichen Verkehrsmitteln in München?",
+        "answer": "Zuerst war sie etwas unsicher, aber dann war sie sehr beeindruckt."
+      },
+      {
+        "question": "Welche Verkehrsmittel gibt es in München?",
+        "answer": "Es gibt U-Bahnen, S-Bahnen, Trams und Busse."
+      },
+      {
+        "question": "Was überraschte Ana am meisten am Nahverkehr in München?",
+        "answer": "Die Pünktlichkeit und Sauberkeit haben sie am meisten überrascht."
+      },
+      {
+        "question": "Welche Fahrkarte nutzt Ana meistens und warum?",
+        "answer": "Sie nutzt meistens eine Monatskarte, weil sie jeden Tag fährt."
+      }
+    ]
+  },
+  {
+    "id": "b1_universidade",
+    "title": "Studieren in Deutschland: Eine gute Wahl",
+    "level_cefr": "B1",
+    "topic": "Estudar em uma universidade alemã",
+    "body_de": "Deutschland ist ein sehr beliebtes Ziel für internationale Studierende. Jedes Jahr kommen Tausende junger Menschen aus der ganzen Welt hierher, um an einer deutschen Universität zu studieren. Viele entscheiden sich für Deutschland, weil die Universitäten einen sehr guten Ruf haben und die Qualität der Lehre hoch ist. Außerdem sind die Studiengebühren an staatlichen Universitäten oft sehr niedrig oder gar nicht vorhanden, was ein großer Vorteil ist.\n\nUm an einer deutschen Universität zu studieren, braucht man in der Regel eine Hochschulzugangsberechtigung, die dem deutschen Abitur entspricht. Das ist der erste wichtige Schritt. Sehr wichtig sind auch gute Deutschkenntnisse. Diese muss man oft mit einer Prüfung wie dem TestDaF oder der DSH nachweisen. Die Bewerbung für einen Studienplatz erfolgt meistens über das Portal Uni-Assist oder direkt bei der gewünschten Universität. Es ist wichtig, sich frühzeitig über die genauen Anforderungen zu informieren.\n\nDas Studentenleben in Deutschland ist vielfältig und bietet viele Möglichkeiten. In fast jeder Stadt gibt es eine gute Infrastruktur für Studierende, mit Mensen, Bibliotheken, Sportangeboten und kulturellen Veranstaltungen. Man kann neue Freunde aus verschiedenen Ländern finden, die deutsche Kultur kennenlernen und seine Sprachkenntnisse im Alltag verbessern. Ein Studium in Deutschland ist nicht nur eine akademische Erfahrung, sondern auch eine persönliche Bereicherung.\n\nEin deutscher Studienabschluss öffnet oft Türen für eine gute Karriere, sowohl in Deutschland als auch international. Viele Unternehmen schätzen die fundierte Ausbildung, die deutsche Universitäten bieten. Es ist eine große Chance und eine wertvolle Erfahrung, die jedoch auch viel Vorbereitung und Engagement erfordert. Wer gut plant und motiviert ist, kann in Deutschland erfolgreich studieren.",
+    "glossary": [
+      {
+        "de": "beliebtes Ziel",
+        "pt": "destino popular"
+      },
+      {
+        "de": "guter Ruf",
+        "pt": "boa reputação"
+      },
+      {
+        "de": "Studiengebühren",
+        "pt": "taxas de matrícula"
+      },
+      {
+        "de": "Hochschulzugangsberechtigung",
+        "pt": "qualificação de acesso ao ensino superior"
+      },
+      {
+        "de": "nachweisen",
+        "pt": "comprovar, demonstrar"
+      },
+      {
+        "de": "Bewerbung",
+        "pt": "candidatura"
+      },
+      {
+        "de": "vielfältig",
+        "pt": "diversificado"
+      },
+      {
+        "de": "Infrastruktur",
+        "pt": "infraestrutura"
+      },
+      {
+        "de": "Karriere",
+        "pt": "carreira"
+      },
+      {
+        "de": "Engagement",
+        "pt": "compromisso, empenho"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Warum ist Deutschland ein beliebtes Land für internationale Studierende?",
+        "answer": "Deutschland ist beliebt, weil die Universitäten einen guten Ruf haben, die Qualität der Lehre hoch ist und die Studiengebühren oft sehr niedrig oder gar nicht vorhanden sind."
+      },
+      {
+        "question": "Welche zwei Hauptanforderungen braucht man, um an einer deutschen Universität zu studieren?",
+        "answer": "Man braucht eine Hochschulzugangsberechtigung, die dem deutschen Abitur entspricht, und gute Deutschkenntnisse, die man oft mit einer Prüfung nachweisen muss."
+      },
+      {
+        "question": "Wie kann man sich für einen Studienplatz in Deutschland bewerben?",
+        "answer": "Man kann sich meistens über das Portal Uni-Assist oder direkt bei der gewünschten Universität bewerben."
+      },
+      {
+        "question": "Was sind die Vorteile des Studentenlebens in Deutschland?",
+        "answer": "Man kann neue Freunde finden, die deutsche Kultur kennenlernen, die Sprachkenntnisse verbessern und eine gute Infrastruktur für Studierende nutzen."
+      }
+    ]
+  },
+  {
+    "id": "b2_arte_dada",
+    "title": "Panorama der zeitgenössischen deutschen Kunst",
+    "level_cefr": "B2",
+    "topic": "Arte contemporânea alemã: panorama atual",
+    "body_de": "Die zeitgenössische Kunstszene in Deutschland ist bekannt für ihre beeindruckende Vielfalt und Dynamik. Sie spiegelt die komplexe Geschichte und die offene Gesellschaft des Landes wider. Von etablierten Künstlern bis zu aufstrebenden Talenten – die deutsche Kunstlandschaft bietet eine breite Palette an Stilen, Themen und Medien. Besonders in Großstädten wie Berlin, Düsseldorf, Köln und Leipzig finden sich zahlreiche Galerien, Museen und Ateliers, die diese Lebendigkeit fördern.\nEin zentrales Merkmal der aktuellen deutschen Kunst ist die Auseinandersetzung mit gesellschaftlichen und politischen Fragen. Künstlerinnen und Künstler greifen oft Themen wie Identität, Migration, Umwelt oder die Rolle der Technologie auf. Dabei nutzen sie nicht nur traditionelle Ausdrucksformen wie Malerei, Skulptur und Fotografie, sondern experimentieren auch intensiv mit digitalen Medien, Installationen, Performancekunst und Sound. Diese Offenheit für neue Techniken und Materialien ist ein wichtiger Bestandteil der künstlerischen Praxis.\nDie deutsche Kunst ist stark international vernetzt. Viele Künstler arbeiten global und ihre Werke sind in Museen und auf Biennalen weltweit zu sehen. Gleichzeitig ziehen deutsche Kunsthochschulen Studierende aus aller Welt an, was die Szene zusätzlich bereichert. Institutionen wie die documenta in Kassel oder die Art Cologne sind wichtige Plattformen, die einen Überblick über aktuelle Entwicklungen geben und den Dialog zwischen Künstlern, Kritikern und dem Publikum fördern.\nDas Panorama der zeitgenössischen deutschen Kunst zeigt eine lebendige und sich ständig weiterentwickelnde Landschaft. Es ist eine Kunst, die herausfordert, Fragen stellt und zum Nachdenken anregt. Sie ist nicht nur ein Spiegelbild der Gegenwart, sondern auch ein Motor für zukünftige kreative Entwicklungen.",
+    "glossary": [
+      {
+        "de": "Vielfalt",
+        "pt": "diversidade"
+      },
+      {
+        "de": "Dynamik",
+        "pt": "dinamismo"
+      },
+      {
+        "de": "aufstrebend",
+        "pt": "emergente, promissor"
+      },
+      {
+        "de": "Auseinandersetzung",
+        "pt": "confronto, debate, abordagem (de um tema)"
+      },
+      {
+        "de": "greifen auf (Themen) auf",
+        "pt": "abordar, tratar (temas)"
+      },
+      {
+        "de": "Ausdrucksformen",
+        "pt": "formas de expressão"
+      },
+      {
+        "de": "Installationen",
+        "pt": "instalações (artísticas)"
+      },
+      {
+        "de": "vernetzt",
+        "pt": "interligado, em rede"
+      },
+      {
+        "de": "Biennale",
+        "pt": "bienal (exposição de arte)"
+      },
+      {
+        "de": "Plattform",
+        "pt": "plataforma"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Welche Städte sind wichtige Zentren für die zeitgenössische Kunst in Deutschland?",
+        "answer": "Wichtige Zentren sind Berlin, Düsseldorf, Köln und Leipzig."
+      },
+      {
+        "question": "Mit welchen Themen setzen sich deutsche Künstler oft auseinander?",
+        "answer": "Sie setzen sich oft mit gesellschaftlichen und politischen Fragen wie Identität, Migration, Umwelt oder der Rolle der Technologie auseinander."
+      },
+      {
+        "question": "Welche Ausdrucksformen nutzen zeitgenössische deutsche Künstler neben traditionellen Medien?",
+        "answer": "Sie experimentieren auch mit digitalen Medien, Installationen, Performancekunst und Sound."
+      },
+      {
+        "question": "Warum ist die deutsche Kunstszene international vernetzt?",
+        "answer": "Viele Künstler arbeiten global, und deutsche Kunsthochschulen ziehen internationale Studierende an."
+      },
+      {
+        "question": "Nennen Sie zwei wichtige Plattformen für die deutsche Kunst.",
+        "answer": "Die documenta in Kassel und die Art Cologne sind wichtige Plattformen."
+      }
+    ]
+  },
+  {
+    "id": "b2_homeoffice",
+    "title": "Homeoffice in Deutschland: Vor- und Nachteile",
+    "level_cefr": "B2",
+    "topic": "Home office na Alemanha: vantagens e desvantagens",
+    "body_de": "Das Homeoffice, auch Telearbeit genannt, hat sich in den letzten Jahren, insbesondere durch die Pandemie, zu einem festen Bestandteil der deutschen Arbeitswelt entwickelt. Viele Unternehmen bieten ihren Mitarbeitern die Möglichkeit, ganz oder teilweise von zu Hause aus zu arbeiten. Diese Entwicklung bringt sowohl erhebliche Vorteile als auch einige Herausforderungen mit sich.Zu den größten Vorteilen zählt die Flexibilität. Arbeitnehmer sparen den täglichen Arbeitsweg, was nicht nur Zeit und Geld spart, sondern auch Stress reduziert. Dies führt oft zu einer besseren Vereinbarkeit von Beruf und Privatleben. Viele empfinden eine höhere Produktivität, da sie in einer ruhigeren Umgebung ohne ständige Unterbrechungen arbeiten können. Zudem können Unternehmen Bürokosten senken und ihren Talentpool erweitern, da sie nicht mehr auf Bewerber aus der näheren Umgebung beschränkt sind.Auf der anderen Seite birgt das Homeoffice auch Nachteile. Die soziale Interaktion mit Kollegen kann leiden, was zu einem Gefühl der Isolation führen kann. Die Grenze zwischen Arbeit und Freizeit verschwimmt oft, da der Arbeitsplatz im eigenen Zuhause ist. Dies kann psychische Belastungen verursachen und es schwierig machen, nach Feierabend abzuschalten. Technische Probleme, wie eine instabile Internetverbindung oder unzureichende ergonomische Ausstattung, können die Arbeit zusätzlich erschweren.Für Arbeitgeber in Deutschland bedeutet das Homeoffice auch eine größere Verantwortung bezüglich des Arbeitsschutzes und der Bereitstellung der nötigen Arbeitsmittel. Es erfordert klare Regelungen und eine gute Kommunikation, um sicherzustellen, dass die Mitarbeiter produktiv und gesund bleiben. Die Führungskräfte müssen lernen, ihre Teams virtuell zu managen und Vertrauen aufzubauen.Insgesamt ist das Homeoffice eine Arbeitsform mit großem Potenzial, die jedoch eine bewusste Gestaltung und klare Rahmenbedingungen erfordert, um sowohl für Arbeitnehmer als auch für Arbeitgeber erfolgreich zu sein.",
+    "glossary": [
+      {
+        "de": "Telearbeit",
+        "pt": "teletrabalho"
+      },
+      {
+        "de": "fester Bestandteil",
+        "pt": "parte integrante"
+      },
+      {
+        "de": "erhebliche Vorteile",
+        "pt": "vantagens significativas"
+      },
+      {
+        "de": "Arbeitsweg",
+        "pt": "trajeto para o trabalho"
+      },
+      {
+        "de": "Vereinbarkeit von Beruf und Privatleben",
+        "pt": "conciliação da vida profissional e privada"
+      },
+      {
+        "de": "ständige Unterbrechungen",
+        "pt": "interrupções constantes"
+      },
+      {
+        "de": "Gefühl der Isolation",
+        "pt": "sentimento de isolamento"
+      },
+      {
+        "de": "psychische Belastungen",
+        "pt": "estresse psicológico"
+      },
+      {
+        "de": "Arbeitsschutz",
+        "pt": "segurança no trabalho"
+      },
+      {
+        "de": "Rahmenbedingungen",
+        "pt": "condições-quadro"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Warum ist das Homeoffice in Deutschland zu einem festen Bestandteil der Arbeitswelt geworden?",
+        "answer": "Es hat sich insbesondere durch die Pandemie zu einem festen Bestandteil entwickelt."
+      },
+      {
+        "question": "Welche Vorteile bietet das Homeoffice für Arbeitnehmer?",
+        "answer": "Arbeitnehmer sparen den Arbeitsweg, haben mehr Flexibilität und eine bessere Vereinbarkeit von Beruf und Privatleben. Viele empfinden auch eine höhere Produktivität."
+      },
+      {
+        "question": "Welche Nachteile können sich für Mitarbeiter im Homeoffice ergeben?",
+        "answer": "Die soziale Interaktion kann leiden, die Grenze zwischen Arbeit und Freizeit verschwimmt, und es kann zu psychischen Belastungen sowie technischen Problemen kommen."
+      },
+      {
+        "question": "Was müssen Arbeitgeber in Deutschland bezüglich des Homeoffice beachten?",
+        "answer": "Arbeitgeber müssen Verantwortung für den Arbeitsschutz übernehmen, nötige Arbeitsmittel bereitstellen, klare Regelungen treffen und eine gute Kommunikation sowie virtuelles Management sicherstellen."
+      },
+      {
+        "question": "Was ist laut Text für ein erfolgreiches Homeoffice wichtig?",
+        "answer": "Ein erfolgreiches Homeoffice erfordert eine bewusste Gestaltung und klare Rahmenbedingungen."
+      }
+    ]
+  },
+  {
+    "id": "b2_idiomatischer_text",
+    "title": "Deutsche Redewendungen: Mehr als nur Worte",
+    "level_cefr": "B2",
+    "topic": "Expressões idiomáticas alemãs e seus significados",
+    "body_de": "Die deutsche Sprache ist reich an sogenannten Redewendungen oder idiomatischen Ausdrücken. Diese festen Wortverbindungen haben eine besondere Bedeutung, die man nicht direkt aus den einzelnen Wörtern ableiten kann. Sie sind ein wichtiger Bestandteil der Alltagssprache und machen sie lebendiger und ausdrucksstärker. Für Sprachlernende stellen sie oft eine große Herausforderung dar, da ihre wörtliche Übersetzung meist keinen Sinn ergibt und man die übertragene Bedeutung lernen muss.\n\nUm Deutsch wirklich fließend zu sprechen und Muttersprachler zu verstehen, ist es unerlässlich, sich mit diesen Ausdrücken vertraut zu machen. Man muss lernen, die übertragene Bedeutung hinter den Worten zu erkennen. Nehmen wir zum Beispiel die Redewendung \"jemandem die Daumen drücken\". Wörtlich bedeutet das, die Daumen für jemanden zu drücken. Die eigentliche Bedeutung ist jedoch, jemandem Glück zu wünschen oder mitzufiebern.\n\nEin weiteres bekanntes Beispiel ist \"ins Gras beißen\". Wörtlich klingt das vielleicht lustig oder absurd, aber es bedeutet tatsächlich \"sterben\". Oder denken Sie an \"Tomaten auf den Augen haben\". Das hat nichts mit Gemüse zu tun, sondern beschreibt die Situation, wenn jemand etwas Offensichtliches nicht sieht oder bemerkt. Es ist, als ob man Scheuklappen trägt.\n\nManchmal sind Redewendungen auch humorvoll. Wenn jemand sagt: \"Du hast wohl einen Vogel!\", meint er nicht, dass du ein Haustier hast, sondern dass du verrückt bist oder eine seltsame Idee hast. Solche Ausdrücke sind tief in der Kultur verwurzelt und spiegeln oft historische oder soziale Kontexte wider. Sie zu verstehen, hilft nicht nur der Sprachkompetenz, sondern auch dem kulturellen Verständnis.\n\nDas Erlernen von Redewendungen erfordert Übung und Geduld. Es ist hilfreich, sie im Kontext zu lernen und auf ihre Verwendung im Alltag zu achten. Je mehr man sich mit ihnen beschäftigt, desto natürlicher werden sie sich anfühlen und desto mehr wird man die Nuancen der deutschen Sprache schätzen lernen.",
+    "glossary": [
+      {
+        "de": "Redewendung",
+        "pt": "expressão idiomática"
+      },
+      {
+        "de": "ableiten",
+        "pt": "derivar, deduzir"
+      },
+      {
+        "de": "übertragene Bedeutung",
+        "pt": "significado figurado"
+      },
+      {
+        "de": "sich vertraut machen mit",
+        "pt": "familiarizar-se com"
+      },
+      {
+        "de": "mitfiebern",
+        "pt": "torcer junto, vibrar junto"
+      },
+      {
+        "de": "ins Gras beißen",
+        "pt": "morrer (literalmente: morder a grama)"
+      },
+      {
+        "de": "Tomaten auf den Augen haben",
+        "pt": "não ver o óbvio (literalmente: ter tomates nos olhos)"
+      },
+      {
+        "de": "einen Vogel haben",
+        "pt": "ser maluco/louco (literalmente: ter um pássaro)"
+      },
+      {
+        "de": "Nuancen",
+        "pt": "nuances"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Was ist das Besondere an deutschen Redewendungen?",
+        "answer": "Redewendungen sind feste Wortverbindungen, deren Bedeutung man nicht direkt aus den einzelnen Wörtern ableiten kann."
+      },
+      {
+        "question": "Warum sind Redewendungen für Sprachlernende oft eine Herausforderung?",
+        "answer": "Sie sind eine Herausforderung, weil ihre wörtliche Übersetzung meist keinen Sinn ergibt und man die übertragene Bedeutung lernen muss."
+      },
+      {
+        "question": "Was bedeutet die Redewendung \"jemandem die Daumen drücken\"?",
+        "answer": "Es bedeutet, jemandem Glück zu wünschen oder mitzufiebern."
+      },
+      {
+        "question": "Erklären Sie die Bedeutung von \"Tomaten auf den Augen haben\".",
+        "answer": "Es bedeutet, dass jemand etwas Offensichtliches nicht sieht oder bemerkt."
+      },
+      {
+        "question": "Was ist die übertragene Bedeutung von \"ins Gras beißen\"?",
+        "answer": "Die übertragene Bedeutung von \"ins Gras beißen\" ist \"sterben\"."
+      }
+    ]
+  },
+  {
+    "id": "b2_klima_debatte",
+    "title": "Die Debatte um die Kernenergie in Deutschland",
+    "level_cefr": "B2",
+    "topic": "Debate sobre energia nuclear na Alemanha",
+    "body_de": "Deutschland hat sich nach der Katastrophe von Fukushima im Jahr 2011 für einen vollständigen Atomausstieg entschieden. Diese Entscheidung war das Ergebnis einer langen und emotionalen Debatte, die bereits in den 1970er Jahren begann. Die letzten drei Atomkraftwerke wurden im April 2023 abgeschaltet, womit ein wichtiges Kapitel der deutschen Energiepolitik endete. Die Befürworter des Ausstiegs betonten stets die Risiken der Kernenergie, insbesondere die Gefahr von Unfällen und das ungelöste Problem der Endlagerung radioaktiver Abfälle.Die Argumente für den Atomausstieg konzentrierten sich hauptsächlich auf die Sicherheit der Bevölkerung und den Umweltschutz. Viele Menschen in Deutschland hatten große Angst vor einem Reaktorunfall und forderten eine Abkehr von dieser Technologie. Zudem ist die Lagerung von hochradioaktivem Müll, der über Zehntausende von Jahren gefährlich bleibt, eine enorme Herausforderung, für die bisher keine dauerhafte Lösung gefunden wurde. Der Ausstieg sollte den Weg für eine Zukunft ebnen, die vollständig auf erneuerbaren Energien basiert.Allerdings gibt es auch Stimmen, die den Atomausstieg kritisch sehen, besonders angesichts der aktuellen Energiekrise und der Klimaziele. Kritiker argumentieren, dass Kernenergie eine kohlenstoffarme Energiequelle ist, die zur Reduzierung von Treibhausgasemissionen beitragen könnte. Sie weisen darauf hin, dass die Abschaltung der Kernkraftwerke die Abhängigkeit von fossilen Brennstoffen kurzfristig erhöht und die Strompreise steigen lassen könnte. Die Debatte darüber, ob der Atomausstieg der richtige Weg war, flammt immer wieder auf.Trotz der Kontroversen ist der Atomausstieg in Deutschland nun eine Realität. Das Land setzt verstärkt auf den Ausbau von Wind- und Solarenergie, um die Energiewende erfolgreich zu gestalten. Dies erfordert jedoch enorme Investitionen in Infrastruktur und Speichermöglichkeiten. Die Herausforderung besteht darin, eine stabile und bezahlbare Energieversorgung zu gewährleisten, während gleichzeitig die Klimaziele erreicht werden. Die Diskussion über die Rolle der Kernenergie im globalen Kontext bleibt jedoch relevant.",
+    "glossary": [
+      {
+        "de": "Kernenergie",
+        "pt": "energia nuclear"
+      },
+      {
+        "de": "Atomausstieg",
+        "pt": "desativação da energia nuclear"
+      },
+      {
+        "de": "erneuerbare Energien",
+        "pt": "energias renováveis"
+      },
+      {
+        "de": "Endlagerung",
+        "pt": "depósito final"
+      },
+      {
+        "de": "radioaktive Abfälle",
+        "pt": "resíduos radioativos"
+      },
+      {
+        "de": "Versorgungssicherheit",
+        "pt": "segurança do abastecimento"
+      },
+      {
+        "de": "Energiewende",
+        "pt": "transição energética"
+      },
+      {
+        "de": "abschalten",
+        "pt": "desativar, desligar"
+      },
+      {
+        "de": "Klimaziele",
+        "pt": "metas climáticas"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wann hat Deutschland den Atomausstieg beschlossen und warum?",
+        "answer": "Deutschland hat den Atomausstieg nach der Katastrophe von Fukushima im Jahr 2011 beschlossen, hauptsächlich wegen der Risiken der Kernenergie und der Angst vor Unfällen."
+      },
+      {
+        "question": "Welche Hauptargumente wurden für den Atomausstieg genannt?",
+        "answer": "Die Hauptargumente waren die Sicherheit der Bevölkerung, der Umweltschutz und das ungelöste Problem der Endlagerung radioaktiver Abfälle."
+      },
+      {
+        "question": "Warum kritisieren manche Leute den Atomausstieg?",
+        "answer": "Kritiker sehen Kernenergie als kohlenstoffarme Energiequelle und befürchten, dass der Ausstieg die Abhängigkeit von fossilen Brennstoffen erhöht und Strompreise steigen lässt."
+      },
+      {
+        "question": "Welche Energiequellen werden in Deutschland stattdessen ausgebaut?",
+        "answer": "Deutschland setzt verstärkt auf den Ausbau von Wind- und Solarenergie."
+      }
+    ]
+  },
+  {
+    "id": "b2_kuendigung",
+    "title": "Vertrag kündigen: Wichtige Formalitäten",
+    "level_cefr": "B2",
+    "topic": "Cancelando um contrato (Kündigung): exemplo formal",
+    "body_de": "Die Kündigung eines Vertrags ist ein formeller Prozess, der sorgfältig durchgeführt werden muss. Es ist entscheidend, die Bedingungen Ihres speziellen Vertrags genau zu kennen, bevor Sie Schritte zur Beendigung unternehmen. Eine fristgerechte und formell korrekte Kündigung schützt Sie vor möglichen Schwierigkeiten und unerwarteten Kosten, die durch eine fehlerhafte Abwicklung entstehen könnten. Daher ist es ratsam, sich vorab gründlich zu informieren.\n\nEin Kündigungsschreiben sollte immer in Schriftform erfolgen, selbst wenn mündliche Absprachen in manchen Fällen akzeptiert werden könnten. Für die Gültigkeit der Kündigung sind präzise Angaben unerlässlich: Dazu gehören der vollständige Name und die Adresse des Vertragspartners, Ihre eigenen Kontaktdaten, die Vertragsnummer oder Kundennummer und das genaue Datum, zu dem der Vertrag beendet werden soll. Eine klare Formulierung wie 'Hiermit kündige ich den Vertrag fristgerecht zum [Datum]' ist unerlässlich, um Missverständnisse zu vermeiden und die Wirksamkeit zu gewährleisten.\n\nBeachten Sie unbedingt die Kündigungsfrist, die in Ihrem Vertrag oder den Allgemeinen Geschäftsbedingungen (AGB) festgelegt ist. Diese Frist gibt an, wie lange im Voraus Sie kündigen müssen, damit die Kündigung wirksam wird. Um sicherzustellen, dass Ihre Kündigung rechtzeitig ankommt und Sie einen rechtssicheren Nachweis darüber haben, empfiehlt es sich dringend, das Schreiben per Einschreiben mit Rückschein zu versenden. Eine schriftliche Empfangsbestätigung ist Ihr sicherer Beweis, dass die Kündigung ordnungsgemäß zugestellt wurde und Sie Ihre Pflicht erfüllt haben.\n\nNachdem Sie die Kündigung versendet haben, bewahren Sie alle relevanten Unterlagen sorgfältig auf, einschließlich der Kopie des Kündigungsschreibens und des Rückscheins. Überprüfen Sie auch, ob Sie eine schriftliche Bestätigung der Kündigung vom Vertragspartner erhalten. Sollten Sie unsicher sein, ob alle Formalitäten erfüllt sind oder es zu Problemen kommt, kann es ratsam sein, frühzeitig rechtlichen Rat einzuholen, um Ihre Rechte zu wahren und weitere Schritte korrekt zu planen.",
+    "glossary": [
+      {
+        "de": "die Kündigung",
+        "pt": "o cancelamento"
+      },
+      {
+        "de": "der Vertrag",
+        "pt": "o contrato"
+      },
+      {
+        "de": "fristgerecht",
+        "pt": "dentro do prazo / atempadamente"
+      },
+      {
+        "de": "die Schriftform",
+        "pt": "a forma escrita"
+      },
+      {
+        "de": "die Kündigungsfrist",
+        "pt": "o prazo de cancelamento / o período de aviso prévio"
+      },
+      {
+        "de": "das Einschreiben mit Rückschein",
+        "pt": "a carta registrada com aviso de recebimento"
+      },
+      {
+        "de": "die Empfangsbestätigung",
+        "pt": "a confirmação de recebimento"
+      },
+      {
+        "de": "der Vertragspartner",
+        "pt": "o parceiro contratual / a parte contratante"
+      },
+      {
+        "de": "die AGB (Allgemeine Geschäftsbedingungen)",
+        "pt": "os Termos e Condições Gerais"
+      },
+      {
+        "de": "rechtlichen Rat einholen",
+        "pt": "procurar aconselhamento jurídico"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Warum ist es wichtig, die Bedingungen eines Vertrags vor der Kündigung genau zu kennen?",
+        "answer": "Es ist wichtig, die Bedingungen zu kennen, um mögliche Schwierigkeiten und unerwartete Kosten durch eine fehlerhafte Abwicklung zu vermeiden."
+      },
+      {
+        "question": "Welche wichtigen Informationen sollte ein Kündigungsschreiben laut Text enthalten?",
+        "answer": "Ein Kündigungsschreiben sollte den Namen und die Adresse des Vertragspartners, die eigenen Kontaktdaten, die Vertragsnummer und das genaue Kündigungsdatum enthalten."
+      },
+      {
+        "question": "Was versteht man unter der 'Kündigungsfrist' und warum ist sie von Bedeutung?",
+        "answer": "Die Kündigungsfrist gibt an, wie lange im Voraus man kündigen muss, damit die Kündigung wirksam wird. Sie ist von Bedeutung, um die Kündigung fristgerecht einzureichen."
+      },
+      {
+        "question": "Welcher Versandweg wird für ein Kündigungsschreiben empfohlen und welchen Vorteil bietet er?",
+        "answer": "Es wird empfohlen, das Schreiben per Einschreiben mit Rückschein zu versenden. Dies bietet den Vorteil eines rechtssicheren Nachweises der Zustellung."
+      },
+      {
+        "question": "Was sollte man nach dem Versand der Kündigung unbedingt tun?",
+        "answer": "Man sollte alle relevanten Unterlagen sorgfältig aufbewahren, auf eine Bestätigung vom Vertragspartner warten und bei Unsicherheiten rechtlichen Rat einholen."
+      }
+    ]
+  },
+  {
+    "id": "c1_bauhaus",
+    "title": "Das Bauhaus: Eine Schule, die Design neu definierte",
+    "level_cefr": "C1",
+    "topic": "Bauhaus: a escola que mudou o design mundial",
+    "body_de": "Das Bauhaus, eine der einflussreichsten Kunst- und Designschulen des 20. Jahrhunderts, wurde 1919 von Walter Gropius in Weimar gegründet. Seine visionäre Gründungsidee war es, Kunst und Handwerk zu vereinen und eine neue Generation von Gestaltern auszubilden, die in der Lage waren, funktionale und ästhetisch ansprechende Produkte für eine moderne Gesellschaft zu schaffen. Gropius' Ziel war es, die Trennung zwischen bildender Kunst und angewandter Kunst aufzuheben und eine ganzheitliche Herangehensweise an die Gestaltung zu fördern.\n\nDie zentralen Gestaltungsprinzipien des Bauhauses basierten auf der Überzeugung, dass die Form der Funktion folgen sollte (\"Form follows function\"). Dies führte zu einem Fokus auf Einfachheit, Funktionalität und die Verwendung industrieller Materialien. Die Schule verfolgte einen interdisziplinären Ansatz, bei dem Studenten in Werkstätten wie Metall, Holz, Textil und Bühnenbild arbeiteten und gleichzeitig theoretische Kurse in Kunstgeschichte, Architektur und Farbenlehre besuchten. Bekannte Lehrer wie Paul Klee, Wassily Kandinsky und Lyonel Feininger prägten die einzigartige Lehrphilosophie.\n\nAufgrund politischer und finanzieller Schwierigkeiten musste das Bauhaus 1925 von Weimar nach Dessau umziehen, wo es in einem ikonischen Gebäude von Gropius eine neue Heimat fand. Unter den Direktoren Hannes Meyer und später Ludwig Mies van der Rohe entwickelte sich die Schule weiter, behielt aber ihre Kernphilosophie bei. Die zunehmende politische Radikalisierung in Deutschland, insbesondere der Aufstieg der Nationalsozialisten, führte jedoch zu wachsendem Druck. 1932 zog das Bauhaus nach Berlin, musste aber 1933 unter dem Druck der Nazis endgültig schließen, die seine moderne Ästhetik als \"entartet\" ablehnten.\n\nTrotz seiner kurzen Existenzzeit von nur 14 Jahren hatte das Bauhaus eine immense und nachhaltige Nachwirkung. Viele seiner Lehrer und Studenten gingen ins Exil und trugen die Bauhaus-Ideen in die ganze Welt, insbesondere in die USA. Seine wegweisenden Konzepte beeinflussten maßgeblich die moderne Architektur, das Industriedesign, die Grafikgestaltung und sogar die Stadtplanung. Bis heute sind die klaren Linien, die funktionale Ästhetik und der ganzheitliche Ansatz des Bauhauses prägend für unser Verständnis von gutem Design und moderner Lebensweise. Es bleibt eine Ikone der Moderne und ein Symbol für Innovation.",
+    "glossary": [
+      {
+        "de": "gegründet",
+        "pt": "fundada"
+      },
+      {
+        "de": "vereinen",
+        "pt": "unir, combinar"
+      },
+      {
+        "de": "ganzheitliche Herangehensweise",
+        "pt": "abordagem holística"
+      },
+      {
+        "de": "Gestaltungsprinzipien",
+        "pt": "princípios de design"
+      },
+      {
+        "de": "interdisziplinärer Ansatz",
+        "pt": "abordagem interdisciplinar"
+      },
+      {
+        "de": "prägte",
+        "pt": "moldou, influenciou"
+      },
+      {
+        "de": "entartet",
+        "pt": "degenerado (termo nazista para arte moderna)"
+      },
+      {
+        "de": "Nachwirkung",
+        "pt": "impacto duradouro"
+      },
+      {
+        "de": "wegweisend",
+        "pt": "pioneiro, inovador"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Wer war der Gründer des Bauhauses und welche ursprüngliche Vision hatte er für die Schule?",
+        "answer": "Walter Gropius gründete das Bauhaus 1919 mit der Vision, Kunst und Handwerk zu vereinen und eine ganzheitliche Herangehensweise an die Gestaltung zu fördern, um funktionale und ästhetische Produkte für eine moderne Gesellschaft zu schaffen."
+      },
+      {
+        "question": "Welche zentralen Prinzipien prägten die Gestaltung am Bauhaus, und welche Rolle spielte dabei der interdisziplinäre Ansatz?",
+        "answer": "Die zentralen Prinzipien waren \"Form follows function\", Einfachheit, Funktionalität und die Verwendung industrieller Materialien. Der interdisziplinäre Ansatz ermöglichte Studenten das Arbeiten in verschiedenen Werkstätten und das Besuchen theoretischer Kurse, wodurch eine umfassende Ausbildung gefördert wurde."
+      },
+      {
+        "question": "Beschreiben Sie die Entwicklung des Bauhauses unter den verschiedenen Direktoren und die Gründe für seine Schließung.",
+        "answer": "Das Bauhaus zog von Weimar nach Dessau (unter Gropius) und später nach Berlin (unter Hannes Meyer und Ludwig Mies van der Rohe). Es musste aufgrund politischer und finanzieller Schwierigkeiten sowie dem Druck der Nationalsozialisten, die seine Ästhetik als \"entartet\" ablehnten, 1933 schließen."
+      },
+      {
+        "question": "Inwiefern beeinflussten politische Umstände die Geschichte des Bauhauses?",
+        "answer": "Politische und finanzielle Schwierigkeiten zwangen das Bauhaus zu mehreren Umzügen. Der Aufstieg der Nationalsozialisten führte zu wachsendem Druck und schließlich zur endgültigen Schließung, da sie die moderne Ästhetik der Schule ablehnten."
+      },
+      {
+        "question": "Welchen globalen Einfluss hatte das Bauhaus nach seiner Schließung, und welche Bereiche wurden davon besonders geprägt?",
+        "answer": "Nach seiner Schließung gingen viele Lehrer und Studenten ins Exil und verbreiteten die Bauhaus-Ideen weltweit. Es beeinflusste maßgeblich die moderne Architektur, das Industriedesign, die Grafikgestaltung und die Stadtplanung und prägt bis heute unser Verständnis von gutem Design."
+      }
+    ]
+  },
+  {
+    "id": "c1_demokratie",
+    "title": "Demokratieformen: Schweiz und Deutschland im Vergleich",
+    "level_cefr": "C1",
+    "topic": "Democracia direta vs representativa: o exemplo suíço-alemão",
+    "body_de": "Die Debatte über die effektivste Form der Demokratie ist seit Jahrhunderten ein zentrales Thema der politischen Philosophie. Grundsätzlich unterscheiden wir zwischen direkter und repräsentativer Demokratie, wobei beide Systeme darauf abzielen, dem Volk eine Stimme zu geben, dies jedoch auf unterschiedliche Weise tun. Während die direkte Demokratie eine unmittelbare Beteiligung der Bürger an politischen Entscheidungen vorsieht, delegiert die repräsentative Demokratie diese Macht an gewählte Vertreter. Beide Ansätze haben ihre spezifischen Stärken und Herausforderungen.\n\nEin herausragendes Beispiel für Elemente der direkten Demokratie ist die Schweiz. Hier haben die Bürger die Möglichkeit, durch Volksabstimmungen und Volksinitiativen direkt auf die Gesetzgebung und sogar auf Verfassungsänderungen Einfluss zu nehmen. Regelmäßige Referenden zu nationalen, kantonalen und kommunalen Themen bedeuten, dass wichtige politische Fragen nicht allein von Parlamentariern entschieden werden, sondern eine breite Zustimmung in der Bevölkerung erfordern. Dies fördert eine hohe Bürgerbeteiligung und eine starke Identifikation mit politischen Entscheidungen.\n\nIm Gegensatz dazu steht die Bundesrepublik Deutschland als klassisches Beispiel einer repräsentativen Demokratie. Die Bürger wählen Abgeordnete für den Bundestag und die Landtage, die dann in ihrem Namen Gesetze verabschieden und die Regierung kontrollieren. Obwohl es auch in Deutschland Elemente direkter Demokratie auf kommunaler oder Landesebene gibt, wie Bürgerbegehren oder Bürgerentscheide, sind diese auf Bundesebene sehr begrenzt. Die Gewaltenteilung und das parlamentarische System bilden das Rückgrat der deutschen Demokratie.\n\nDie Vorteile der direkten Demokratie liegen in der erhöhten Legitimität von Entscheidungen und der stärkeren politischen Bildung der Bevölkerung. Allerdings kann der Prozess der Entscheidungsfindung langwierig sein und erfordert ein hohes Maß an Informationsbereitschaft der Bürger. Repräsentative Demokratien hingegen können oft effizienter agieren, da Entscheidungen von einer kleineren Gruppe von Experten getroffen werden. Die Herausforderung besteht hier jedoch darin, sicherzustellen, dass die gewählten Vertreter die Interessen ihrer Wähler authentisch repräsentieren und nicht von Partikularinteressen beeinflusst werden.\n\nLetztlich ist die Wahl zwischen direkter und repräsentativer Demokratie oft eine Frage der Balance zwischen Effizienz und Partizipation. Das schweizerisch-deutsche Beispiel verdeutlicht, dass unterschiedliche historische und kulturelle Kontexte zu verschiedenen Ausprägungen demokratischer Prinzipien führen können, die jeweils ihre eigenen Stärken und Schwächen mit sich bringen und kontinuierlich evaluiert werden müssen.",
+    "glossary": [
+      {
+        "de": "Direkte Demokratie",
+        "pt": "Democracia direta"
+      },
+      {
+        "de": "Repräsentative Demokratie",
+        "pt": "Democracia representativa"
+      },
+      {
+        "de": "Volksabstimmung",
+        "pt": "Referendo popular"
+      },
+      {
+        "de": "Volksinitiative",
+        "pt": "Iniciativa popular"
+      },
+      {
+        "de": "Gewählte Vertreter",
+        "pt": "Representantes eleitos"
+      },
+      {
+        "de": "Gesetzgebung",
+        "pt": "Legislação"
+      },
+      {
+        "de": "Bürgerbeteiligung",
+        "pt": "Participação cidadã"
+      },
+      {
+        "de": "Entscheidungsfindung",
+        "pt": "Tomada de decisão"
+      },
+      {
+        "de": "Verfassungsänderung",
+        "pt": "Alteração constitucional"
+      },
+      {
+        "de": "Legitimität",
+        "pt": "Legitimidade"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Was ist der grundlegende Unterschied zwischen direkter und repräsentativer Demokratie?",
+        "answer": "In der direkten Demokratie beteiligen sich Bürger unmittelbar an politischen Entscheidungen, während in der repräsentativen Demokratie gewählte Vertreter diese Macht ausüben."
+      },
+      {
+        "question": "Welches Land wird als herausragendes Beispiel für Elemente der direkten Demokratie genannt und wie äußert sich das dort?",
+        "answer": "Die Schweiz wird genannt. Dort äußert sich das durch Volksabstimmungen und Volksinitiativen, die direkten Einfluss auf die Gesetzgebung und Verfassungsänderungen ermöglichen."
+      },
+      {
+        "question": "Wie funktioniert die Bürgerbeteiligung in einer repräsentativen Demokratie wie Deutschland auf Bundesebene hauptsächlich?",
+        "answer": "In Deutschland wählen die Bürger Abgeordnete für den Bundestag und die Landtage, die dann in ihrem Namen Gesetze verabschieden und die Regierung kontrollieren."
+      },
+      {
+        "question": "Welche Vorteile werden der direkten Demokratie zugeschrieben?",
+        "answer": "Vorteile sind die erhöhte Legitimität von Entscheidungen und eine stärkere politische Bildung der Bevölkerung."
+      },
+      {
+        "question": "Welche Herausforderung besteht in repräsentativen Demokratien bezüglich der gewählten Vertreter?",
+        "answer": "Die Herausforderung besteht darin, sicherzustellen, dass die gewählten Vertreter die Interessen ihrer Wähler authentisch repräsentieren und nicht von Partikularinteressen beeinflusst werden."
+      }
+    ]
+  },
+  {
+    "id": "c1_immanuel_kant",
+    "title": "Immanuel Kants philosophisches Erbe",
+    "level_cefr": "C1",
+    "topic": "Immanuel Kant: legado filosófico em 5 parágrafos",
+    "body_de": "Immanuel Kant (1724-1804), einer der bedeutendsten Denker der Aufklärung, prägte die Philosophie wie kaum ein anderer vor und nach ihm. Sein umfassendes Werk, das sich über Erkenntnistheorie, Ethik, Ästhetik und Rechtsphilosophie erstreckt, revolutionierte das Verständnis von Vernunft, Moral und der menschlichen Erfahrung. Kant verbrachte sein gesamtes Leben in Königsberg und widmete sich der kritischen Untersuchung der menschlichen Fähigkeiten und Grenzen. Sein philosophisches Projekt zielte darauf ab, die Grundlagen des Wissens und der Moral neu zu begründen und damit eine Epoche des kritischen Denkens einzuleiten.Das Hauptwerk seiner theoretischen Philosophie, die \"Kritik der reinen Vernunft\", untersucht die Bedingungen der Möglichkeit von Erkenntnis. Kant stellte hier die Frage, was wir wissen können und welche Rolle die Subjektivität dabei spielt. Er argumentierte, dass unser Verstand nicht passiv die Welt empfängt, sondern aktiv die Erscheinungen strukturiert. Konzepte wie die \"transzendentale Ästhetik\" und die \"transzendentale Analytik\" führten zur Unterscheidung zwischen der Welt, wie sie uns erscheint (Phänomena), und der Welt, wie sie an sich ist (Noumena), wobei Letztere für uns prinzipiell unerkennbar bleibt. Diese Erkenntnisgrenze war ein Paradigmenwechsel.In der \"Kritik der praktischen Vernunft\" legte Kant den Grundstein für seine Moralphilosophie. Er entwickelte den Begriff des \"Kategorischen Imperativs\" als oberstes Moralprinzip: \"Handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde.\" Dieser Imperativ fordert eine universelle Gültigkeit moralischer Handlungen, die nicht auf Neigung oder externen Zwecken basiert, sondern auf der Pflicht und der Autonomie des vernünftigen Subjekts. Die Würde des Menschen als Selbstzweck ist dabei zentral.Die \"Kritik der Urteilskraft\" befasste sich mit der Ästhetik und der Teleologie, also der Lehre von den Zwecken. Kant versuchte, eine Brücke zwischen der Welt der Natur (bestimmt durch Kausalität) und der Welt der Freiheit (bestimmt durch Moral) zu schlagen. Er untersuchte das Schöne als etwas, das ohne Begriff gefällt, und das Erhabene als etwas, das die Grenzen unserer Vorstellungskraft sprengt. Zudem reflektierte er über die Zweckmäßigkeit der Natur, ohne diese einem göttlichen Schöpfer zuschreiben zu müssen, und betonte die reflexive Urteilskraft.Kants Einfluss auf die nachfolgende Philosophie ist immens. Er gilt als Wegbereiter des Deutschen Idealismus (Fichte, Schelling, Hegel) und prägte maßgeblich die Entwicklung der Ethik, der politischen Philosophie und der Erkenntnistheorie. Sein Ruf, das kopernikanische Weltbild in der Philosophie vollzogen zu haben, unterstreicht die Radikalität seiner Ideen. Auch heute noch sind Kants Konzepte von Autonomie, Pflicht und der Grenzen der Vernunft relevant für Debatten über Moral, Wissenschaft und die menschliche Verfassung. Sein Vermächtnis ist eine ständige Aufforderung zur kritischen Selbstreflexion.",
+    "glossary": [
+      {
+        "de": "Aufklärung",
+        "pt": "Iluminismo"
+      },
+      {
+        "de": "prägen",
+        "pt": "moldar, influenciar"
+      },
+      {
+        "de": "Erkenntnistheorie",
+        "pt": "epistemologia, teoria do conhecimento"
+      },
+      {
+        "de": "neu begründen",
+        "pt": "reestabelecer, refundar"
+      },
+      {
+        "de": "Phänomena",
+        "pt": "fenômenos (o mundo como nos aparece)"
+      },
+      {
+        "de": "Noumena",
+        "pt": "númenos (o mundo em si mesmo)"
+      },
+      {
+        "de": "Kategorischer Imperativ",
+        "pt": "Imperativo Categórico"
+      },
+      {
+        "de": "Autonomie",
+        "pt": "autonomia"
+      },
+      {
+        "de": "Urteilskraft",
+        "pt": "faculdade de julgar"
+      },
+      {
+        "de": "Wegbereiter",
+        "pt": "pioneiro, precursor"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Welches Hauptziel verfolgte Immanuel Kant mit seinem philosophischen Projekt?",
+        "answer": "Kant zielte darauf ab, die Grundlagen des Wissens und der Moral neu zu begründen und eine Epoche des kritischen Denkens einzuleiten."
+      },
+      {
+        "question": "Was ist der zentrale Unterschied zwischen Phänomena und Noumena in Kants Erkenntnistheorie?",
+        "answer": "Phänomena sind die Welt, wie sie uns erscheint und von unserem Verstand strukturiert wird, während Noumena die Welt ist, wie sie an sich ist und für uns prinzipiell unerkennbar bleibt."
+      },
+      {
+        "question": "Erklären Sie kurz das Prinzip des Kategorischen Imperativs.",
+        "answer": "Der Kategorische Imperativ besagt, dass man nur nach einer Maxime handeln soll, von der man zugleich wollen kann, dass sie ein allgemeines Gesetz werde. Er fordert universelle Gültigkeit moralischer Handlungen."
+      },
+      {
+        "question": "Welche Funktion hatte die \"Kritik der Urteilskraft\" in Kants System?",
+        "answer": "Sie sollte eine Brücke zwischen der Welt der Natur (Kausalität) und der Welt der Freiheit (Moral) schlagen und befasste sich mit Ästhetik und Teleologie."
+      },
+      {
+        "question": "Wie wird Kants Einfluss auf die spätere Philosophie oft beschrieben?",
+        "answer": "Kant wird oft als Wegbereiter des Deutschen Idealismus und als derjenige beschrieben, der das kopernikanische Weltbild in der Philosophie vollzogen hat, mit immensem Einfluss auf Ethik und Erkenntnistheorie."
+      }
+    ]
+  },
+  {
+    "id": "c1_industrie_40",
+    "title": "Industrie 4.0 und die deutsche Wirtschaft",
+    "level_cefr": "C1",
+    "topic": "Indústria 4.0 e a economia alemã",
+    "body_de": "Industrie 4.0, oft als vierte industrielle Revolution bezeichnet, ist ein zentrales Konzept für die deutsche Wirtschaft. Es beschreibt die umfassende Digitalisierung und Vernetzung von Produktionsprozessen und Wertschöpfungsketten. Deutschland hat diese Entwicklung früh erkannt und aktiv vorangetrieben, um seine Position als führende Industrienation zu sichern. Das Ziel ist es, intelligente Fabriken (Smart Factories) zu schaffen, in denen Maschinen, Produkte und Systeme miteinander kommunizieren.\nDie Kerntechnologien der Industrie 4.0 umfassen das Internet der Dinge (IoT), künstliche Intelligenz (KI), Big Data Analytics und Cloud Computing. Durch die Integration dieser Technologien können Unternehmen ihre Fertigung flexibler, effizienter und individueller gestalten. Beispielsweise ermöglichen intelligente Sensoren und Aktoren eine Echtzeitüberwachung und -steuerung der Produktion, was zu einer optimierten Ressourcennutzung und kürzeren Produktionszyklen führt. Die vorausschauende Wartung, gesteuert durch KI, minimiert Ausfallzeiten erheblich.\nFür die deutsche Wirtschaft birgt Industrie 4.0 enorme Chancen. Sie stärkt die internationale Wettbewerbsfähigkeit deutscher Unternehmen, indem sie neue Geschäftsmodelle und innovative Produkte ermöglicht. Die Effizienzsteigerung und die Personalisierung der Produktion können neue Märkte erschließen. Gleichzeitig stellt diese Transformation auch erhebliche Herausforderungen dar. Der Fachkräftemangel im Bereich IT und Ingenieurwesen, die Notwendigkeit hoher Investitionen in neue Technologien sowie Fragen der Datensicherheit und Cybersicherheit sind zentrale Aspekte, die bewältigt werden müssen.\nDarüber hinaus sind ethische und soziale Implikationen zu berücksichtigen, wie die Auswirkungen auf den Arbeitsmarkt und die Notwendigkeit der Weiterbildung von Mitarbeitern. Die deutsche Regierung und Industrie investieren massiv in Forschung und Entwicklung, um diese Herausforderungen zu meistern und Deutschland als Leitmarkt und Leitanbieter für Industrie 4.0-Lösungen zu etablieren. Dies umfasst die Förderung von Start-ups, die Entwicklung von Standards und die Stärkung der Infrastruktur, um die digitale Transformation erfolgreich zu gestalten und langfristig Wachstum zu sichern.",
+    "glossary": [
+      {
+        "de": "Industrie 4.0",
+        "pt": "Indústria 4.0"
+      },
+      {
+        "de": "Vernetzung",
+        "pt": "Conectividade/Rede"
+      },
+      {
+        "de": "Wertschöpfungsketten",
+        "pt": "Cadeias de valor"
+      },
+      {
+        "de": "Smart Factories",
+        "pt": "Fábricas inteligentes"
+      },
+      {
+        "de": "Internet der Dinge (IoT)",
+        "pt": "Internet das Coisas (IoT)"
+      },
+      {
+        "de": "Künstliche Intelligenz (KI)",
+        "pt": "Inteligência Artificial (IA)"
+      },
+      {
+        "de": "Wettbewerbsfähigkeit",
+        "pt": "Competitividade"
+      },
+      {
+        "de": "Fachkräftemangel",
+        "pt": "Escassez de mão de obra qualificada"
+      },
+      {
+        "de": "Cybersicherheit",
+        "pt": "Cibersegurança"
+      },
+      {
+        "de": "Leitmarkt",
+        "pt": "Mercado líder"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Was versteht man unter Industrie 4.0 und warum ist sie für Deutschland wichtig?",
+        "answer": "Industrie 4.0 ist die Digitalisierung und Vernetzung von Produktionsprozessen und Wertschöpfungsketten. Sie ist für Deutschland wichtig, um seine Position als führende Industrienation zu sichern."
+      },
+      {
+        "question": "Welche Kerntechnologien sind typisch für Industrie 4.0?",
+        "answer": "Die Kerntechnologien umfassen das Internet der Dinge (IoT), künstliche Intelligenz (KI), Big Data Analytics und Cloud Computing."
+      },
+      {
+        "question": "Welche Chancen bietet Industrie 4.0 der deutschen Wirtschaft?",
+        "answer": "Sie stärkt die internationale Wettbewerbsfähigkeit, ermöglicht neue Geschäftsmodelle, innovative Produkte und Effizienzsteigerung."
+      },
+      {
+        "question": "Mit welchen Herausforderungen muss die deutsche Wirtschaft im Kontext von Industrie 4.0 umgehen?",
+        "answer": "Zu den Herausforderungen gehören der Fachkräftemangel, hohe Investitionen, Datensicherheit, Cybersicherheit sowie ethische und soziale Implikationen."
+      },
+      {
+        "question": "Wie versucht Deutschland, seine führende Rolle in Industrie 4.0 zu behaupten?",
+        "answer": "Deutschland investiert massiv in Forschung und Entwicklung, fördert Start-ups, entwickelt Standards und stärkt die Infrastruktur."
+      }
+    ]
+  },
+  {
+    "id": "c1_migration",
+    "title": "Soziale Aspekte der Migration in Deutschland nach 2015",
+    "level_cefr": "C1",
+    "topic": "Imigração na Alemanha pós-2015: aspectos sociais",
+    "body_de": "Die Jahre nach 2015 stellten Deutschland vor eine beispiellose Herausforderung: Die Ankunft von über einer Million Geflüchteten, hauptsächlich aus Syrien, Afghanistan und dem Irak, prägte die gesellschaftliche Debatte und erforderte enorme Anstrengungen zur Integration. Diese Migrationswelle, oft als „Flüchtlingskrise“ bezeichnet, offenbarte sowohl die Stärke der zivilgesellschaftlichen Hilfsbereitschaft als auch die Grenzen der staatlichen Aufnahmekapazitäten und Integrationsmechanismen. Die sozialen Aspekte dieser Entwicklung sind vielfältig und komplex, sie reichen von der Arbeitsmarktintegration bis hin zum gesellschaftlichen Zusammenhalt.\n\nEin zentraler Fokus lag auf der schnellen und effektiven Integration der Neuankömmlinge. Sprachkurse waren und sind dabei das Fundament, da der Spracherwerb als Schlüssel zur Teilhabe am gesellschaftlichen Leben und am Arbeitsmarkt gilt. Parallel dazu wurden Programme zur beruflichen Qualifizierung und zur Anerkennung ausländischer Abschlüsse initiiert, um den Zugang zum deutschen Arbeitsmarkt zu erleichtern. Trotz dieser Bemühungen bleiben Hürden bestehen, insbesondere für Menschen mit geringer formaler Bildung oder traumatischen Erfahrungen, was eine langfristige Begleitung und Unterstützung unerlässlich macht.\n\nDie Zuwanderung hat auch die Zusammensetzung der deutschen Gesellschaft verändert und eine intensive öffentliche Debatte über Multikulturalität, Identität und Werte angestoßen. Während einige die Bereicherung durch neue Perspektiven und Arbeitskräfte betonen, äußern andere Bedenken hinsichtlich des gesellschaftlichen Zusammenhalts und der Überforderung der Infrastruktur. Diese Debatten sind ein Zeichen für die dynamische Auseinandersetzung einer Gesellschaft mit tiefgreifenden demografischen Veränderungen und dem Wunsch, sowohl Offenheit als auch Stabilität zu gewährleisten.\n\nLangfristig zeigen sich sowohl Erfolge als auch weiterhin bestehende Herausforderungen. Viele Geflüchtete haben sich erfolgreich integriert, einen Arbeitsplatz gefunden und tragen aktiv zum gesellschaftlichen Leben bei. Gleichzeitig gibt es weiterhin Gruppen, die Schwierigkeiten haben, sich vollständig zu etablieren, sei es aufgrund von Sprachbarrieren, Diskriminierung oder fehlenden sozialen Netzwerken. Die Erfahrungen nach 2015 unterstreichen die Notwendigkeit einer kontinuierlichen und differenzierten Integrationspolitik, die sowohl individuelle Bedürfnisse berücksichtigt als auch den gesamtgesellschaftlichen Kontext im Blick behält. Es ist ein fortlaufender Prozess, der Engagement von allen Seiten erfordert.",
+    "glossary": [
+      {
+        "de": "beispiellose Herausforderung",
+        "pt": "desafio sem precedentes"
+      },
+      {
+        "de": "Geflüchtete",
+        "pt": "refugiados"
+      },
+      {
+        "de": "zivilgesellschaftliche Hilfsbereitschaft",
+        "pt": "disposição da sociedade civil para ajudar"
+      },
+      {
+        "de": "Aufnahmekapazitäten",
+        "pt": "capacidades de acolhimento"
+      },
+      {
+        "de": "Integrationsmechanismen",
+        "pt": "mecanismos de integração"
+      },
+      {
+        "de": "Spracherwerb",
+        "pt": "aquisição da língua"
+      },
+      {
+        "de": "berufliche Qualifizierung",
+        "pt": "qualificação profissional"
+      },
+      {
+        "de": "gesellschaftlicher Zusammenhalt",
+        "pt": "coesão social"
+      },
+      {
+        "de": "Multikulturalität",
+        "pt": "multiculturalismo"
+      },
+      {
+        "de": "Infrastruktur",
+        "pt": "infraestrutura"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question": "Welche Hauptherausforderung stellte sich Deutschland nach 2015 im Zusammenhang mit der Migration?",
+        "answer": "Deutschland stand nach 2015 vor der beispiellosen Herausforderung, über eine Million Geflüchtete zu integrieren, was die gesellschaftliche Debatte stark prägte."
+      },
+      {
+        "question": "Welche Maßnahmen wurden ergriffen, um die Integration der Neuankömmlinge zu fördern?",
+        "answer": "Es wurden Sprachkurse als Grundlage angeboten und Programme zur beruflichen Qualifizierung sowie zur Anerkennung ausländischer Abschlüsse initiiert."
+      },
+      {
+        "question": "Welche unterschiedlichen Perspektiven prägten die öffentliche Debatte über die Zuwanderung?",
+        "answer": "Einige betonten die Bereicherung durch neue Perspektiven und Arbeitskräfte, während andere Bedenken hinsichtlich des gesellschaftlichen Zusammenhalts und der Überforderung der Infrastruktur äußerten."
+      },
+      {
+        "question": "Warum ist eine kontinuierliche und differenzierte Integrationspolitik laut Text notwendig?",
+        "answer": "Sie ist notwendig, weil es weiterhin Gruppen gibt, die Schwierigkeiten bei der Integration haben, und weil sowohl individuelle Bedürfnisse als auch der gesamtgesellschaftliche Kontext berücksichtigt werden müssen."
+      }
+    ]
+  }
+]
