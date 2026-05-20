@@ -104,18 +104,7 @@ struct CardDetailView: View {
         .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 
-    private func formatInterval(_ days: Int) -> String {
-        if days == 0 { return "novo" }
-        if days < 30 { return "\(days)d" }
-        return "\(days / 30)m"
-    }
+    private func formatInterval(_ days: Int) -> String { days.srsIntervalLabel }
 
-    private func genderColor(_ g: String) -> Color {
-        switch g.lowercased() {
-        case "der": return .blue
-        case "die": return .red
-        case "das": return .green
-        default: return .secondary
-        }
-    }
+    private func genderColor(_ g: String) -> Color { Color.forGender(g) }
 }

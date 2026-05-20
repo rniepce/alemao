@@ -66,18 +66,11 @@ struct DeckDetailView: View {
     }
 
     private func genderColor(_ g: String) -> Color {
-        switch g.lowercased() {
-        case "der": return .blue
-        case "die": return .red
-        case "das": return .green
-        default: return .secondary
-        }
+        Color.forGender(g)
     }
 
     private func formatInterval(_ days: Int) -> String {
-        if days == 0 { return "novo" }
-        if days < 30 { return "\(days)d" }
-        return "\(days / 30)m"
+        days.srsIntervalLabel
     }
 }
 

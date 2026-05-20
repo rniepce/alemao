@@ -144,14 +144,7 @@ private struct CardRow: View {
         }
     }
 
-    private func genderColor(_ g: String) -> Color {
-        switch g.lowercased() {
-        case "der": return .blue
-        case "die": return .red
-        case "das": return .green
-        default: return .secondary
-        }
-    }
+    private func genderColor(_ g: String) -> Color { Color.forGender(g) }
 }
 
 private struct NewDeckSheet: View {

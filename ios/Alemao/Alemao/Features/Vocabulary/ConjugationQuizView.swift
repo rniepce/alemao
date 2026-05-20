@@ -72,14 +72,14 @@ struct ConjugationQuizView: View {
     // MARK: - Sections
 
     private var header: some View {
-        HStack {
-            statBubble(value: "\(correctCount)", label: "acertos", color: .green)
-            statBubble(value: "\(totalCount - correctCount)", label: "erros", color: .red)
-            statBubble(
+        HStack(spacing: AppSpacing.sm) {
+            StatBubble(value: "\(correctCount)", label: "acertos", tint: .success)
+            StatBubble(value: "\(totalCount - correctCount)", label: "erros", tint: .danger)
+            StatBubble(
                 value: totalCount > 0 ? "\(correctCount * 100 / totalCount)%" : "—",
-                label: "taxa", color: .blue
+                label: "taxa", tint: .info
             )
-            statBubble(value: "\(totalCount)", label: "total", color: .secondary)
+            StatBubble(value: "\(totalCount)", label: "total")
         }
         .padding()
     }
@@ -98,27 +98,14 @@ struct ConjugationQuizView: View {
     @ViewBuilder
     private var questionCard: some View {
         if let q = question {
-            VStack(alignment: .leading, spacing: 12) {
+            VStack(alignment: .leading, spacing: AppSpacing.md) {
                 HStack {
-                    Text(q.tense.label)
-                        .font(.caption.bold())
-                        .padding(.horizontal, 8).padding(.vertical, 3)
-                        .background(tenseColor(q.tense).opacity(0.2))
-                        .foregroundStyle(tenseColor(q.tense))
-                        .clipShape(Capsule())
+                    LevelBadge(q.tense.label, tint: tenseColor(q.tense))
                     if q.isSeparable {
-                        Text("separável")
-                            .font(.caption2.bold())
-                            .padding(.horizontal, 6).padding(.vertical, 2)
-                            .background(Color.purple.opacity(0.2))
-                            .clipShape(Capsule())
+                        LevelBadge("separável", tint: .tagSeparable, size: .small)
                     }
                     if q.isReflexive {
-                        Text("reflexivo")
-                            .font(.caption2.bold())
-                            .padding(.horizontal, 6).padding(.vertical, 2)
-                            .background(Color.pink.opacity(0.2))
-                            .clipShape(Capsule())
+                        LevelBadge("reflexivo", tint: .tagReflexive, size: .small)
                     }
                     Spacer()
                 }
@@ -152,9 +139,7 @@ struct ConjugationQuizView: View {
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding()
-            .background(Color.secondary.opacity(0.08))
-            .clipShape(RoundedRectangle(cornerRadius: 14))
+            .appCard()
         }
     }
 
@@ -182,32 +167,32 @@ struct ConjugationQuizView: View {
             case .correct:
                 Label("Correto!", systemImage: "checkmark.seal.fill")
                     .font(.headline)
-                    .foregroundStyle(.green)
+                    .foregroundStyle(Color.success)
             case .almost(let expected):
                 Label("Quase — atenção ao acento/ortografia", systemImage: "exclamationmark.triangle.fill")
                     .font(.headline)
-                    .foregroundStyle(.orange)
+                    .foregroundStyle(Color.warning)
                 Text("Esperado: ").font(.caption).foregroundStyle(.secondary)
                     + Text(expected).font(.callout.bold())
             case .incorrect(let expected):
                 Label("Errou", systemImage: "xmark.octagon.fill")
                     .font(.headline)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(Color.danger)
                 Text("Resposta correta: ").font(.caption).foregroundStyle(.secondary)
                     + Text(expected).font(.callout.bold())
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .padding()
+        .padding(AppSpacing.lg)
         .background(resultBackground(result))
-        .clipShape(RoundedRectangle(cornerRadius: 14))
+        .clipShape(RoundedRectangle(cornerRadius: AppRadius.card))
     }
 
     private func resultBackground(_ r: Result) -> Color {
         switch r {
-        case .correct: return .green.opacity(0.12)
-        case .almost: return .orange.opacity(0.12)
-        case .incorrect: return .red.opacity(0.12)
+        case .correct: return Color.success.opacity(AppOpacity.medium)
+        case .almost: return Color.warning.opacity(AppOpacity.medium)
+        case .incorrect: return Color.danger.opacity(AppOpacity.medium)
         }
     }
 
@@ -340,22 +325,11 @@ struct ConjugationQuizView: View {
 
     // MARK: - Helpers
 
-    private func statBubble(value: String, label: String, color: Color) -> some View {
-        VStack(spacing: 2) {
-            Text(value).font(.headline.monospacedDigit()).foregroundStyle(color)
-            Text(label).font(.caption2).foregroundStyle(.secondary)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 8)
-        .background(color.opacity(0.08))
-        .clipShape(RoundedRectangle(cornerRadius: 8))
-    }
-
     private func tenseColor(_ t: VerbConjugation.Tense) -> Color {
         switch t {
-        case .praesens: return .blue
-        case .praeteritum: return .orange
-        case .konjunktivII: return .purple
+        case .praesens: return .tensePraesens
+        case .praeteritum: return .tensePraeteritum
+        case .konjunktivII: return .tenseKonjunktivII
         }
     }
 }
