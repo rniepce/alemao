@@ -27,9 +27,10 @@ final class GeminiLiveClient: NSObject, @unchecked Sendable {
     }
 
     enum ServerEvent {
-        case audioChunk(Data)       // PCM 16-bit, 24 kHz, mono
-        case textDelta(String)
-        case inputTranscript(String) // transcript do que o usuário falou (Gemini envia opcionalmente)
+        case audioChunk(Data)            // PCM 16-bit, 24 kHz, mono
+        case textDelta(String)           // text delta vindo no modelo (response_modalities=TEXT)
+        case inputTranscript(String)     // transcript do áudio do USUÁRIO
+        case outputTranscript(String)    // transcript do áudio que o TUTOR está gerando
         case turnComplete
         case error(Error)
         case disconnected
@@ -40,6 +41,13 @@ final class GeminiLiveClient: NSObject, @unchecked Sendable {
         var systemInstruction: String
         var voiceName: String? = "Aoede"  // vozes: Aoede, Charon, Fenrir, Kore, Puck
         var languageCode: String? = "de-DE"
+        /// Quando true, o servidor envia transcripts do áudio do usuário (input)
+        /// junto com o stream. Permite mostrar legendas em tempo real do que
+        /// o aluno está dizendo. Aumenta levemente custo de tokens.
+        var inputAudioTranscription: Bool = true
+        /// Quando true, o servidor envia transcripts do áudio que ELE está
+        /// gerando. Necessário para legendas em tempo real do tutor.
+        var outputAudioTranscription: Bool = true
     }
 
     /// Eventos vindos do servidor (consumir com `for await ev in client.events {}`).
@@ -91,15 +99,21 @@ final class GeminiLiveClient: NSObject, @unchecked Sendable {
             ]
         }
 
-        let payload: [String: Any] = [
-            "setup": [
-                "model": "models/\(setup.model)",
-                "generation_config": generationConfig,
-                "system_instruction": [
-                    "parts": [["text": setup.systemInstruction]]
-                ],
-            ]
+        var setupBody: [String: Any] = [
+            "model": "models/\(setup.model)",
+            "generation_config": generationConfig,
+            "system_instruction": [
+                "parts": [["text": setup.systemInstruction]]
+            ],
         ]
+        // Transcrições em tempo real (legendas)
+        if setup.inputAudioTranscription {
+            setupBody["input_audio_transcription"] = [:] as [String: Any]
+        }
+        if setup.outputAudioTranscription {
+            setupBody["output_audio_transcription"] = [:] as [String: Any]
+        }
+        let payload: [String: Any] = ["setup": setupBody]
         try await sendJSON(payload)
     }
 
@@ -198,11 +212,17 @@ final class GeminiLiveClient: NSObject, @unchecked Sendable {
                     }
                 }
             }
-            // Input transcription (algumas configurações do Live retornam transcript do user)
+            // Input transcription (transcript do que o USUÁRIO falou)
             if let inputTrans = (sc["inputTranscription"] as? [String: Any])
                 ?? (sc["input_transcription"] as? [String: Any]),
                let text = inputTrans["text"] as? String, !text.isEmpty {
                 eventsContinuation.yield(.inputTranscript(text))
+            }
+            // Output transcription (transcript do áudio que o TUTOR está gerando — legenda)
+            if let outputTrans = (sc["outputTranscription"] as? [String: Any])
+                ?? (sc["output_transcription"] as? [String: Any]),
+               let text = outputTrans["text"] as? String, !text.isEmpty {
+                eventsContinuation.yield(.outputTranscript(text))
             }
             if (sc["turnComplete"] as? Bool == true) || (sc["turn_complete"] as? Bool == true) {
                 eventsContinuation.yield(.turnComplete)

@@ -41,6 +41,10 @@ struct ConversationView: View {
                         ForEach(transcript) { t in
                             turnBubble(t)
                         }
+                        if !currentUserText.isEmpty {
+                            turnBubble(Turn(role: "user", text: currentUserText + "…", timestamp: .now))
+                                .id("streaming_user")
+                        }
                         if !currentAssistantText.isEmpty {
                             turnBubble(Turn(role: "assistant", text: currentAssistantText, timestamp: .now))
                                 .id("streaming")
@@ -53,6 +57,15 @@ struct ConversationView: View {
                         withAnimation { proxy.scrollTo(last, anchor: .bottom) }
                     }
                 }
+                .onChange(of: currentAssistantText) { _, _ in
+                    withAnimation { proxy.scrollTo("streaming", anchor: .bottom) }
+                }
+            }
+
+            // Legenda destacada: mostra a frase mais recente em letras grandes
+            // para ajudar quem está acompanhando enquanto pratica listening.
+            if !currentAssistantText.isEmpty || !currentUserText.isEmpty {
+                liveCaption
             }
 
             Divider()
@@ -62,6 +75,35 @@ struct ConversationView: View {
         .navigationTitle(scenario.title)
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear { stop() }
+    }
+
+    @ViewBuilder
+    private var liveCaption: some View {
+        let isAssistant = !currentAssistantText.isEmpty
+        let text = isAssistant ? currentAssistantText : currentUserText
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                Image(systemName: isAssistant ? "person.crop.circle.badge.checkmark" : "mic.fill")
+                    .font(.caption2)
+                Text(isAssistant ? "Tutor" : "Você")
+                    .font(.caption2.bold())
+                Spacer()
+                Image(systemName: "captions.bubble")
+                    .font(.caption2)
+                    .foregroundStyle(.tertiary)
+            }
+            .foregroundStyle(.secondary)
+            Text(text)
+                .font(.title3)
+                .lineLimit(3)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .animation(.default, value: text)
+        }
+        .padding()
+        .background(
+            (isAssistant ? Color.accentColor : Color.secondary)
+                .opacity(AppOpacity.subtle)
+        )
     }
 
     private var scenarioHeader: some View {
@@ -191,9 +233,13 @@ struct ConversationView: View {
                 case .audioChunk(let data):
                     player.enqueue(pcm16: data)
                 case .textDelta(let t):
+                    // Modo text-only fallback
                     currentAssistantText += t
                 case .inputTranscript(let t):
                     currentUserText += t
+                case .outputTranscript(let t):
+                    // Legenda do áudio que o tutor está gerando
+                    currentAssistantText += t
                 case .turnComplete:
                     flushPendingTurns()
                 case .error(let e):
