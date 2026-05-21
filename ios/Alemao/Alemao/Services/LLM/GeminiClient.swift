@@ -7,7 +7,7 @@ import Foundation
 /// - POST /v1beta/models/{model}:batchEmbedContents       — embeddings em batch
 final class GeminiClient: LLMClient {
     struct Config {
-        var textModel: String = "gemini-2.5-flash"
+        var textModel: String = "gemini-3.5-flash"
         var embeddingModel: String = "gemini-embedding-001"
         var baseURL: URL = URL(string: "https://generativelanguage.googleapis.com")!
         var timeoutSeconds: Double = 60

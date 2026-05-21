@@ -26,7 +26,7 @@ def gemini_api_key() -> str:
     return _env("GEMINI_API_KEY", required=True)
 
 
-TEXT_MODEL = _env("GEMINI_TEXT_MODEL", "gemini-2.5-flash")
+TEXT_MODEL = _env("GEMINI_TEXT_MODEL", "gemini-3.5-flash")
 EMBEDDING_MODEL = _env("GEMINI_EMBEDDING_MODEL", "gemini-embedding-001")
 EMBEDDING_DIMENSION = int(_env("EMBEDDING_DIMENSION", "768"))
 EMBED_BATCH_SIZE = int(_env("EMBED_BATCH_SIZE", "100"))

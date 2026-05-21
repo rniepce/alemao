@@ -36,7 +36,7 @@ final class GeminiLiveClient: NSObject, @unchecked Sendable {
     }
 
     struct Setup {
-        var model: String = "gemini-2.5-flash-preview-native-audio-dialog"
+        var model: String = "gemini-3.1-flash-live-preview"
         var systemInstruction: String
         var voiceName: String? = "Aoede"  // vozes: Aoede, Charon, Fenrir, Kore, Puck
         var languageCode: String? = "de-DE"
