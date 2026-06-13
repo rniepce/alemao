@@ -15,6 +15,7 @@ struct AlemaoApp: App {
             GeneratedReadingEntity.self,
             WritingEntry.self,
             ConversationSession.self,
+            TutorChat.self,
             ReviewLog.self,
         ])
         // CloudKit sync é ligado por padrão (.automatic) quando o app tem

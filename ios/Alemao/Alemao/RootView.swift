@@ -61,7 +61,7 @@ struct MainTabView: View {
     @State private var selectedTab: Tab = .home
 
     enum Tab: Hashable {
-        case home, vocabulary, grammar, reading, writing, speaking, library, settings
+        case home, tutor, vocabulary, grammar, reading, writing, speaking, library, settings
     }
 
     var body: some View {
@@ -69,6 +69,10 @@ struct MainTabView: View {
             HomeView()
                 .tabItem { Label("Início", systemImage: "house.fill") }
                 .tag(Tab.home)
+
+            TutorListView()
+                .tabItem { Label("Tutor", systemImage: "bubble.left.and.text.bubble.right.fill") }
+                .tag(Tab.tutor)
 
             VocabularyView()
                 .tabItem { Label("Vocab", systemImage: "rectangle.stack.fill") }
@@ -106,7 +110,7 @@ struct MainTabView: View {
         .modelContainer(
             for: [User.self, VocabCard.self, Deck.self, GeneratedLesson.self,
                   GeneratedReadingEntity.self, WritingEntry.self,
-                  ConversationSession.self, ReviewLog.self],
+                  ConversationSession.self, TutorChat.self, ReviewLog.self],
             inMemory: true
         )
 }
